@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix measure-types: <http://measur.es/types/> .
-@prefix si: <http://measur.es/si/> .
+@prefix measure-types: <http://kilosandcups.info/types/> .
+@prefix si: <http://kilosandcups.info/si/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 si: a owl:Ontology
 ; rdfs:label "The SI Units of Measure Ontology"
-; dcterms:isPartOf <http://measur.es/>
+; dcterms:isPartOf <http://kilosandcups.info/>
 .
 
 si:metre a rdfs:Datatype, measure-types:base-unit

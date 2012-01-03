@@ -1,0 +1,395 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix measure-types: <http://kilosandcups.info/types/> .
+@prefix us: <http://kilosandcups.info/us_customary/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+us: a owl:Ontology
+; rdfs:label "The US Customary Units of Measure Ontology"
+; dcterms:isPartOf <http://kilosandcups.info/>
+.
+
+us:point a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "point"@en
+; si:symbol "p"@en
+.
+
+us:pica a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "pica"@en
+; si:symbol "P̸"@en
+.
+
+us:inch a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "inch"@en
+; si:symbol "in"@en
+.
+
+us:foot a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "foot"@en
+; si:symbol "ft"@en
+.
+
+us:yard a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "yard"@en
+; si:symbol "yd"@en
+.
+
+us:mile a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "mile"@en
+; si:symbol "mi"@en
+.
+
+us:link a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "link"@en
+; si:symbol "li"@en
+.
+
+us:rod a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "rod"@en
+; si:symbol "rd"@en
+.
+
+us:chain a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "chain"@en
+; si:symbol "ch"@en
+.
+
+us:furlong a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "furlong"@en
+; si:symbol "fur"@en
+.
+
+us:league a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "league"@en
+; si:symbol "lea"@en
+.
+
+us:fathom a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "fathom"@en
+; si:symbol "ftm"@en
+.
+
+us:cable a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "cable"@en
+; si:symbol "cb"@en
+.
+
+us:nautical_mile a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:length
+; rdfs:isDefinedBy us:
+; rdfs:label "nautical mile"@en
+; si:symbol "nmi"@en
+.
+
+
+us:square_foot a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:area
+; rdfs:isDefinedBy us:
+; rdfs:label "square foot"@en
+; si:symbol "sq ft"@en
+.
+
+us:acre a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:area
+; rdfs:isDefinedBy us:
+; rdfs:label "acre"@en
+.
+
+us:section a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:area
+; rdfs:isDefinedBy us:
+; rdfs:label "section"@en
+.
+
+us:survey_township a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:area
+; rdfs:isDefinedBy us:
+; rdfs:label "survey township"@en
+; si:symbol "twp"@en
+.
+
+
+us:cubic_inch a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "cubic inch"@en
+; si:symbol "cu in"@en
+.
+
+us:cubic_foot a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "cubic foot"@en
+; si:symbol "cu ft"@en
+.
+
+us:cubic_yard a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "cubic yard"@en
+; si:symbol "cu yd"@en
+.
+
+us:acre_foot a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "acre foot"@en
+; si:symbol "acre ft"@en
+.
+
+
+us:minim a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "minim"@en
+; si:symbol "min"@en
+.
+
+us:fluid_dram a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "US fluid dram"@en
+; si:symbol "fl dr"@en
+.
+
+us:teaspoon a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "teaspoon"@en
+; si:symbol "tsp"@en
+.
+
+us:dessertspoon a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "dessertspoon"@en
+.
+
+us:tablspoon a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "tablspoon"@en
+; si:symbol "Tbsp"@en
+.
+
+us:fluid_ounce a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "US fluid ounce"@en
+; si:symbol "fl oz"@en
+.
+
+us:jigger a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "jigger"@en
+; si:symbol "jig"@en
+.
+
+us:gill a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "US gill"@en
+; si:symbol "gi"@en
+.
+
+us:cup a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "US cup"@en
+; si:symbol "cp"@en
+.
+
+us:pint a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "US pint"@en
+; si:symbol "pt"@en
+.
+
+us:quart a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "US quart"@en
+; si:symbol "qt"@en
+.
+
+us:gallon a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "US gallon"@en
+; si:symbol "gal"@en
+.
+
+us:barrel a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "barrel"@en
+; si:symbol "bbl"@en
+.
+
+us:oil_barrel a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "oil barrel"@en
+; si:symbol "bbl"@en
+.
+
+us:hogshead a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "hogshead"@en
+.
+
+us:dry_pint a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "dry pint"@en
+; si:symbol "pt"@en
+.
+
+us:dry_quart a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "dry quart"@en
+; si:symbol "qt"@en
+.
+
+us:dry_gallon a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "dry gallon"@en
+; si:symbol "gal"@en
+.
+
+us:peck a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "peck"@en
+; si:symbol "pk"@en
+.
+
+us:bushel a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "bushel"@en
+; si:symbol "bu"@en
+.
+
+us:dry_barrel a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:volume
+; rdfs:isDefinedBy us:
+; rdfs:label "dry barrel"@en
+; si:symbol "bbl"@en
+.
+
+
+us:grain a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "grain"@en
+; si:symbol "gr"@en
+.
+
+us:dram a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "dram"@en
+; si:symbol "dr"@en
+.
+
+us:ounce a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "ounce"@en
+; si:symbol "oz"@en
+.
+
+us:pound a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "pound"@en
+; si:symbol "lb"@en
+.
+
+us:hundredweight a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "US hundredweight"@en
+; si:symbol "cwt"@en
+.
+
+us:long_hundredweight a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "long hundredweight"@en
+.
+
+us:short_ton a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "short ton"@en
+.
+
+us:long_ton a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "long ton"@en
+.
+
+us:pennyweight a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "pennyweight"@en
+; si:symbol "dwt"@en
+.
+
+us:troy_ounce a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "troy ounce"@en
+; si:symbol "oz t"@en
+.
+
+us:troy_pound a rdfs:Datatype, measure-types:base-unit
+; rdfs:subClassOf measure-types:mass
+; rdfs:isDefinedBy us:
+; rdfs:label "troy pound"@en
+; si:symbol "lb t"@en
+.
+
+
+
+
+
+
+
+
+
+
