@@ -1,5 +1,5 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix measure-types: <http://kilosandcups.info/types/> .
+@prefix measure: <http://kilosandcups.info/schema/> .
 @prefix si: <http://kilosandcups.info/si/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,28 +9,28 @@ si: a owl:Ontology
 ; dcterms:isPartOf <http://kilosandcups.info/>
 .
 
-si:metre a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+si:metre a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy si:
 ; rdfs:label "metre"@en
 ; rdfs:comment """"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299 792 458 of a second."
 17th CGPM (1983, Resolution 1, CR, 97)
 1⁄10,000,000 of the distance from the Earth's equator to the North Pole measured on the circumference through Paris."""@en
-; si:symbol "m"@en
+; measure:symbol "m"@en
 .
 
-si:kilogram a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+si:kilogram a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy si:
 ; rdfs:label "kilogram"@en
 ; rdfs:comment """"The kilogram is the unit of mass; it is equal to the mass of the international prototype of the kilogram."
 3rd CGPM (1901, CR, 70)
 The mass of one litre of water. A litre is one thousandth of a cubic metre."""@en
-; si:symbol "kg"@en
+; measure:symbol "kg"@en
 .
 
-si:second a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:time
+si:second a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:time
 ; rdfs:isDefinedBy si:
 ; rdfs:label "second"@en
 ; rdfs:comment """"The second is the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom."
@@ -39,21 +39,21 @@ si:second a rdfs:Datatype, measure-types:base-unit
 (Added by CIPM in 1997)
 The day is divided in 24 hours, each hour divided in 60 minutes, each minute divided in 60 seconds.
 A second is 1⁄(24 × 60 × 60) of the day"""@en
-; si:symbol "s"@en
+; measure:symbol "s"@en
 .
 
-si:ampere a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:electric_current
+si:ampere a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:electric_current
 ; rdfs:isDefinedBy si:
 ; rdfs:label "ampere"@en
 ; rdfs:comment """"The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 metre apart in vacuum, would produce between these conductors a force equal to 2 × 10−7 newton per metre of length."
 9th CGPM (1948)
 The original "International Ampere" was defined electrochemically as the current required to deposit 1.118 milligrams of silver per second from a solution of silver nitrate. Compared to the SI ampere, the difference is 0.015%."""@en
-; si:symbol "A"@en
+; measure:symbol "A"@en
 .
 
-si:kelvin a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:thermodynamic_temperature
+si:kelvin a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:thermodynamic_temperature
 ; rdfs:isDefinedBy si:
 ; rdfs:label "kelvin"@en
 ; rdfs:comment """"The kelvin, unit of thermodynamic temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water."
@@ -61,11 +61,11 @@ si:kelvin a rdfs:Datatype, measure-types:base-unit
 "This definition refers to water having the isotopic composition defined exactly by the following amount of substance ratios: 0.000 155 76 mole of 2H per mole of 1H, 0.000 379 9 mole of 17O per mole of 16O, and 0.002 005 2 mole of 18O per mole of 16O."
 (Added by CIPM in 2005)
 The Celsius scale: the Kelvin scale uses the degree Celsius for its unit increment, but is a thermodynamic scale (0 K is absolute zero)."""@en
-; si:symbol "K"@en
+; measure:symbol "K"@en
 .
 
-si:mole a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:amount_of_substance
+si:mole a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:amount_of_substance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "mole"@en
 ; rdfs:comment """"1. The mole is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12; its symbol is 'mol.'
@@ -74,599 +74,599 @@ si:mole a rdfs:Datatype, measure-types:base-unit
 "In this definition, it is understood that unbound atoms of carbon 12, at rest and in their ground state, are referred to."
 (Added by CIPM in 1980)
 Atomic weight or molecular weight divided by the molar mass constant, 1 g∕mol."""@en
-; si:symbol "mol"@en
+; measure:symbol "mol"@en
 .
 
-si:candela a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:luminous_intensity
+si:candela a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:luminous_intensity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "candela"@en
 ; rdfs:comment """"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 × 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian."
 16th CGPM (1979, Resolution 3; CR, 100)
 """@en
-; si:symbol "cd"@en
+; measure:symbol "cd"@en
 .
 
-si:hertz a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:frequency
+si:hertz a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:frequency
 ; rdfs:isDefinedBy si:
 ; rdfs:label "hertz"@en
 ; rdfs:comment "frequency"@en
-; si:symbol "Hz"@en
+; measure:symbol "Hz"@en
 .
 
-si:radian a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:angle
+si:radian a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:angle
 ; rdfs:isDefinedBy si:
 ; rdfs:label "radian"@en
 ; rdfs:comment "angle"@en
-; si:symbol "rad"@en
+; measure:symbol "rad"@en
 .
 
-si:steradian a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:solid_angle
+si:steradian a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:solid_angle
 ; rdfs:isDefinedBy si:
 ; rdfs:label "steradian"@en
 ; rdfs:comment "solid angle"@en
-; si:symbol "sr"@en
+; measure:symbol "sr"@en
 .
 
-si:newton a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:force, measure-types:weight
+si:newton a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:force, measure:weight
 ; rdfs:isDefinedBy si:
 ; rdfs:label "newton"@en
 ; rdfs:comment "force, weight"@en
-; si:symbol "N"@en
+; measure:symbol "N"@en
 .
 
-si:pascal a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:pressure, measure-types:stress
+si:pascal a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:pressure, measure:stress
 ; rdfs:isDefinedBy si:
 ; rdfs:label "pascal"@en
 ; rdfs:comment "pressure, stress"@en
-; si:symbol "Pa"@en
+; measure:symbol "Pa"@en
 .
 
-si:joule a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:energy, measure-types:work, measure-types:heat
+si:joule a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:energy, measure:work, measure:heat
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule"@en
 ; rdfs:comment "energy, work, heat"@en
-; si:symbol "J"@en
+; measure:symbol "J"@en
 .
 
-si:watt a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:power, measure-types:radiant_flux
+si:watt a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:power, measure:radiant_flux
 ; rdfs:isDefinedBy si:
 ; rdfs:label "watt"@en
 ; rdfs:comment "power, radiant flux"@en
-; si:symbol "W"@en
+; measure:symbol "W"@en
 .
 
-si:coulomb a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electric_charge
+si:coulomb a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electric_charge
 ; rdfs:isDefinedBy si:
 ; rdfs:label "coulomb"@en
 ; rdfs:comment "electric charge or quantity of electricity"@en
-; si:symbol "C"@en
+; measure:symbol "C"@en
 .
 
-si:volt a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:voltage, measure-types:electrical_potential_difference, measure-types:electromotive_force
+si:volt a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:voltage, measure:electrical_potential_difference, measure:electromotive_force
 ; rdfs:isDefinedBy si:
 ; rdfs:label "volt"@en
 ; rdfs:comment "voltage, electrical potential difference, electromotive force"@en
-; si:symbol "V"@en
+; measure:symbol "V"@en
 .
 
-si:farad a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electric_capacitance
+si:farad a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electric_capacitance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "farad"@en
 ; rdfs:comment "electric capacitance"@en
-; si:symbol "F"@en
+; measure:symbol "F"@en
 .
 
-si:ohm a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electric_resistance, measure-types:impedance, measure-types:reactance
+si:ohm a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electric_resistance, measure:impedance, measure:reactance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "ohm"@en
 ; rdfs:comment "electric resistance, impedance, reactance"@en
-; si:symbol "Ω"@en
+; measure:symbol "Ω"@en
 .
 
-si:siemens a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electrical_conductance
+si:siemens a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electrical_conductance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "siemens"@en
 ; rdfs:comment "electrical conductance"@en
-; si:symbol "S"@en
+; measure:symbol "S"@en
 .
 
-si:weber a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:magnetic_flux
+si:weber a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:magnetic_flux
 ; rdfs:isDefinedBy si:
 ; rdfs:label "weber"@en
 ; rdfs:comment "magnetic flux"@en
-; si:symbol "Wb"@en
+; measure:symbol "Wb"@en
 .
 
-si:tesla a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:magnetic_field_strength, measure-types:magnetic_flux_density
+si:tesla a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:magnetic_field_strength, measure:magnetic_flux_density
 ; rdfs:isDefinedBy si:
 ; rdfs:label "tesla"@en
 ; rdfs:comment "magnetic field strength, magnetic flux density"@en
-; si:symbol "T"@en
+; measure:symbol "T"@en
 .
 
-si:henry a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:inductance
+si:henry a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:inductance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "henry"@en
 ; rdfs:comment "inductance"@en
-; si:symbol "H"@en
+; measure:symbol "H"@en
 .
 
-si:degree_celsius a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:temperature
+si:degree_celsius a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:temperature
 ; rdfs:isDefinedBy si:
 ; rdfs:label "degree Celsius"@en
 ; rdfs:comment "temperature relative to 273.15 K"@en
-; si:symbol "°C"@en
+; measure:symbol "°C"@en
 .
 
-si:lumen a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:luminous_flux
+si:lumen a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:luminous_flux
 ; rdfs:isDefinedBy si:
 ; rdfs:label "lumen"@en
 ; rdfs:comment "luminous flux"@en
-; si:symbol "lm"@en
+; measure:symbol "lm"@en
 .
 
-si:lux a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:illuminance
+si:lux a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:illuminance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "lux"@en
 ; rdfs:comment "illuminance"@en
-; si:symbol "lx"@en
+; measure:symbol "lx"@en
 .
 
-si:becquerel a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:radioactivity
+si:becquerel a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:radioactivity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "becquerel"@en
 ; rdfs:comment "radioactivity (decays per unit time)"@en
-; si:symbol "Bq"@en
+; measure:symbol "Bq"@en
 .
 
-si:gray a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:absorbed_dose
+si:gray a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:absorbed_dose
 ; rdfs:isDefinedBy si:
 ; rdfs:label "gray"@en
 ; rdfs:comment "absorbed dose (of ionizing radiation)"@en
-; si:symbol "Gy"@en
+; measure:symbol "Gy"@en
 .
 
-si:sievert a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:equivalent_dose
+si:sievert a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:equivalent_dose
 ; rdfs:isDefinedBy si:
 ; rdfs:label "sievert"@en
 ; rdfs:comment "equivalent dose (of ionizing radiation)"@en
-; si:symbol "Sv"@en
+; measure:symbol "Sv"@en
 .
 
-si:katal a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:catalytic_activity
+si:katal a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:catalytic_activity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "katal"@en
 ; rdfs:comment "catalytic activity"@en
-; si:symbol "kat"@en
+; measure:symbol "kat"@en
 .
 
-si:square_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:area
+si:square_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:area
 ; rdfs:isDefinedBy si:
 ; rdfs:label "square metre"@en
 ; rdfs:comment "area"@en
-; si:symbol "m²"@en
+; measure:symbol "m²"@en
 .
 
 
-si:cubic_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:volume
+si:cubic_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy si:
 ; rdfs:label "cubic metre"@en
 ; rdfs:comment "volume"@en
-; si:symbol "m³"@en
+; measure:symbol "m³"@en
 .
 
 
-si:metre_per_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:speed, measure-types:velocity
+si:metre_per_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:speed, measure:velocity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "metre per second"@en
 ; rdfs:comment "speed, velocity"@en
-; si:symbol "m∕s"@en
+; measure:symbol "m∕s"@en
 .
 
 
-si:cubic_metre_per_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:volumetric_flow
+si:cubic_metre_per_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:volumetric_flow
 ; rdfs:isDefinedBy si:
 ; rdfs:label "cubic metre per second"@en
 ; rdfs:comment "volumetric flow"@en
-; si:symbol "m³∕s"@en
+; measure:symbol "m³∕s"@en
 .
 
 
-si:metre_per_second_squared a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:acceleration
+si:metre_per_second_squared a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:acceleration
 ; rdfs:isDefinedBy si:
 ; rdfs:label "metre per second squared"@en
 ; rdfs:comment "acceleration"@en
-; si:symbol "m∕s²"@en
+; measure:symbol "m∕s²"@en
 .
 
 
-si:metre_per_second_cubed a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:jerk, measure-types:jolt
+si:metre_per_second_cubed a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:jerk, measure:jolt
 ; rdfs:isDefinedBy si:
 ; rdfs:label "metre per second cubed"@en
 ; rdfs:comment "jerk, jolt"@en
-; si:symbol "m∕s³"@en
+; measure:symbol "m∕s³"@en
 .
 
 
-si:metre_per_quartic_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:snap, measure-types:jounce
+si:metre_per_quartic_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:snap, measure:jounce
 ; rdfs:isDefinedBy si:
 ; rdfs:label "metre per quartic second"@en
 ; rdfs:comment "snap, jounce"@en
-; si:symbol "m∕s⁴"@en
+; measure:symbol "m∕s⁴"@en
 .
 
 
-si:radian_per_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:angular_velocity
+si:radian_per_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:angular_velocity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "radian per second"@en
 ; rdfs:comment "angular velocity"@en
-; si:symbol "rad∕s"@en
+; measure:symbol "rad∕s"@en
 .
 
 
-si:newton_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:momentum, measure-types:impulse
+si:newton_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:momentum, measure:impulse
 ; rdfs:isDefinedBy si:
 ; rdfs:label "newton second"@en
 ; rdfs:comment "momentum, impulse"@en
-; si:symbol "N⋅s"@en
+; measure:symbol "N⋅s"@en
 .
 
 
-si:newton_metre_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:angular_momentum
+si:newton_metre_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:angular_momentum
 ; rdfs:isDefinedBy si:
 ; rdfs:label "newton metre second"@en
 ; rdfs:comment "angular momentum"@en
-; si:symbol "N⋅m⋅s"@en
+; measure:symbol "N⋅m⋅s"@en
 .
 
 
-si:newton_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:torque, measure-types:moment_of_force
+si:newton_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:torque, measure:moment_of_force
 ; rdfs:isDefinedBy si:
 ; rdfs:label "newton metre"@en
 ; rdfs:comment "torque, moment of force"@en
-; si:symbol "N⋅m"@en
-; si:symbol "J∕rad"@en
+; measure:symbol "N⋅m"@en
+; measure:symbol "J∕rad"@en
 .
 
 
-si:newton_per_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:yank
+si:newton_per_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:yank
 ; rdfs:isDefinedBy si:
 ; rdfs:label "newton per second"@en
 ; rdfs:comment "yank"@en
-; si:symbol "N∕s"@en
+; measure:symbol "N∕s"@en
 .
 
 
-si:reciprocal_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:wavenumber
+si:reciprocal_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:wavenumber
 ; rdfs:isDefinedBy si:
 ; rdfs:label "reciprocal metre"@en
 ; rdfs:comment "wavenumber"@en
-; si:symbol "m⁻¹"@en
+; measure:symbol "m⁻¹"@en
 .
 
 
-si:kilogram_per_square_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:area_density
+si:kilogram_per_square_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:area_density
 ; rdfs:isDefinedBy si:
 ; rdfs:label "kilogram per square metre"@en
 ; rdfs:comment "area density"@en
-; si:symbol "kg∕m²"@en
+; measure:symbol "kg∕m²"@en
 .
 
 
-si:kilogram_per_cubic_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:density, measure-types:mass_density
+si:kilogram_per_cubic_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:density, measure:mass_density
 ; rdfs:isDefinedBy si:
 ; rdfs:label "kilogram per cubic metre"@en
 ; rdfs:comment "density, mass density"@en
-; si:symbol "kg∕m³"@en
+; measure:symbol "kg∕m³"@en
 .
 
 
-si:cubic_metre_per_kilogram a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:specific_volume
+si:cubic_metre_per_kilogram a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:specific_volume
 ; rdfs:isDefinedBy si:
 ; rdfs:label "cubic metre per kilogram"@en
 ; rdfs:comment "specific volume"@en
-; si:symbol "m³∕kg"@en
+; measure:symbol "m³∕kg"@en
 .
 
 
-si:mole_per_cubic_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:amount_of_substance_concentration
+si:mole_per_cubic_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:amount_of_substance_concentration
 ; rdfs:isDefinedBy si:
 ; rdfs:label "mole per cubic metre"@en
 ; rdfs:comment "amount of substance concentration"@en
-; si:symbol "mol∕m³"@en
+; measure:symbol "mol∕m³"@en
 .
 
 
-si:cubic_metre_per_mole a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:molar_volume
+si:cubic_metre_per_mole a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:molar_volume
 ; rdfs:isDefinedBy si:
 ; rdfs:label "cubic metre per mole"@en
 ; rdfs:comment "molar volume"@en
-; si:symbol "m³∕mol"@en
+; measure:symbol "m³∕mol"@en
 .
 
 
-si:joule_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:action
+si:joule_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:action
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule second"@en
 ; rdfs:comment "action"@en
-; si:symbol "J⋅s"@en
+; measure:symbol "J⋅s"@en
 .
 
 
-si:joule_per_kelvin a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:heat_capacity, measure-types:entropy
+si:joule_per_kelvin a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:heat_capacity, measure:entropy
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule per kelvin"@en
 ; rdfs:comment "heat capacity, entropy"@en
-; si:symbol "J∕K"@en
+; measure:symbol "J∕K"@en
 .
 
 
-si:joule_per_kelvin_mole a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:molar_heat_capacity, measure-types:molar_entropy
+si:joule_per_kelvin_mole a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:molar_heat_capacity, measure:molar_entropy
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule per kelvin mole"@en
 ; rdfs:comment "molar heat capacity, molar entropy"@en
-; si:symbol "J∕(K⋅mol)"@en
+; measure:symbol "J∕(K⋅mol)"@en
 .
 
 
-si:joule_per_kilogram_kelvin a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:specific_heat_capacity, measure-types:specific_entropy
+si:joule_per_kilogram_kelvin a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:specific_heat_capacity, measure:specific_entropy
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule per kilogram kelvin"@en
 ; rdfs:comment "specific heat capacity, specific entropy"@en
-; si:symbol "J∕(K⋅kg)"@en
+; measure:symbol "J∕(K⋅kg)"@en
 .
 
 
-si:joule_per_mole a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:molar_energy
+si:joule_per_mole a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:molar_energy
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule per mole"@en
 ; rdfs:comment "molar energy"@en
-; si:symbol "J∕mol"@en
+; measure:symbol "J∕mol"@en
 .
 
 
-si:joule_per_kilogram a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:specific_energy
+si:joule_per_kilogram a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:specific_energy
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule per kilogram"@en
 ; rdfs:comment "specific energy"@en
-; si:symbol "J∕kg"@en
+; measure:symbol "J∕kg"@en
 .
 
 
-si:joule_per_cubic_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:energy_density
+si:joule_per_cubic_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:energy_density
 ; rdfs:isDefinedBy si:
 ; rdfs:label "joule per cubic metre"@en
 ; rdfs:comment "energy density"@en
-; si:symbol "J∕m³"@en
+; measure:symbol "J∕m³"@en
 .
 
 
-si:newton_per_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:surface_tension
+si:newton_per_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:surface_tension
 ; rdfs:isDefinedBy si:
 ; rdfs:label "newton per metre"@en
 ; rdfs:comment "surface tension"@en
-; si:symbol "N∕m"@en
-; si:symbol "J∕m²"@en
+; measure:symbol "N∕m"@en
+; measure:symbol "J∕m²"@en
 .
 
 
-si:watt_per_square_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:heat_flux_density, measure-types:irradiance
+si:watt_per_square_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:heat_flux_density, measure:irradiance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "watt per square metre"@en
 ; rdfs:comment "heat flux density, irradiance"@en
-; si:symbol "W∕m²"@en
+; measure:symbol "W∕m²"@en
 .
 
 
-si:watt_per_metre_kelvin a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:thermal_conductivity
+si:watt_per_metre_kelvin a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:thermal_conductivity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "watt per metre kelvin"@en
 ; rdfs:comment "thermal conductivity"@en
-; si:symbol "W∕(m⋅K)"@en
+; measure:symbol "W∕(m⋅K)"@en
 .
 
 
-si:square_metre_per_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:kinematic_viscosity, measure-types:diffusion_coefficient
+si:square_metre_per_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:kinematic_viscosity, measure:diffusion_coefficient
 ; rdfs:isDefinedBy si:
 ; rdfs:label "square metre per second"@en
 ; rdfs:comment "kinematic viscosity, diffusion coefficient"@en
-; si:symbol "m²∕s"@en
+; measure:symbol "m²∕s"@en
 .
 
 
-si:pascal_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:dynamic_viscosity
+si:pascal_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:dynamic_viscosity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "pascal second"@en
 ; rdfs:comment "dynamic viscosity"@en
-; si:symbol "Pa⋅s"@en
-; si:symbol "N⋅s∕m²"@en
+; measure:symbol "Pa⋅s"@en
+; measure:symbol "N⋅s∕m²"@en
 .
 
 
-si:coulomb_per_square_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electric_displacement_field, measure-types:polarization_vector
+si:coulomb_per_square_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electric_displacement_field, measure:polarization_vector
 ; rdfs:isDefinedBy si:
 ; rdfs:label "coulomb per square metre"@en
 ; rdfs:comment "electric displacement field, polarization vector"@en
-; si:symbol "C∕m²"@en
+; measure:symbol "C∕m²"@en
 .
 
 
-si:coulomb_per_cubic_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electric_charge_density
+si:coulomb_per_cubic_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electric_charge_density
 ; rdfs:isDefinedBy si:
 ; rdfs:label "coulomb per cubic metre"@en
 ; rdfs:comment "electric charge density"@en
-; si:symbol "C∕m³"@en
+; measure:symbol "C∕m³"@en
 .
 
 
-si:ampere_per_square_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electric_current_density
+si:ampere_per_square_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electric_current_density
 ; rdfs:isDefinedBy si:
 ; rdfs:label "ampere per square metre"@en
 ; rdfs:comment "electric current density"@en
-; si:symbol "A∕m²"@en
+; measure:symbol "A∕m²"@en
 .
 
 
-si:siemens_per_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:conductivity
+si:siemens_per_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:conductivity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "siemens per metre"@en
 ; rdfs:comment "conductivity"@en
-; si:symbol "S∕m"@en
+; measure:symbol "S∕m"@en
 .
 
 
-si:siemens_square_metre_per_mole a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:molar_conductivity
+si:siemens_square_metre_per_mole a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:molar_conductivity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "siemens square metre per mole"@en
 ; rdfs:comment "molar conductivity"@en
-; si:symbol "S⋅m²∕mol"@en
+; measure:symbol "S⋅m²∕mol"@en
 .
 
 
-si:farad_per_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:permittivity
+si:farad_per_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:permittivity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "farad per metre"@en
 ; rdfs:comment "permittivity"@en
-; si:symbol "F∕m"@en
+; measure:symbol "F∕m"@en
 .
 
 
-si:henry_per_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:permeability
+si:henry_per_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:permeability
 ; rdfs:isDefinedBy si:
 ; rdfs:label "henry per metre"@en
 ; rdfs:comment "permeability"@en
-; si:symbol "H∕m"@en
+; measure:symbol "H∕m"@en
 .
 
 
-si:volt_per_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:electric_field_strength
+si:volt_per_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:electric_field_strength
 ; rdfs:isDefinedBy si:
 ; rdfs:label "volt per metre"@en
 ; rdfs:comment "electric field strength"@en
-; si:symbol "V∕m"@en
+; measure:symbol "V∕m"@en
 .
 
 
-si:ampere_per_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:magnetic_field_strength
+si:ampere_per_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:magnetic_field_strength
 ; rdfs:isDefinedBy si:
 ; rdfs:label "ampere per metre"@en
 ; rdfs:comment "magnetic field strength"@en
-; si:symbol "A∕m"@en
+; measure:symbol "A∕m"@en
 .
 
 
-si:candela_per_square_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:luminance
+si:candela_per_square_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:luminance
 ; rdfs:isDefinedBy si:
 ; rdfs:label "candela per square metre"@en
 ; rdfs:comment "luminance"@en
-; si:symbol "cd∕m²"@en
+; measure:symbol "cd∕m²"@en
 .
 
 
-si:lumen_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:luminous_energy
+si:lumen_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:luminous_energy
 ; rdfs:isDefinedBy si:
 ; rdfs:label "lumen second"@en
 ; rdfs:comment "luminous energy"@en
-; si:symbol "lm⋅s"@en
+; measure:symbol "lm⋅s"@en
 .
 
 
-si:lux_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:luminous_exposure
+si:lux_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:luminous_exposure
 ; rdfs:isDefinedBy si:
 ; rdfs:label "lux second"@en
 ; rdfs:comment "luminous exposure"@en
-; si:symbol "lx⋅s"@en
+; measure:symbol "lx⋅s"@en
 .
 
 
-si:coulomb_per_kilogram a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:exposure_to_X_or_gamma_rays
+si:coulomb_per_kilogram a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:exposure_to_X_or_gamma_rays
 ; rdfs:isDefinedBy si:
 ; rdfs:label "coulomb per kilogram"@en
 ; rdfs:comment "exposure (X and gamma rays)"@en
-; si:symbol "C∕kg"@en
+; measure:symbol "C∕kg"@en
 .
 
 
-si:gray_per_second a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:absorbed_dose_rate
+si:gray_per_second a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:absorbed_dose_rate
 ; rdfs:isDefinedBy si:
 ; rdfs:label "gray per second"@en
 ; rdfs:comment "absorbed dose rate"@en
-; si:symbol "Gy∕s"@en
+; measure:symbol "Gy∕s"@en
 .
 
 
-si:ohm_metre a rdfs:Datatype, measure-types:derived_unit
-; rdfs:subClassOf measure-types:resistivity
+si:ohm_metre a rdfs:Datatype, measure:derived_unit
+; rdfs:subClassOf measure:resistivity
 ; rdfs:isDefinedBy si:
 ; rdfs:label "ohm metre"@en
 ; rdfs:comment "resistivity"@en
-; si:symbol "Ω⋅m"@en
+; measure:symbol "Ω⋅m"@en
 .
 

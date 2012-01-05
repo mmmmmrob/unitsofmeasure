@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:currency="http://kilosandcups.info/currencies/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:measure="http://kilosandcups.info/schema/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <owl:Ontology rdf:about="http://kilosandcups.info/currencies/">
+    <dcterms:isPartOf rdf:resource="http://kilosandcups.info/"/>
+    <rdfs:label>The Currencies Datatypes</rdfs:label>
+  </owl:Ontology>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/AED">
+    <currency:accepted_in>United Arab Emirates</currency:accepted_in>
+    <currency:code>784</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>AED</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">United Arab Emirates dirham</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/AFN">
+    <currency:accepted_in>Afghanistan</currency:accepted_in>
+    <currency:code>971</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>AFN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Afghan afghani</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ALL">
+    <currency:accepted_in>Albania</currency:accepted_in>
+    <currency:code>008</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ALL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Albanian lek</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/AMD">
+    <currency:accepted_in>Armenia</currency:accepted_in>
+    <currency:code>051</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>AMD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Armenian dram</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ANG">
+    <currency:accepted_in>Curaçao,  Sint Maarten</currency:accepted_in>
+    <currency:code>532</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ANG</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Netherlands Antillean guilder</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/AOA">
+    <currency:accepted_in>Angola</currency:accepted_in>
+    <currency:code>973</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>AOA</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Angolan kwanza</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ARS">
+    <currency:accepted_in>Argentina</currency:accepted_in>
+    <currency:code>032</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ARS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Argentine peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/AUD">
+    <currency:accepted_in>Australia, Australian Antarctic Territory,  Christmas Island,  Cocos (Keeling) Islands,  Heard and McDonald Islands,  Kiribati,  Nauru,  Norfolk Island,  Tuvalu</currency:accepted_in>
+    <currency:code>036</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>AUD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Australian dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/AWG">
+    <currency:accepted_in>Aruba</currency:accepted_in>
+    <currency:code>533</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>AWG</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Aruban florin</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/AZN">
+    <currency:accepted_in>Azerbaijan</currency:accepted_in>
+    <currency:code>944</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>AZN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Azerbaijani manat</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BAM">
+    <currency:accepted_in>Bosnia and Herzegovina</currency:accepted_in>
+    <currency:code>977</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BAM</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bosnia and Herzegovina convertible mark</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BBD">
+    <currency:accepted_in>Barbados</currency:accepted_in>
+    <currency:code>052</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BBD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Barbados dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BDT">
+    <currency:accepted_in>Bangladesh</currency:accepted_in>
+    <currency:code>050</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BDT</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bangladeshi taka</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BGN">
+    <currency:accepted_in>Bulgaria</currency:accepted_in>
+    <currency:code>975</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BGN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bulgarian lev</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BHD">
+    <currency:accepted_in>Bahrain</currency:accepted_in>
+    <currency:code>048</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</currency:precision>
+    <measure:symbol>BHD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bahraini dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BIF">
+    <currency:accepted_in>Burundi</currency:accepted_in>
+    <currency:code>108</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>BIF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Burundian franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BMD">
+    <currency:accepted_in>Bermuda</currency:accepted_in>
+    <currency:code>060</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BMD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bermudian dollar (customarily known as Bermuda dollar)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BND">
+    <currency:accepted_in>Brunei,  Singapore</currency:accepted_in>
+    <currency:code>096</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BND</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Brunei dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BOB">
+    <currency:accepted_in>Bolivia</currency:accepted_in>
+    <currency:code>068</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BOB</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Boliviano</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BOV">
+    <currency:accepted_in>Bolivia</currency:accepted_in>
+    <currency:code>984</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BOV</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bolivian Mvdol (funds code)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BRL">
+    <currency:accepted_in>Brazil</currency:accepted_in>
+    <currency:code>986</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BRL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Brazilian real</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BSD">
+    <currency:accepted_in>Bahamas</currency:accepted_in>
+    <currency:code>044</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BSD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bahamian dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BTN">
+    <currency:accepted_in>Bhutan</currency:accepted_in>
+    <currency:code>064</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BTN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Bhutanese ngultrum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BWP">
+    <currency:accepted_in>Botswana</currency:accepted_in>
+    <currency:code>072</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BWP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Botswana pula</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BYR">
+    <currency:accepted_in>Belarus</currency:accepted_in>
+    <currency:code>974</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>BYR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Belarusian ruble</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/BZD">
+    <currency:accepted_in>Belize</currency:accepted_in>
+    <currency:code>084</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>BZD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Belize dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CAD">
+    <currency:accepted_in>Canada</currency:accepted_in>
+    <currency:code>124</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CAD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Canadian dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CDF">
+    <currency:accepted_in>Democratic Republic of Congo</currency:accepted_in>
+    <currency:code>976</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CDF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Congolese franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CHE">
+    <currency:accepted_in>Switzerland</currency:accepted_in>
+    <currency:code>947</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CHE</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">WIR Euro (complementary currency)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CHF">
+    <currency:accepted_in>Switzerland,  Liechtenstein</currency:accepted_in>
+    <currency:code>756</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CHF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Swiss franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CHW">
+    <currency:accepted_in>Switzerland</currency:accepted_in>
+    <currency:code>948</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CHW</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">WIR Franc (complementary currency)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CLF">
+    <currency:accepted_in>Chile</currency:accepted_in>
+    <currency:code>990</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>CLF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Unidad de Fomento (funds code)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CLP">
+    <currency:accepted_in>Chile</currency:accepted_in>
+    <currency:code>152</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>CLP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Chilean peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CNY">
+    <currency:accepted_in>China (Mainland)</currency:accepted_in>
+    <currency:code>156</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CNY</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Chinese yuan</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/COP">
+    <currency:accepted_in>Colombia</currency:accepted_in>
+    <currency:code>170</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>COP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Colombian peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/COU">
+    <currency:accepted_in>Colombia</currency:accepted_in>
+    <currency:code>970</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>COU</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Unidad de Valor Real</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CRC">
+    <currency:accepted_in>Costa Rica</currency:accepted_in>
+    <currency:code>188</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CRC</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Costa Rican colon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CUC">
+    <currency:accepted_in>Cuba</currency:accepted_in>
+    <currency:code>931</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CUC</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Cuban convertible peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CUP">
+    <currency:accepted_in>Cuba</currency:accepted_in>
+    <currency:code>192</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CUP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Cuban peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CVE">
+    <currency:accepted_in>Cape Verde</currency:accepted_in>
+    <currency:code>132</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>CVE</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Cape Verde escudo</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/CZK">
+    <currency:accepted_in>Czech Republic</currency:accepted_in>
+    <currency:code>203</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>CZK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Czech koruna</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/DJF">
+    <currency:accepted_in>Djibouti</currency:accepted_in>
+    <currency:code>262</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>DJF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Djiboutian franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/DKK">
+    <currency:accepted_in>Denmark,  Faroe Islands,  Greenland</currency:accepted_in>
+    <currency:code>208</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>DKK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Danish krone</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/DOP">
+    <currency:accepted_in>Dominican Republic</currency:accepted_in>
+    <currency:code>214</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>DOP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Dominican peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/DZD">
+    <currency:accepted_in>Algeria</currency:accepted_in>
+    <currency:code>012</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>DZD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Algerian dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/EGP">
+    <currency:accepted_in>Egypt</currency:accepted_in>
+    <currency:code>818</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>EGP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Egyptian pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ERN">
+    <currency:accepted_in>Eritrea</currency:accepted_in>
+    <currency:code>232</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ERN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Eritrean nakfa</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ETB">
+    <currency:accepted_in>Ethiopia</currency:accepted_in>
+    <currency:code>230</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ETB</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Ethiopian birr</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/EUR">
+    <currency:accepted_in>17  European Union countries,  Andorra,  Kosovo,  Monaco,  Montenegro,  San Marino,  Vatican City; see eurozone</currency:accepted_in>
+    <currency:code>978</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>EUR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Euro</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/FJD">
+    <currency:accepted_in>Fiji</currency:accepted_in>
+    <currency:code>242</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>FJD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Fiji dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/FKP">
+    <currency:accepted_in>Falkland Islands</currency:accepted_in>
+    <currency:code>238</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>FKP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Falkland Islands pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GBP">
+    <currency:accepted_in>United Kingdom, Crown Dependencies (the  Isle of Man and the Channel Islands), certain British Overseas Territories ( South Georgia and the South Sandwich Islands,  British Antarctic Territory and  British Indian Ocean Territory)</currency:accepted_in>
+    <currency:code>826</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>GBP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Pound sterling</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GEL">
+    <currency:accepted_in>Georgia (country)</currency:accepted_in>
+    <currency:code>981</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>GEL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Georgian lari</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GHS">
+    <currency:accepted_in>Ghana</currency:accepted_in>
+    <currency:code>936</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>GHS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Ghanaian cedi</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GIP">
+    <currency:accepted_in>Gibraltar</currency:accepted_in>
+    <currency:code>292</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>GIP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Gibraltar pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GMD">
+    <currency:accepted_in>Gambia</currency:accepted_in>
+    <currency:code>270</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>GMD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Gambian dalasi</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GNF">
+    <currency:accepted_in>Guinea</currency:accepted_in>
+    <currency:code>324</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>GNF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Guinean franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GTQ">
+    <currency:accepted_in>Guatemala</currency:accepted_in>
+    <currency:code>320</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>GTQ</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Guatemalan quetzal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/GYD">
+    <currency:accepted_in>Guyana</currency:accepted_in>
+    <currency:code>328</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>GYD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Guyanese dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/HKD">
+    <currency:accepted_in>Hong Kong (Special Administrative Region),  Macau (Special Administrative Region)</currency:accepted_in>
+    <currency:code>344</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>HKD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Hong Kong dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/HNL">
+    <currency:accepted_in>Honduras</currency:accepted_in>
+    <currency:code>340</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>HNL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Honduran lempira</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/HRK">
+    <currency:accepted_in>Croatia</currency:accepted_in>
+    <currency:code>191</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>HRK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Croatian kuna</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/HTG">
+    <currency:accepted_in>Haiti</currency:accepted_in>
+    <currency:code>332</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>HTG</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Haitian gourde</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/HUF">
+    <currency:accepted_in>Hungary</currency:accepted_in>
+    <currency:code>348</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>HUF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Hungarian forint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/IDR">
+    <currency:accepted_in>Indonesia</currency:accepted_in>
+    <currency:code>360</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>IDR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Indonesian rupiah</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ILS">
+    <currency:accepted_in>Israel,  Palestinian territories[7]</currency:accepted_in>
+    <currency:code>376</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ILS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Israeli new sheqel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/INR">
+    <currency:accepted_in>India</currency:accepted_in>
+    <currency:code>356</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>INR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Indian rupee</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/IQD">
+    <currency:accepted_in>Iraq</currency:accepted_in>
+    <currency:code>368</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>IQD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Iraqi dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/IRR">
+    <currency:accepted_in>Iran</currency:accepted_in>
+    <currency:code>364</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>IRR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Iranian rial</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ISK">
+    <currency:accepted_in>Iceland</currency:accepted_in>
+    <currency:code>352</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>ISK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Icelandic króna</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/JMD">
+    <currency:accepted_in>Jamaica</currency:accepted_in>
+    <currency:code>388</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>JMD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Jamaican dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/JOD">
+    <currency:accepted_in>Jordan</currency:accepted_in>
+    <currency:code>400</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</currency:precision>
+    <measure:symbol>JOD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Jordanian dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/JPY">
+    <currency:accepted_in>Japan</currency:accepted_in>
+    <currency:code>392</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>JPY</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Japanese yen</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KES">
+    <currency:accepted_in>Kenya</currency:accepted_in>
+    <currency:code>404</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>KES</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Kenyan shilling</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KGS">
+    <currency:accepted_in>Kyrgyzstan</currency:accepted_in>
+    <currency:code>417</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>KGS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Kyrgyzstani som</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KHR">
+    <currency:accepted_in>Cambodia</currency:accepted_in>
+    <currency:code>116</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>KHR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Cambodian riel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KMF">
+    <currency:accepted_in>Comoros</currency:accepted_in>
+    <currency:code>174</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>KMF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Comoro franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KPW">
+    <currency:accepted_in>North Korea</currency:accepted_in>
+    <currency:code>408</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>KPW</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">North Korean won</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KRW">
+    <currency:accepted_in>South Korea</currency:accepted_in>
+    <currency:code>410</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>KRW</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">South Korean won</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KWD">
+    <currency:accepted_in>Kuwait</currency:accepted_in>
+    <currency:code>414</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</currency:precision>
+    <measure:symbol>KWD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Kuwaiti dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KYD">
+    <currency:accepted_in>Cayman Islands</currency:accepted_in>
+    <currency:code>136</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>KYD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Cayman Islands dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/KZT">
+    <currency:accepted_in>Kazakhstan</currency:accepted_in>
+    <currency:code>398</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>KZT</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Kazakhstani tenge</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LAK">
+    <currency:accepted_in>Laos</currency:accepted_in>
+    <currency:code>418</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>LAK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Lao kip</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LBP">
+    <currency:accepted_in>Lebanon</currency:accepted_in>
+    <currency:code>422</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>LBP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Lebanese pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LKR">
+    <currency:accepted_in>Sri Lanka</currency:accepted_in>
+    <currency:code>144</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>LKR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Sri Lankan rupee</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LRD">
+    <currency:accepted_in>Liberia</currency:accepted_in>
+    <currency:code>430</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>LRD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Liberian dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LSL">
+    <currency:accepted_in>Lesotho</currency:accepted_in>
+    <currency:code>426</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>LSL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Lesotho loti</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LTL">
+    <currency:accepted_in>Lithuania</currency:accepted_in>
+    <currency:code>440</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>LTL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Lithuanian litas</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LVL">
+    <currency:accepted_in>Latvia</currency:accepted_in>
+    <currency:code>428</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>LVL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Latvian lats</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/LYD">
+    <currency:accepted_in>Libya</currency:accepted_in>
+    <currency:code>434</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</currency:precision>
+    <measure:symbol>LYD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Libyan dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MAD">
+    <currency:accepted_in>Morocco,  Western Sahara</currency:accepted_in>
+    <currency:code>504</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MAD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Moroccan dirham</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MDL">
+    <currency:accepted_in>Moldova (except  Transnistria)</currency:accepted_in>
+    <currency:code>498</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MDL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Moldovan leu</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MGA">
+    <currency:accepted_in>Madagascar</currency:accepted_in>
+    <currency:code>969</currency:code>
+    <measure:symbol>MGA</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Malagasy ariary</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MKD">
+    <currency:accepted_in>Republic of Macedonia</currency:accepted_in>
+    <currency:code>807</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MKD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Macedonian denar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MMK">
+    <currency:accepted_in>Myanmar</currency:accepted_in>
+    <currency:code>104</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>MMK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Myanma kyat</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MNT">
+    <currency:accepted_in>Mongolia</currency:accepted_in>
+    <currency:code>496</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MNT</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Mongolian tugrik</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MOP">
+    <currency:accepted_in>Macau (Special Administrative Region)</currency:accepted_in>
+    <currency:code>446</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</currency:precision>
+    <measure:symbol>MOP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Macanese pataca</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MRO">
+    <currency:accepted_in>Mauritania</currency:accepted_in>
+    <currency:code>478</currency:code>
+    <measure:symbol>MRO</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Mauritanian ouguiya</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MUR">
+    <currency:accepted_in>Mauritius</currency:accepted_in>
+    <currency:code>480</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MUR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Mauritian rupee</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MVR">
+    <currency:accepted_in>Maldives</currency:accepted_in>
+    <currency:code>462</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MVR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Maldivian rufiyaa</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MWK">
+    <currency:accepted_in>Malawi</currency:accepted_in>
+    <currency:code>454</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MWK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Malawian kwacha</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MXN">
+    <currency:accepted_in>Mexico</currency:accepted_in>
+    <currency:code>484</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MXN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Mexican peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MXV">
+    <currency:accepted_in>Mexico</currency:accepted_in>
+    <currency:code>979</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MXV</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Mexican Unidad de Inversion (UDI) (funds code)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MYR">
+    <currency:accepted_in>Malaysia</currency:accepted_in>
+    <currency:code>458</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MYR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Malaysian ringgit</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/MZN">
+    <currency:accepted_in>Mozambique</currency:accepted_in>
+    <currency:code>943</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>MZN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Mozambican metical</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/NAD">
+    <currency:accepted_in>Namibia</currency:accepted_in>
+    <currency:code>516</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>NAD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Namibian dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/NGN">
+    <currency:accepted_in>Nigeria</currency:accepted_in>
+    <currency:code>566</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>NGN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Nigerian naira</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/NIO">
+    <currency:accepted_in>Nicaragua</currency:accepted_in>
+    <currency:code>558</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>NIO</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Nicaraguan córdoba</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/NOK">
+    <currency:accepted_in>Norway,  Svalbard,  Jan Mayen,  Bouvet Island, Queen Maud Land, Peter I Island</currency:accepted_in>
+    <currency:code>578</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>NOK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Norwegian krone</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/NPR">
+    <currency:accepted_in>Nepal</currency:accepted_in>
+    <currency:code>524</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>NPR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Nepalese rupee</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/NZD">
+    <currency:accepted_in>Cook Islands,  New Zealand,  Niue,  Pitcairn,  Tokelau</currency:accepted_in>
+    <currency:code>554</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>NZD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">New Zealand dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/OMR">
+    <currency:accepted_in>Oman</currency:accepted_in>
+    <currency:code>512</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</currency:precision>
+    <measure:symbol>OMR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Omani rial</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/PAB">
+    <currency:accepted_in>Panama</currency:accepted_in>
+    <currency:code>590</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>PAB</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Panamanian balboa</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/PEN">
+    <currency:accepted_in>Peru</currency:accepted_in>
+    <currency:code>604</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>PEN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Peruvian nuevo sol</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/PGK">
+    <currency:accepted_in>Papua New Guinea</currency:accepted_in>
+    <currency:code>598</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>PGK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Papua New Guinean kina</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/PHP">
+    <currency:accepted_in>Philippines</currency:accepted_in>
+    <currency:code>608</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>PHP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Philippine peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/PKR">
+    <currency:accepted_in>Pakistan</currency:accepted_in>
+    <currency:code>586</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>PKR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Pakistani rupee</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/PLN">
+    <currency:accepted_in>Poland</currency:accepted_in>
+    <currency:code>985</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>PLN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Polish złoty</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/PYG">
+    <currency:accepted_in>Paraguay</currency:accepted_in>
+    <currency:code>600</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>PYG</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Paraguayan guaraní</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/QAR">
+    <currency:accepted_in>Qatar</currency:accepted_in>
+    <currency:code>634</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>QAR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Qatari rial</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/RON">
+    <currency:accepted_in>Romania</currency:accepted_in>
+    <currency:code>946</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>RON</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Romanian new leu</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/RSD">
+    <currency:accepted_in>Serbia</currency:accepted_in>
+    <currency:code>941</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>RSD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Serbian dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/RUB">
+    <currency:accepted_in>Russia,  Abkhazia,  South Ossetia</currency:accepted_in>
+    <currency:code>643</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>RUB</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Russian rouble</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/RWF">
+    <currency:accepted_in>Rwanda</currency:accepted_in>
+    <currency:code>646</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>RWF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Rwandan franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SAR">
+    <currency:accepted_in>Saudi Arabia</currency:accepted_in>
+    <currency:code>682</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SAR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Saudi riyal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SBD">
+    <currency:accepted_in>Solomon Islands</currency:accepted_in>
+    <currency:code>090</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SBD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Solomon Islands dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SCR">
+    <currency:accepted_in>Seychelles</currency:accepted_in>
+    <currency:code>690</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SCR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Seychelles rupee</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SDG">
+    <currency:accepted_in>Sudan</currency:accepted_in>
+    <currency:code>938</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SDG</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Sudanese pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SEK">
+    <currency:accepted_in>Sweden</currency:accepted_in>
+    <currency:code>752</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SEK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Swedish krona/kronor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SGD">
+    <currency:accepted_in>Singapore,  Brunei</currency:accepted_in>
+    <currency:code>702</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SGD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Singapore dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SHP">
+    <currency:accepted_in>Saint Helena</currency:accepted_in>
+    <currency:code>654</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SHP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Saint Helena pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SLL">
+    <currency:accepted_in>Sierra Leone</currency:accepted_in>
+    <currency:code>694</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>SLL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Sierra Leonean leone</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SOS">
+    <currency:accepted_in>Somalia (except  Somaliland)</currency:accepted_in>
+    <currency:code>706</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SOS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Somali shilling</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SRD">
+    <currency:accepted_in>Suriname</currency:accepted_in>
+    <currency:code>968</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SRD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Surinamese dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SSP">
+    <currency:accepted_in>South Sudan</currency:accepted_in>
+    <currency:code>728</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SSP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">South Sudanese pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/STD">
+    <currency:accepted_in>São Tomé and Príncipe</currency:accepted_in>
+    <currency:code>678</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>STD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">São Tomé and Príncipe dobra</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SYP">
+    <currency:accepted_in>Syria</currency:accepted_in>
+    <currency:code>760</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SYP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Syrian pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/SZL">
+    <currency:accepted_in>Swaziland</currency:accepted_in>
+    <currency:code>748</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>SZL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Swazi lilangeni</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/THB">
+    <currency:accepted_in>Thailand</currency:accepted_in>
+    <currency:code>764</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>THB</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Thai baht</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TJS">
+    <currency:accepted_in>Tajikistan</currency:accepted_in>
+    <currency:code>972</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>TJS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Tajikistani somoni</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TMT">
+    <currency:accepted_in>Turkmenistan</currency:accepted_in>
+    <currency:code>934</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>TMT</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Turkmenistani manat</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TND">
+    <currency:accepted_in>Tunisia</currency:accepted_in>
+    <currency:code>788</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</currency:precision>
+    <measure:symbol>TND</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Tunisian dinar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TOP">
+    <currency:accepted_in>Tonga</currency:accepted_in>
+    <currency:code>776</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>TOP</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Tongan paʻanga</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TRY">
+    <currency:accepted_in>Turkey,  Northern Cyprus</currency:accepted_in>
+    <currency:code>949</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>TRY</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Turkish lira</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TTD">
+    <currency:accepted_in>Trinidad and Tobago</currency:accepted_in>
+    <currency:code>780</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>TTD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Trinidad and Tobago dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TWD">
+    <currency:accepted_in>Taiwan</currency:accepted_in>
+    <currency:code>901</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>TWD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">New Taiwan dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/TZS">
+    <currency:accepted_in>Tanzania</currency:accepted_in>
+    <currency:code>834</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>TZS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Tanzanian shilling</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/UAH">
+    <currency:accepted_in>Ukraine</currency:accepted_in>
+    <currency:code>980</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>UAH</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Ukrainian hryvnia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/UGX">
+    <currency:accepted_in>Uganda</currency:accepted_in>
+    <currency:code>800</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>UGX</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Ugandan shilling</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/USD">
+    <currency:accepted_in>American Samoa,  British Indian Ocean Territory, Caribbean Netherlands,  Ecuador,  El Salvador,  Guam,  Haiti,  Marshall Islands, Micronesia,  Northern Mariana Islands,  Palau,  Panama,  Puerto Rico,  Timor-Leste,  Turks and Caicos Islands,  United States,  U.S. Virgin Islands,  Barbados (as well as Barbados Dollar),  Bermuda (as well as Bermudian Dollar),  Zimbabwe</currency:accepted_in>
+    <currency:code>840</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>USD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">United States dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/USN">
+    <currency:accepted_in>United States</currency:accepted_in>
+    <currency:code>997</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>USN</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">United States dollar (next day) (funds code)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/USS">
+    <currency:accepted_in>United States</currency:accepted_in>
+    <currency:code>998</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>USS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">United States dollar (same day) (funds code) (one source[who?] claims it is no longer used, but it is still on the ISO 4217-MA list)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/UYI">
+    <currency:accepted_in>Uruguay</currency:accepted_in>
+    <currency:code>940</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>UYI</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/UYU">
+    <currency:accepted_in>Uruguay</currency:accepted_in>
+    <currency:code>858</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>UYU</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Uruguayan peso</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/UZS">
+    <currency:accepted_in>Uzbekistan</currency:accepted_in>
+    <currency:code>860</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>UZS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Uzbekistan som</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/VEF">
+    <currency:accepted_in>Venezuela</currency:accepted_in>
+    <currency:code>937</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>VEF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Venezuelan bolívar fuerte</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/VND">
+    <currency:accepted_in>Vietnam</currency:accepted_in>
+    <currency:code>704</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>VND</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Vietnamese đồng</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/VUV">
+    <currency:accepted_in>Vanuatu</currency:accepted_in>
+    <currency:code>548</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>VUV</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Vanuatu vatu</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/WST">
+    <currency:accepted_in>Samoa</currency:accepted_in>
+    <currency:code>882</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>WST</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Samoan tala</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XAF">
+    <currency:accepted_in>Cameroon,  Central African Republic,  Republic of the Congo,  Chad,  Equatorial Guinea,  Gabon</currency:accepted_in>
+    <currency:code>950</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>XAF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">CFA franc BEAC</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XAG">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>961</currency:code>
+    <measure:symbol>XAG</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Silver (one troy ounce)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XAU">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>959</currency:code>
+    <measure:symbol>XAU</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Gold (one troy ounce)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XBA">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>955</currency:code>
+    <measure:symbol>XBA</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">European Composite Unit (EURCO) (bond market unit)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XBB">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>956</currency:code>
+    <measure:symbol>XBB</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">European Monetary Unit (E.M.U.-6) (bond market unit)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XBC">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>957</currency:code>
+    <measure:symbol>XBC</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">European Unit of Account 9 (E.U.A.-9) (bond market unit)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XBD">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>958</currency:code>
+    <measure:symbol>XBD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">European Unit of Account 17 (E.U.A.-17) (bond market unit)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XCD">
+    <currency:accepted_in>Anguilla,  Antigua and Barbuda,  Dominica,  Grenada,  Montserrat,  Saint Kitts and Nevis,  Saint Lucia,  Saint Vincent and the Grenadines</currency:accepted_in>
+    <currency:code>951</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>XCD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">East Caribbean dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XDR">
+    <currency:accepted_in>International Monetary Fund</currency:accepted_in>
+    <currency:code>960</currency:code>
+    <measure:symbol>XDR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Special Drawing Rights</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XFU">
+    <currency:accepted_in>International Union of Railways</currency:accepted_in>
+    <currency:code>Nil</currency:code>
+    <measure:symbol>XFU</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">UIC franc (special settlement currency)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XOF">
+    <currency:accepted_in>Benin,  Burkina Faso,  Côte d'Ivoire,  Guinea-Bissau,  Mali,  Niger,  Senegal,  Togo</currency:accepted_in>
+    <currency:code>952</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>XOF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">CFA Franc BCEAO</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XPD">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>964</currency:code>
+    <measure:symbol>XPD</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Palladium (one troy ounce)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XPF">
+    <currency:accepted_in>French Polynesia,  New Caledonia,  Wallis and Futuna</currency:accepted_in>
+    <currency:code>953</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</currency:precision>
+    <measure:symbol>XPF</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">CFP franc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XPT">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>962</currency:code>
+    <measure:symbol>XPT</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Platinum (one troy ounce)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XTS">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>963</currency:code>
+    <measure:symbol>XTS</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Code reserved for testing purposes</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/XXX">
+    <currency:accepted_in></currency:accepted_in>
+    <currency:code>999</currency:code>
+    <measure:symbol>XXX</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">No currency</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/YER">
+    <currency:accepted_in>Yemen</currency:accepted_in>
+    <currency:code>886</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>YER</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Yemeni rial</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ZAR">
+    <currency:accepted_in>South Africa</currency:accepted_in>
+    <currency:code>710</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ZAR</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">South African rand</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ZMK">
+    <currency:accepted_in>Zambia</currency:accepted_in>
+    <currency:code>894</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ZMK</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Zambian kwacha</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/currencies/ZWL">
+    <currency:accepted_in>Zimbabwe</currency:accepted_in>
+    <currency:code>932</currency:code>
+    <currency:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</currency:precision>
+    <measure:symbol>ZWL</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/currency"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/currencies/"/>
+    <rdfs:label xml:lang="en">Zimbabwe dollar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/currency"/>
+  </rdfs:Datatype>
+</rdf:RDF>

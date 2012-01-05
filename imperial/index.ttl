@@ -1,225 +1,225 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix measure-types: <http://kilosandcups.info/types/> .
+@prefix measure: <http://kilosandcups.info/schema/> .
 @prefix imp: <http://kilosandcups.info/imperial/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 imp: a owl:Ontology
-; rdfs:label "The Imperial Units of Measure Ontology"
+; rdfs:label "The Imperial Units of Measure Datatypes"
 ; dcterms:isPartOf <http://kilosandcups.info/>
 .
 
-imp:thou a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:thou a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "thou"@en
-; si:symbol "th"@en
+; measure:symbol "th"@en
 .
 
-imp:inch a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:inch a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "inch"@en
-; si:symbol "in"@en
+; measure:symbol "in"@en
 .
 
-imp:foot a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:foot a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "foot"@en
-; si:symbol "ft"@en
+; measure:symbol "ft"@en
 .
 
-imp:yard a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:yard a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "yard"@en
-; si:symbol "yd"@en
+; measure:symbol "yd"@en
 .
 
-imp:chain a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:chain a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "chain"@en
-; si:symbol "ch"@en
+; measure:symbol "ch"@en
 .
 
-imp:furlong a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:furlong a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "furlong"@en
-; si:symbol "fur"@en
+; measure:symbol "fur"@en
 .
 
-imp:mile a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:mile a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "mile"@en
-; si:symbol "mi"@en
+; measure:symbol "mi"@en
 .
 
-imp:league a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:league a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "league"@en
-; si:symbol "lea"@en
+; measure:symbol "lea"@en
 .
 
-imp:fathom a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:fathom a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "fathom"@en
-; si:symbol "ftm"@en
+; measure:symbol "ftm"@en
 .
 
-imp:cable a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:cable a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "cable"@en
 .
 
-imp:nautical mile a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:nautical_mile a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "nautical mile"@en
 .
 
-imp:link a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:link a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "link"@en
 .
 
-imp:rod a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:length
+imp:rod a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:length
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "rod"@en
 .
 
-imp:perch a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:area
+imp:perch a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:area
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "perch"@en
 .
 
-imp:rood a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:area
+imp:rood a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:area
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "rood"@en
 .
 
-imp:acre a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:area
+imp:acre a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:area
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "acre"@en
 .
 
-imp:fluid ounce a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:fluid_ounce a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "fluid ounce"@en
-; si:symbol "fl oz"@en
+; measure:symbol "fl oz"@en
 .
 
-imp:gill a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:gill a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "gill"@en
-; si:symbol "gi"@en
+; measure:symbol "gi"@en
 .
 
-imp:pint a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:pint a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "pint"@en
-; si:symbol "pt"@en
+; measure:symbol "pt"@en
 .
 
-imp:quart a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:quart a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "quart"@en
-; si:symbol "qt"@en
+; measure:symbol "qt"@en
 .
 
-imp:gallon a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:gallon a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "gallon"@en
-; si:symbol "gal"@en
+; measure:symbol "gal"@en
 .
 
-imp:minim a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:minim a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "minim"@en
 .
 
-imp:fluid scruple a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:fluid_scruple a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "fluid scruple"@en
 .
 
-imp:fluid drachm a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:volume
+imp:fluid_drachm a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:volume
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "fluid drachm"@en
 .
 
-imp:grain a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:grain a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "grain"@en
-; si:symbol "gr"@en
+; measure:symbol "gr"@en
 .
 
-imp:drachm a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:drachm a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "drachm"@en
-; si:symbol "drc"@en
+; measure:symbol "drc"@en
 .
 
-imp:ounce a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:ounce a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "ounce"@en
-; si:symbol "oz"@en
+; measure:symbol "oz"@en
 .
 
-imp:pound a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:pound a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "pound"@en
-; si:symbol "lb"@en
+; measure:symbol "lb"@en
 .
 
-imp:stone a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:stone a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "stone"@en
-; si:symbol "st"@en
+; measure:symbol "st"@en
 .
 
-imp:quarter a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:quarter a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "quarter"@en
-; si:symbol "qtr"@en
+; measure:symbol "qtr"@en
 .
 
-imp:hundredweight a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:hundredweight a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "hundredweight"@en
-; si:symbol "cwt"@en
+; measure:symbol "cwt"@en
 .
 
-imp:ton a rdfs:Datatype, measure-types:base-unit
-; rdfs:subClassOf measure-types:mass
+imp:ton a rdfs:Datatype, measure:base-unit
+; rdfs:subClassOf measure:mass
 ; rdfs:isDefinedBy imp:
 ; rdfs:label "ton"@en
-; si:symbol "t"@en
+; measure:symbol "t"@en
 .
 

@@ -1,5 +1,5 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix measure-types: <http://kilosandcups.info/types/> .
+@prefix measure: <http://kilosandcups.info/schema/> .
 @prefix currency: <http://kilosandcups.info/currencies/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,1791 +9,1777 @@ currency: a owl:Ontology
 ; dcterms:isPartOf <http://kilosandcups.info/>
 .
 
-currency:AED a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:AED a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "United Arab Emirates dirham"@en
-; si:symbol "AED"
+; measure:symbol "AED"
 ; currency:accepted_in """United Arab Emirates"""
 ; currency:code """784"""
 ; currency:precision 2
 .
 
-currency:AFN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:AFN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Afghan afghani"@en
-; si:symbol "AFN"
+; measure:symbol "AFN"
 ; currency:accepted_in """Afghanistan"""
 ; currency:code """971"""
 ; currency:precision 2
 .
 
-currency:ALL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ALL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Albanian lek"@en
-; si:symbol "ALL"
+; measure:symbol "ALL"
 ; currency:accepted_in """Albania"""
 ; currency:code """008"""
 ; currency:precision 2
 .
 
-currency:AMD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:AMD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Armenian dram"@en
-; si:symbol "AMD"
+; measure:symbol "AMD"
 ; currency:accepted_in """Armenia"""
 ; currency:code """051"""
 ; currency:precision 2
 .
 
-currency:ANG a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ANG a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Netherlands Antillean guilder"@en
-; si:symbol "ANG"
+; measure:symbol "ANG"
 ; currency:accepted_in """Curaçao,  Sint Maarten"""
 ; currency:code """532"""
 ; currency:precision 2
 .
 
-currency:AOA a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:AOA a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Angolan kwanza"@en
-; si:symbol "AOA"
+; measure:symbol "AOA"
 ; currency:accepted_in """Angola"""
 ; currency:code """973"""
 ; currency:precision 2
 .
 
-currency:ARS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ARS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Argentine peso"@en
-; si:symbol "ARS"
+; measure:symbol "ARS"
 ; currency:accepted_in """Argentina"""
 ; currency:code """032"""
 ; currency:precision 2
 .
 
-currency:AUD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:AUD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Australian dollar"@en
-; si:symbol "AUD"
+; measure:symbol "AUD"
 ; currency:accepted_in """Australia, Australian Antarctic Territory,  Christmas Island,  Cocos (Keeling) Islands,  Heard and McDonald Islands,  Kiribati,  Nauru,  Norfolk Island,  Tuvalu"""
 ; currency:code """036"""
 ; currency:precision 2
 .
 
-currency:AWG a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:AWG a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Aruban florin"@en
-; si:symbol "AWG"
+; measure:symbol "AWG"
 ; currency:accepted_in """Aruba"""
 ; currency:code """533"""
 ; currency:precision 2
 .
 
-currency:AZN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:AZN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Azerbaijani manat"@en
-; si:symbol "AZN"
+; measure:symbol "AZN"
 ; currency:accepted_in """Azerbaijan"""
 ; currency:code """944"""
 ; currency:precision 2
 .
 
-currency:BAM a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BAM a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bosnia and Herzegovina convertible mark"@en
-; si:symbol "BAM"
+; measure:symbol "BAM"
 ; currency:accepted_in """Bosnia and Herzegovina"""
 ; currency:code """977"""
 ; currency:precision 2
 .
 
-currency:BBD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BBD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Barbados dollar"@en
-; si:symbol "BBD"
+; measure:symbol "BBD"
 ; currency:accepted_in """Barbados"""
 ; currency:code """052"""
 ; currency:precision 2
 .
 
-currency:BDT a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BDT a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bangladeshi taka"@en
-; si:symbol "BDT"
+; measure:symbol "BDT"
 ; currency:accepted_in """Bangladesh"""
 ; currency:code """050"""
 ; currency:precision 2
 .
 
-currency:BGN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BGN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bulgarian lev"@en
-; si:symbol "BGN"
+; measure:symbol "BGN"
 ; currency:accepted_in """Bulgaria"""
 ; currency:code """975"""
 ; currency:precision 2
 .
 
-currency:BHD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BHD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bahraini dinar"@en
-; si:symbol "BHD"
+; measure:symbol "BHD"
 ; currency:accepted_in """Bahrain"""
 ; currency:code """048"""
 ; currency:precision 3
 .
 
-currency:BIF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BIF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Burundian franc"@en
-; si:symbol "BIF"
+; measure:symbol "BIF"
 ; currency:accepted_in """Burundi"""
 ; currency:code """108"""
 ; currency:precision 0
 .
 
-currency:BMD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BMD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bermudian dollar (customarily known as Bermuda dollar)"@en
-; si:symbol "BMD"
+; measure:symbol "BMD"
 ; currency:accepted_in """Bermuda"""
 ; currency:code """060"""
 ; currency:precision 2
 .
 
-currency:BND a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BND a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Brunei dollar"@en
-; si:symbol "BND"
+; measure:symbol "BND"
 ; currency:accepted_in """Brunei,  Singapore"""
 ; currency:code """096"""
 ; currency:precision 2
 .
 
-currency:BOB a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BOB a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Boliviano"@en
-; si:symbol "BOB"
+; measure:symbol "BOB"
 ; currency:accepted_in """Bolivia"""
 ; currency:code """068"""
 ; currency:precision 2
 .
 
-currency:BOV a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BOV a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bolivian Mvdol (funds code)"@en
-; si:symbol "BOV"
+; measure:symbol "BOV"
 ; currency:accepted_in """Bolivia"""
 ; currency:code """984"""
 ; currency:precision 2
 .
 
-currency:BRL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BRL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Brazilian real"@en
-; si:symbol "BRL"
+; measure:symbol "BRL"
 ; currency:accepted_in """Brazil"""
 ; currency:code """986"""
 ; currency:precision 2
 .
 
-currency:BSD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BSD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bahamian dollar"@en
-; si:symbol "BSD"
+; measure:symbol "BSD"
 ; currency:accepted_in """Bahamas"""
 ; currency:code """044"""
 ; currency:precision 2
 .
 
-currency:BTN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BTN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Bhutanese ngultrum"@en
-; si:symbol "BTN"
+; measure:symbol "BTN"
 ; currency:accepted_in """Bhutan"""
 ; currency:code """064"""
 ; currency:precision 2
 .
 
-currency:BWP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BWP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Botswana pula"@en
-; si:symbol "BWP"
+; measure:symbol "BWP"
 ; currency:accepted_in """Botswana"""
 ; currency:code """072"""
 ; currency:precision 2
 .
 
-currency:BYR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BYR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Belarusian ruble"@en
-; si:symbol "BYR"
+; measure:symbol "BYR"
 ; currency:accepted_in """Belarus"""
 ; currency:code """974"""
 ; currency:precision 0
 .
 
-currency:BZD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:BZD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Belize dollar"@en
-; si:symbol "BZD"
+; measure:symbol "BZD"
 ; currency:accepted_in """Belize"""
 ; currency:code """084"""
 ; currency:precision 2
 .
 
-currency:CAD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CAD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Canadian dollar"@en
-; si:symbol "CAD"
+; measure:symbol "CAD"
 ; currency:accepted_in """Canada"""
 ; currency:code """124"""
 ; currency:precision 2
 .
 
-currency:CDF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CDF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Congolese franc"@en
-; si:symbol "CDF"
+; measure:symbol "CDF"
 ; currency:accepted_in """Democratic Republic of Congo"""
 ; currency:code """976"""
 ; currency:precision 2
 .
 
-currency:CHE a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CHE a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "WIR Euro (complementary currency)"@en
-; si:symbol "CHE"
+; measure:symbol "CHE"
 ; currency:accepted_in """Switzerland"""
 ; currency:code """947"""
 ; currency:precision 2
 .
 
-currency:CHF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CHF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Swiss franc"@en
-; si:symbol "CHF"
+; measure:symbol "CHF"
 ; currency:accepted_in """Switzerland,  Liechtenstein"""
 ; currency:code """756"""
 ; currency:precision 2
 .
 
-currency:CHW a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CHW a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "WIR Franc (complementary currency)"@en
-; si:symbol "CHW"
+; measure:symbol "CHW"
 ; currency:accepted_in """Switzerland"""
 ; currency:code """948"""
 ; currency:precision 2
 .
 
-currency:CLF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CLF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Unidad de Fomento (funds code)"@en
-; si:symbol "CLF"
+; measure:symbol "CLF"
 ; currency:accepted_in """Chile"""
 ; currency:code """990"""
 ; currency:precision 0
 .
 
-currency:CLP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CLP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Chilean peso"@en
-; si:symbol "CLP"
+; measure:symbol "CLP"
 ; currency:accepted_in """Chile"""
 ; currency:code """152"""
 ; currency:precision 0
 .
 
-currency:CNY a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CNY a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Chinese yuan"@en
-; si:symbol "CNY"
+; measure:symbol "CNY"
 ; currency:accepted_in """China (Mainland)"""
 ; currency:code """156"""
 ; currency:precision 2
 .
 
-currency:COP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:COP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Colombian peso"@en
-; si:symbol "COP"
+; measure:symbol "COP"
 ; currency:accepted_in """Colombia"""
 ; currency:code """170"""
 ; currency:precision 2
 .
 
-currency:COU a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:COU a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Unidad de Valor Real"@en
-; si:symbol "COU"
+; measure:symbol "COU"
 ; currency:accepted_in """Colombia"""
 ; currency:code """970"""
 ; currency:precision 2
 .
 
-currency:CRC a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CRC a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Costa Rican colon"@en
-; si:symbol "CRC"
+; measure:symbol "CRC"
 ; currency:accepted_in """Costa Rica"""
 ; currency:code """188"""
 ; currency:precision 2
 .
 
-currency:CUC a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CUC a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Cuban convertible peso"@en
-; si:symbol "CUC"
+; measure:symbol "CUC"
 ; currency:accepted_in """Cuba"""
 ; currency:code """931"""
 ; currency:precision 2
 .
 
-currency:CUP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CUP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Cuban peso"@en
-; si:symbol "CUP"
+; measure:symbol "CUP"
 ; currency:accepted_in """Cuba"""
 ; currency:code """192"""
 ; currency:precision 2
 .
 
-currency:CVE a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CVE a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Cape Verde escudo"@en
-; si:symbol "CVE"
+; measure:symbol "CVE"
 ; currency:accepted_in """Cape Verde"""
 ; currency:code """132"""
 ; currency:precision 0
 .
 
-currency:CZK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:CZK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Czech koruna"@en
-; si:symbol "CZK"
+; measure:symbol "CZK"
 ; currency:accepted_in """Czech Republic"""
 ; currency:code """203"""
 ; currency:precision 2
 .
 
-currency:DJF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:DJF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Djiboutian franc"@en
-; si:symbol "DJF"
+; measure:symbol "DJF"
 ; currency:accepted_in """Djibouti"""
 ; currency:code """262"""
 ; currency:precision 0
 .
 
-currency:DKK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:DKK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Danish krone"@en
-; si:symbol "DKK"
+; measure:symbol "DKK"
 ; currency:accepted_in """Denmark,  Faroe Islands,  Greenland"""
 ; currency:code """208"""
 ; currency:precision 2
 .
 
-currency:DOP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:DOP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Dominican peso"@en
-; si:symbol "DOP"
+; measure:symbol "DOP"
 ; currency:accepted_in """Dominican Republic"""
 ; currency:code """214"""
 ; currency:precision 2
 .
 
-currency:DZD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:DZD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Algerian dinar"@en
-; si:symbol "DZD"
+; measure:symbol "DZD"
 ; currency:accepted_in """Algeria"""
 ; currency:code """012"""
 ; currency:precision 2
 .
 
-currency:EGP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:EGP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Egyptian pound"@en
-; si:symbol "EGP"
+; measure:symbol "EGP"
 ; currency:accepted_in """Egypt"""
 ; currency:code """818"""
 ; currency:precision 2
 .
 
-currency:ERN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ERN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Eritrean nakfa"@en
-; si:symbol "ERN"
+; measure:symbol "ERN"
 ; currency:accepted_in """Eritrea"""
 ; currency:code """232"""
 ; currency:precision 2
 .
 
-currency:ETB a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ETB a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Ethiopian birr"@en
-; si:symbol "ETB"
+; measure:symbol "ETB"
 ; currency:accepted_in """Ethiopia"""
 ; currency:code """230"""
 ; currency:precision 2
 .
 
-currency:EUR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:EUR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Euro"@en
-; si:symbol "EUR"
+; measure:symbol "EUR"
 ; currency:accepted_in """17  European Union countries,  Andorra,  Kosovo,  Monaco,  Montenegro,  San Marino,  Vatican City; see eurozone"""
 ; currency:code """978"""
 ; currency:precision 2
 .
 
-currency:FJD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:FJD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Fiji dollar"@en
-; si:symbol "FJD"
+; measure:symbol "FJD"
 ; currency:accepted_in """Fiji"""
 ; currency:code """242"""
 ; currency:precision 2
 .
 
-currency:FKP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:FKP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Falkland Islands pound"@en
-; si:symbol "FKP"
+; measure:symbol "FKP"
 ; currency:accepted_in """Falkland Islands"""
 ; currency:code """238"""
 ; currency:precision 2
 .
 
-currency:GBP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GBP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Pound sterling"@en
-; si:symbol "GBP"
+; measure:symbol "GBP"
 ; currency:accepted_in """United Kingdom, Crown Dependencies (the  Isle of Man and the Channel Islands), certain British Overseas Territories ( South Georgia and the South Sandwich Islands,  British Antarctic Territory and  British Indian Ocean Territory)"""
 ; currency:code """826"""
 ; currency:precision 2
 .
 
-currency:GEL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GEL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Georgian lari"@en
-; si:symbol "GEL"
+; measure:symbol "GEL"
 ; currency:accepted_in """Georgia (country)"""
 ; currency:code """981"""
 ; currency:precision 2
 .
 
-currency:GHS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GHS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Ghanaian cedi"@en
-; si:symbol "GHS"
+; measure:symbol "GHS"
 ; currency:accepted_in """Ghana"""
 ; currency:code """936"""
 ; currency:precision 2
 .
 
-currency:GIP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GIP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Gibraltar pound"@en
-; si:symbol "GIP"
+; measure:symbol "GIP"
 ; currency:accepted_in """Gibraltar"""
 ; currency:code """292"""
 ; currency:precision 2
 .
 
-currency:GMD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GMD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Gambian dalasi"@en
-; si:symbol "GMD"
+; measure:symbol "GMD"
 ; currency:accepted_in """Gambia"""
 ; currency:code """270"""
 ; currency:precision 2
 .
 
-currency:GNF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GNF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Guinean franc"@en
-; si:symbol "GNF"
+; measure:symbol "GNF"
 ; currency:accepted_in """Guinea"""
 ; currency:code """324"""
 ; currency:precision 0
 .
 
-currency:GTQ a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GTQ a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Guatemalan quetzal"@en
-; si:symbol "GTQ"
+; measure:symbol "GTQ"
 ; currency:accepted_in """Guatemala"""
 ; currency:code """320"""
 ; currency:precision 2
 .
 
-currency:GYD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:GYD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Guyanese dollar"@en
-; si:symbol "GYD"
+; measure:symbol "GYD"
 ; currency:accepted_in """Guyana"""
 ; currency:code """328"""
 ; currency:precision 2
 .
 
-currency:HKD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:HKD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Hong Kong dollar"@en
-; si:symbol "HKD"
+; measure:symbol "HKD"
 ; currency:accepted_in """Hong Kong (Special Administrative Region),  Macau (Special Administrative Region)"""
 ; currency:code """344"""
 ; currency:precision 2
 .
 
-currency:HNL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:HNL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Honduran lempira"@en
-; si:symbol "HNL"
+; measure:symbol "HNL"
 ; currency:accepted_in """Honduras"""
 ; currency:code """340"""
 ; currency:precision 2
 .
 
-currency:HRK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:HRK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Croatian kuna"@en
-; si:symbol "HRK"
+; measure:symbol "HRK"
 ; currency:accepted_in """Croatia"""
 ; currency:code """191"""
 ; currency:precision 2
 .
 
-currency:HTG a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:HTG a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Haitian gourde"@en
-; si:symbol "HTG"
+; measure:symbol "HTG"
 ; currency:accepted_in """Haiti"""
 ; currency:code """332"""
 ; currency:precision 2
 .
 
-currency:HUF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:HUF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Hungarian forint"@en
-; si:symbol "HUF"
+; measure:symbol "HUF"
 ; currency:accepted_in """Hungary"""
 ; currency:code """348"""
 ; currency:precision 2
 .
 
-currency:IDR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:IDR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Indonesian rupiah"@en
-; si:symbol "IDR"
+; measure:symbol "IDR"
 ; currency:accepted_in """Indonesia"""
 ; currency:code """360"""
 ; currency:precision 0
 .
 
-currency:ILS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ILS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Israeli new sheqel"@en
-; si:symbol "ILS"
+; measure:symbol "ILS"
 ; currency:accepted_in """Israel,  Palestinian territories[7]"""
 ; currency:code """376"""
 ; currency:precision 2
 .
 
-currency:INR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:INR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Indian rupee"@en
-; si:symbol "INR"
+; measure:symbol "INR"
 ; currency:accepted_in """India"""
 ; currency:code """356"""
 ; currency:precision 2
 .
 
-currency:IQD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:IQD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Iraqi dinar"@en
-; si:symbol "IQD"
+; measure:symbol "IQD"
 ; currency:accepted_in """Iraq"""
 ; currency:code """368"""
 ; currency:precision 0
 .
 
-currency:IRR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:IRR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Iranian rial"@en
-; si:symbol "IRR"
+; measure:symbol "IRR"
 ; currency:accepted_in """Iran"""
 ; currency:code """364"""
 ; currency:precision 0
 .
 
-currency:ISK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ISK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Icelandic króna"@en
-; si:symbol "ISK"
+; measure:symbol "ISK"
 ; currency:accepted_in """Iceland"""
 ; currency:code """352"""
 ; currency:precision 0
 .
 
-currency:JMD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:JMD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Jamaican dollar"@en
-; si:symbol "JMD"
+; measure:symbol "JMD"
 ; currency:accepted_in """Jamaica"""
 ; currency:code """388"""
 ; currency:precision 2
 .
 
-currency:JOD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:JOD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Jordanian dinar"@en
-; si:symbol "JOD"
+; measure:symbol "JOD"
 ; currency:accepted_in """Jordan"""
 ; currency:code """400"""
 ; currency:precision 3
 .
 
-currency:JPY a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:JPY a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Japanese yen"@en
-; si:symbol "JPY"
+; measure:symbol "JPY"
 ; currency:accepted_in """Japan"""
 ; currency:code """392"""
 ; currency:precision 0
 .
 
-currency:KES a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KES a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Kenyan shilling"@en
-; si:symbol "KES"
+; measure:symbol "KES"
 ; currency:accepted_in """Kenya"""
 ; currency:code """404"""
 ; currency:precision 2
 .
 
-currency:KGS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KGS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Kyrgyzstani som"@en
-; si:symbol "KGS"
+; measure:symbol "KGS"
 ; currency:accepted_in """Kyrgyzstan"""
 ; currency:code """417"""
 ; currency:precision 2
 .
 
-currency:KHR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KHR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Cambodian riel"@en
-; si:symbol "KHR"
+; measure:symbol "KHR"
 ; currency:accepted_in """Cambodia"""
 ; currency:code """116"""
 ; currency:precision 2
 .
 
-currency:KMF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KMF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Comoro franc"@en
-; si:symbol "KMF"
+; measure:symbol "KMF"
 ; currency:accepted_in """Comoros"""
 ; currency:code """174"""
 ; currency:precision 0
 .
 
-currency:KPW a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KPW a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "North Korean won"@en
-; si:symbol "KPW"
+; measure:symbol "KPW"
 ; currency:accepted_in """North Korea"""
 ; currency:code """408"""
 ; currency:precision 0
 .
 
-currency:KRW a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KRW a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "South Korean won"@en
-; si:symbol "KRW"
+; measure:symbol "KRW"
 ; currency:accepted_in """South Korea"""
 ; currency:code """410"""
 ; currency:precision 0
 .
 
-currency:KWD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KWD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Kuwaiti dinar"@en
-; si:symbol "KWD"
+; measure:symbol "KWD"
 ; currency:accepted_in """Kuwait"""
 ; currency:code """414"""
 ; currency:precision 3
 .
 
-currency:KYD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KYD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Cayman Islands dollar"@en
-; si:symbol "KYD"
+; measure:symbol "KYD"
 ; currency:accepted_in """Cayman Islands"""
 ; currency:code """136"""
 ; currency:precision 2
 .
 
-currency:KZT a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:KZT a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Kazakhstani tenge"@en
-; si:symbol "KZT"
+; measure:symbol "KZT"
 ; currency:accepted_in """Kazakhstan"""
 ; currency:code """398"""
 ; currency:precision 2
 .
 
-currency:LAK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LAK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Lao kip"@en
-; si:symbol "LAK"
+; measure:symbol "LAK"
 ; currency:accepted_in """Laos"""
 ; currency:code """418"""
 ; currency:precision 0
 .
 
-currency:LBP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LBP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Lebanese pound"@en
-; si:symbol "LBP"
+; measure:symbol "LBP"
 ; currency:accepted_in """Lebanon"""
 ; currency:code """422"""
 ; currency:precision 0
 .
 
-currency:LKR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LKR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Sri Lankan rupee"@en
-; si:symbol "LKR"
+; measure:symbol "LKR"
 ; currency:accepted_in """Sri Lanka"""
 ; currency:code """144"""
 ; currency:precision 2
 .
 
-currency:LRD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LRD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Liberian dollar"@en
-; si:symbol "LRD"
+; measure:symbol "LRD"
 ; currency:accepted_in """Liberia"""
 ; currency:code """430"""
 ; currency:precision 2
 .
 
-currency:LSL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LSL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Lesotho loti"@en
-; si:symbol "LSL"
+; measure:symbol "LSL"
 ; currency:accepted_in """Lesotho"""
 ; currency:code """426"""
 ; currency:precision 2
 .
 
-currency:LTL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LTL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Lithuanian litas"@en
-; si:symbol "LTL"
+; measure:symbol "LTL"
 ; currency:accepted_in """Lithuania"""
 ; currency:code """440"""
 ; currency:precision 2
 .
 
-currency:LVL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LVL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Latvian lats"@en
-; si:symbol "LVL"
+; measure:symbol "LVL"
 ; currency:accepted_in """Latvia"""
 ; currency:code """428"""
 ; currency:precision 2
 .
 
-currency:LYD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:LYD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Libyan dinar"@en
-; si:symbol "LYD"
+; measure:symbol "LYD"
 ; currency:accepted_in """Libya"""
 ; currency:code """434"""
 ; currency:precision 3
 .
 
-currency:MAD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MAD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Moroccan dirham"@en
-; si:symbol "MAD"
+; measure:symbol "MAD"
 ; currency:accepted_in """Morocco,  Western Sahara"""
 ; currency:code """504"""
 ; currency:precision 2
 .
 
-currency:MDL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MDL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Moldovan leu"@en
-; si:symbol "MDL"
+; measure:symbol "MDL"
 ; currency:accepted_in """Moldova (except  Transnistria)"""
 ; currency:code """498"""
 ; currency:precision 2
 .
 
-currency:MGA a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MGA a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Malagasy ariary"@en
-; si:symbol "MGA"
+; measure:symbol "MGA"
 ; currency:accepted_in """Madagascar"""
 ; currency:code """969"""
-; currency:precision 0.7[8]
 .
 
-currency:MKD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MKD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Macedonian denar"@en
-; si:symbol "MKD"
+; measure:symbol "MKD"
 ; currency:accepted_in """Republic of Macedonia"""
 ; currency:code """807"""
 ; currency:precision 2
 .
 
-currency:MMK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MMK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Myanma kyat"@en
-; si:symbol "MMK"
+; measure:symbol "MMK"
 ; currency:accepted_in """Myanmar"""
 ; currency:code """104"""
 ; currency:precision 0
 .
 
-currency:MNT a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MNT a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Mongolian tugrik"@en
-; si:symbol "MNT"
+; measure:symbol "MNT"
 ; currency:accepted_in """Mongolia"""
 ; currency:code """496"""
 ; currency:precision 2
 .
 
-currency:MOP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MOP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Macanese pataca"@en
-; si:symbol "MOP"
+; measure:symbol "MOP"
 ; currency:accepted_in """Macau (Special Administrative Region)"""
 ; currency:code """446"""
 ; currency:precision 1
 .
 
-currency:MRO a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MRO a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Mauritanian ouguiya"@en
-; si:symbol "MRO"
+; measure:symbol "MRO"
 ; currency:accepted_in """Mauritania"""
 ; currency:code """478"""
-; currency:precision 0.7[8]
 .
 
-currency:MUR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MUR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Mauritian rupee"@en
-; si:symbol "MUR"
+; measure:symbol "MUR"
 ; currency:accepted_in """Mauritius"""
 ; currency:code """480"""
 ; currency:precision 2
 .
 
-currency:MVR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MVR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Maldivian rufiyaa"@en
-; si:symbol "MVR"
+; measure:symbol "MVR"
 ; currency:accepted_in """Maldives"""
 ; currency:code """462"""
 ; currency:precision 2
 .
 
-currency:MWK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MWK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Malawian kwacha"@en
-; si:symbol "MWK"
+; measure:symbol "MWK"
 ; currency:accepted_in """Malawi"""
 ; currency:code """454"""
 ; currency:precision 2
 .
 
-currency:MXN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MXN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Mexican peso"@en
-; si:symbol "MXN"
+; measure:symbol "MXN"
 ; currency:accepted_in """Mexico"""
 ; currency:code """484"""
 ; currency:precision 2
 .
 
-currency:MXV a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MXV a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Mexican Unidad de Inversion (UDI) (funds code)"@en
-; si:symbol "MXV"
+; measure:symbol "MXV"
 ; currency:accepted_in """Mexico"""
 ; currency:code """979"""
 ; currency:precision 2
 .
 
-currency:MYR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MYR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Malaysian ringgit"@en
-; si:symbol "MYR"
+; measure:symbol "MYR"
 ; currency:accepted_in """Malaysia"""
 ; currency:code """458"""
 ; currency:precision 2
 .
 
-currency:MZN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:MZN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Mozambican metical"@en
-; si:symbol "MZN"
+; measure:symbol "MZN"
 ; currency:accepted_in """Mozambique"""
 ; currency:code """943"""
 ; currency:precision 2
 .
 
-currency:NAD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:NAD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Namibian dollar"@en
-; si:symbol "NAD"
+; measure:symbol "NAD"
 ; currency:accepted_in """Namibia"""
 ; currency:code """516"""
 ; currency:precision 2
 .
 
-currency:NGN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:NGN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Nigerian naira"@en
-; si:symbol "NGN"
+; measure:symbol "NGN"
 ; currency:accepted_in """Nigeria"""
 ; currency:code """566"""
 ; currency:precision 2
 .
 
-currency:NIO a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:NIO a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Nicaraguan córdoba"@en
-; si:symbol "NIO"
+; measure:symbol "NIO"
 ; currency:accepted_in """Nicaragua"""
 ; currency:code """558"""
 ; currency:precision 2
 .
 
-currency:NOK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:NOK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Norwegian krone"@en
-; si:symbol "NOK"
+; measure:symbol "NOK"
 ; currency:accepted_in """Norway,  Svalbard,  Jan Mayen,  Bouvet Island, Queen Maud Land, Peter I Island"""
 ; currency:code """578"""
 ; currency:precision 2
 .
 
-currency:NPR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:NPR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Nepalese rupee"@en
-; si:symbol "NPR"
+; measure:symbol "NPR"
 ; currency:accepted_in """Nepal"""
 ; currency:code """524"""
 ; currency:precision 2
 .
 
-currency:NZD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:NZD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "New Zealand dollar"@en
-; si:symbol "NZD"
+; measure:symbol "NZD"
 ; currency:accepted_in """Cook Islands,  New Zealand,  Niue,  Pitcairn,  Tokelau"""
 ; currency:code """554"""
 ; currency:precision 2
 .
 
-currency:OMR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:OMR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Omani rial"@en
-; si:symbol "OMR"
+; measure:symbol "OMR"
 ; currency:accepted_in """Oman"""
 ; currency:code """512"""
 ; currency:precision 3
 .
 
-currency:PAB a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:PAB a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Panamanian balboa"@en
-; si:symbol "PAB"
+; measure:symbol "PAB"
 ; currency:accepted_in """Panama"""
 ; currency:code """590"""
 ; currency:precision 2
 .
 
-currency:PEN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:PEN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Peruvian nuevo sol"@en
-; si:symbol "PEN"
+; measure:symbol "PEN"
 ; currency:accepted_in """Peru"""
 ; currency:code """604"""
 ; currency:precision 2
 .
 
-currency:PGK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:PGK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Papua New Guinean kina"@en
-; si:symbol "PGK"
+; measure:symbol "PGK"
 ; currency:accepted_in """Papua New Guinea"""
 ; currency:code """598"""
 ; currency:precision 2
 .
 
-currency:PHP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:PHP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Philippine peso"@en
-; si:symbol "PHP"
+; measure:symbol "PHP"
 ; currency:accepted_in """Philippines"""
 ; currency:code """608"""
 ; currency:precision 2
 .
 
-currency:PKR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:PKR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Pakistani rupee"@en
-; si:symbol "PKR"
+; measure:symbol "PKR"
 ; currency:accepted_in """Pakistan"""
 ; currency:code """586"""
 ; currency:precision 2
 .
 
-currency:PLN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:PLN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Polish złoty"@en
-; si:symbol "PLN"
+; measure:symbol "PLN"
 ; currency:accepted_in """Poland"""
 ; currency:code """985"""
 ; currency:precision 2
 .
 
-currency:PYG a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:PYG a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Paraguayan guaraní"@en
-; si:symbol "PYG"
+; measure:symbol "PYG"
 ; currency:accepted_in """Paraguay"""
 ; currency:code """600"""
 ; currency:precision 0
 .
 
-currency:QAR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:QAR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Qatari rial"@en
-; si:symbol "QAR"
+; measure:symbol "QAR"
 ; currency:accepted_in """Qatar"""
 ; currency:code """634"""
 ; currency:precision 2
 .
 
-currency:RON a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:RON a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Romanian new leu"@en
-; si:symbol "RON"
+; measure:symbol "RON"
 ; currency:accepted_in """Romania"""
 ; currency:code """946"""
 ; currency:precision 2
 .
 
-currency:RSD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:RSD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Serbian dinar"@en
-; si:symbol "RSD"
+; measure:symbol "RSD"
 ; currency:accepted_in """Serbia"""
 ; currency:code """941"""
 ; currency:precision 2
 .
 
-currency:RUB a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:RUB a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Russian rouble"@en
-; si:symbol "RUB"
+; measure:symbol "RUB"
 ; currency:accepted_in """Russia,  Abkhazia,  South Ossetia"""
 ; currency:code """643"""
 ; currency:precision 2
 .
 
-currency:RWF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:RWF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Rwandan franc"@en
-; si:symbol "RWF"
+; measure:symbol "RWF"
 ; currency:accepted_in """Rwanda"""
 ; currency:code """646"""
 ; currency:precision 0
 .
 
-currency:SAR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SAR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Saudi riyal"@en
-; si:symbol "SAR"
+; measure:symbol "SAR"
 ; currency:accepted_in """Saudi Arabia"""
 ; currency:code """682"""
 ; currency:precision 2
 .
 
-currency:SBD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SBD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Solomon Islands dollar"@en
-; si:symbol "SBD"
+; measure:symbol "SBD"
 ; currency:accepted_in """Solomon Islands"""
 ; currency:code """090"""
 ; currency:precision 2
 .
 
-currency:SCR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SCR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Seychelles rupee"@en
-; si:symbol "SCR"
+; measure:symbol "SCR"
 ; currency:accepted_in """Seychelles"""
 ; currency:code """690"""
 ; currency:precision 2
 .
 
-currency:SDG a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SDG a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Sudanese pound"@en
-; si:symbol "SDG"
+; measure:symbol "SDG"
 ; currency:accepted_in """Sudan"""
 ; currency:code """938"""
 ; currency:precision 2
 .
 
-currency:SEK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SEK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Swedish krona/kronor"@en
-; si:symbol "SEK"
+; measure:symbol "SEK"
 ; currency:accepted_in """Sweden"""
 ; currency:code """752"""
 ; currency:precision 2
 .
 
-currency:SGD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SGD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Singapore dollar"@en
-; si:symbol "SGD"
+; measure:symbol "SGD"
 ; currency:accepted_in """Singapore,  Brunei"""
 ; currency:code """702"""
 ; currency:precision 2
 .
 
-currency:SHP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SHP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Saint Helena pound"@en
-; si:symbol "SHP"
+; measure:symbol "SHP"
 ; currency:accepted_in """Saint Helena"""
 ; currency:code """654"""
 ; currency:precision 2
 .
 
-currency:SLL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SLL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Sierra Leonean leone"@en
-; si:symbol "SLL"
+; measure:symbol "SLL"
 ; currency:accepted_in """Sierra Leone"""
 ; currency:code """694"""
 ; currency:precision 0
 .
 
-currency:SOS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SOS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Somali shilling"@en
-; si:symbol "SOS"
+; measure:symbol "SOS"
 ; currency:accepted_in """Somalia (except  Somaliland)"""
 ; currency:code """706"""
 ; currency:precision 2
 .
 
-currency:SRD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SRD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Surinamese dollar"@en
-; si:symbol "SRD"
+; measure:symbol "SRD"
 ; currency:accepted_in """Suriname"""
 ; currency:code """968"""
 ; currency:precision 2
 .
 
-currency:SSP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SSP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "South Sudanese pound"@en
-; si:symbol "SSP"
+; measure:symbol "SSP"
 ; currency:accepted_in """South Sudan"""
 ; currency:code """728"""
 ; currency:precision 2
 .
 
-currency:STD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:STD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "São Tomé and Príncipe dobra"@en
-; si:symbol "STD"
+; measure:symbol "STD"
 ; currency:accepted_in """São Tomé and Príncipe"""
 ; currency:code """678"""
 ; currency:precision 0
 .
 
-currency:SYP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SYP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Syrian pound"@en
-; si:symbol "SYP"
+; measure:symbol "SYP"
 ; currency:accepted_in """Syria"""
 ; currency:code """760"""
 ; currency:precision 2
 .
 
-currency:SZL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:SZL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Swazi lilangeni"@en
-; si:symbol "SZL"
+; measure:symbol "SZL"
 ; currency:accepted_in """Swaziland"""
 ; currency:code """748"""
 ; currency:precision 2
 .
 
-currency:THB a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:THB a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Thai baht"@en
-; si:symbol "THB"
+; measure:symbol "THB"
 ; currency:accepted_in """Thailand"""
 ; currency:code """764"""
 ; currency:precision 2
 .
 
-currency:TJS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TJS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Tajikistani somoni"@en
-; si:symbol "TJS"
+; measure:symbol "TJS"
 ; currency:accepted_in """Tajikistan"""
 ; currency:code """972"""
 ; currency:precision 2
 .
 
-currency:TMT a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TMT a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Turkmenistani manat"@en
-; si:symbol "TMT"
+; measure:symbol "TMT"
 ; currency:accepted_in """Turkmenistan"""
 ; currency:code """934"""
 ; currency:precision 2
 .
 
-currency:TND a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TND a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Tunisian dinar"@en
-; si:symbol "TND"
+; measure:symbol "TND"
 ; currency:accepted_in """Tunisia"""
 ; currency:code """788"""
 ; currency:precision 3
 .
 
-currency:TOP a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TOP a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Tongan paʻanga"@en
-; si:symbol "TOP"
+; measure:symbol "TOP"
 ; currency:accepted_in """Tonga"""
 ; currency:code """776"""
 ; currency:precision 2
 .
 
-currency:TRY a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TRY a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Turkish lira"@en
-; si:symbol "TRY"
+; measure:symbol "TRY"
 ; currency:accepted_in """Turkey,  Northern Cyprus"""
 ; currency:code """949"""
 ; currency:precision 2
 .
 
-currency:TTD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TTD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Trinidad and Tobago dollar"@en
-; si:symbol "TTD"
+; measure:symbol "TTD"
 ; currency:accepted_in """Trinidad and Tobago"""
 ; currency:code """780"""
 ; currency:precision 2
 .
 
-currency:TWD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TWD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "New Taiwan dollar"@en
-; si:symbol "TWD"
+; measure:symbol "TWD"
 ; currency:accepted_in """Taiwan"""
 ; currency:code """901"""
 ; currency:precision 2
 .
 
-currency:TZS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:TZS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Tanzanian shilling"@en
-; si:symbol "TZS"
+; measure:symbol "TZS"
 ; currency:accepted_in """Tanzania"""
 ; currency:code """834"""
 ; currency:precision 2
 .
 
-currency:UAH a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:UAH a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Ukrainian hryvnia"@en
-; si:symbol "UAH"
+; measure:symbol "UAH"
 ; currency:accepted_in """Ukraine"""
 ; currency:code """980"""
 ; currency:precision 2
 .
 
-currency:UGX a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:UGX a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Ugandan shilling"@en
-; si:symbol "UGX"
+; measure:symbol "UGX"
 ; currency:accepted_in """Uganda"""
 ; currency:code """800"""
 ; currency:precision 2
 .
 
-currency:USD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:USD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "United States dollar"@en
-; si:symbol "USD"
+; measure:symbol "USD"
 ; currency:accepted_in """American Samoa,  British Indian Ocean Territory, Caribbean Netherlands,  Ecuador,  El Salvador,  Guam,  Haiti,  Marshall Islands, Micronesia,  Northern Mariana Islands,  Palau,  Panama,  Puerto Rico,  Timor-Leste,  Turks and Caicos Islands,  United States,  U.S. Virgin Islands,  Barbados (as well as Barbados Dollar),  Bermuda (as well as Bermudian Dollar),  Zimbabwe"""
 ; currency:code """840"""
 ; currency:precision 2
 .
 
-currency:USN a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:USN a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "United States dollar (next day) (funds code)"@en
-; si:symbol "USN"
+; measure:symbol "USN"
 ; currency:accepted_in """United States"""
 ; currency:code """997"""
 ; currency:precision 2
 .
 
-currency:USS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:USS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "United States dollar (same day) (funds code) (one source[who?] claims it is no longer used, but it is still on the ISO 4217-MA list)"@en
-; si:symbol "USS"
+; measure:symbol "USS"
 ; currency:accepted_in """United States"""
 ; currency:code """998"""
 ; currency:precision 2
 .
 
-currency:UYI a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:UYI a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)"@en
-; si:symbol "UYI"
+; measure:symbol "UYI"
 ; currency:accepted_in """Uruguay"""
 ; currency:code """940"""
 ; currency:precision 0
 .
 
-currency:UYU a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:UYU a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Uruguayan peso"@en
-; si:symbol "UYU"
+; measure:symbol "UYU"
 ; currency:accepted_in """Uruguay"""
 ; currency:code """858"""
 ; currency:precision 2
 .
 
-currency:UZS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:UZS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Uzbekistan som"@en
-; si:symbol "UZS"
+; measure:symbol "UZS"
 ; currency:accepted_in """Uzbekistan"""
 ; currency:code """860"""
 ; currency:precision 2
 .
 
-currency:VEF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:VEF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Venezuelan bolívar fuerte"@en
-; si:symbol "VEF"
+; measure:symbol "VEF"
 ; currency:accepted_in """Venezuela"""
 ; currency:code """937"""
 ; currency:precision 2
 .
 
-currency:VND a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:VND a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Vietnamese đồng"@en
-; si:symbol "VND"
+; measure:symbol "VND"
 ; currency:accepted_in """Vietnam"""
 ; currency:code """704"""
 ; currency:precision 0
 .
 
-currency:VUV a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:VUV a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Vanuatu vatu"@en
-; si:symbol "VUV"
+; measure:symbol "VUV"
 ; currency:accepted_in """Vanuatu"""
 ; currency:code """548"""
 ; currency:precision 0
 .
 
-currency:WST a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:WST a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Samoan tala"@en
-; si:symbol "WST"
+; measure:symbol "WST"
 ; currency:accepted_in """Samoa"""
 ; currency:code """882"""
 ; currency:precision 2
 .
 
-currency:XAF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XAF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "CFA franc BEAC"@en
-; si:symbol "XAF"
+; measure:symbol "XAF"
 ; currency:accepted_in """Cameroon,  Central African Republic,  Republic of the Congo,  Chad,  Equatorial Guinea,  Gabon"""
 ; currency:code """950"""
 ; currency:precision 0
 .
 
-currency:XAG a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XAG a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Silver (one troy ounce)"@en
-; si:symbol "XAG"
+; measure:symbol "XAG"
 ; currency:accepted_in """"""
 ; currency:code """961"""
-; currency:precision .
 .
 
-currency:XAU a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XAU a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Gold (one troy ounce)"@en
-; si:symbol "XAU"
+; measure:symbol "XAU"
 ; currency:accepted_in """"""
 ; currency:code """959"""
-; currency:precision .
 .
 
-currency:XBA a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XBA a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "European Composite Unit (EURCO) (bond market unit)"@en
-; si:symbol "XBA"
+; measure:symbol "XBA"
 ; currency:accepted_in """"""
 ; currency:code """955"""
-; currency:precision .
 .
 
-currency:XBB a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XBB a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "European Monetary Unit (E.M.U.-6) (bond market unit)"@en
-; si:symbol "XBB"
+; measure:symbol "XBB"
 ; currency:accepted_in """"""
 ; currency:code """956"""
-; currency:precision .
 .
 
-currency:XBC a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XBC a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "European Unit of Account 9 (E.U.A.-9) (bond market unit)"@en
-; si:symbol "XBC"
+; measure:symbol "XBC"
 ; currency:accepted_in """"""
 ; currency:code """957"""
-; currency:precision .
 .
 
-currency:XBD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XBD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "European Unit of Account 17 (E.U.A.-17) (bond market unit)"@en
-; si:symbol "XBD"
+; measure:symbol "XBD"
 ; currency:accepted_in """"""
 ; currency:code """958"""
-; currency:precision .
 .
 
-currency:XCD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XCD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "East Caribbean dollar"@en
-; si:symbol "XCD"
+; measure:symbol "XCD"
 ; currency:accepted_in """Anguilla,  Antigua and Barbuda,  Dominica,  Grenada,  Montserrat,  Saint Kitts and Nevis,  Saint Lucia,  Saint Vincent and the Grenadines"""
 ; currency:code """951"""
 ; currency:precision 2
 .
 
-currency:XDR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XDR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Special Drawing Rights"@en
-; si:symbol "XDR"
+; measure:symbol "XDR"
 ; currency:accepted_in """International Monetary Fund"""
 ; currency:code """960"""
-; currency:precision .
 .
 
-currency:XFU a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XFU a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "UIC franc (special settlement currency)"@en
-; si:symbol "XFU"
+; measure:symbol "XFU"
 ; currency:accepted_in """International Union of Railways"""
 ; currency:code """Nil"""
-; currency:precision .
 .
 
-currency:XOF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XOF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "CFA Franc BCEAO"@en
-; si:symbol "XOF"
+; measure:symbol "XOF"
 ; currency:accepted_in """Benin,  Burkina Faso,  Côte d'Ivoire,  Guinea-Bissau,  Mali,  Niger,  Senegal,  Togo"""
 ; currency:code """952"""
 ; currency:precision 0
 .
 
-currency:XPD a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XPD a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Palladium (one troy ounce)"@en
-; si:symbol "XPD"
+; measure:symbol "XPD"
 ; currency:accepted_in """"""
 ; currency:code """964"""
-; currency:precision .
 .
 
-currency:XPF a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XPF a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "CFP franc"@en
-; si:symbol "XPF"
+; measure:symbol "XPF"
 ; currency:accepted_in """French Polynesia,  New Caledonia,  Wallis and Futuna"""
 ; currency:code """953"""
 ; currency:precision 0
 .
 
-currency:XPT a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XPT a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Platinum (one troy ounce)"@en
-; si:symbol "XPT"
+; measure:symbol "XPT"
 ; currency:accepted_in """"""
 ; currency:code """962"""
-; currency:precision .
 .
 
-currency:XTS a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XTS a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Code reserved for testing purposes"@en
-; si:symbol "XTS"
+; measure:symbol "XTS"
 ; currency:accepted_in """"""
 ; currency:code """963"""
-; currency:precision .
 .
 
-currency:XXX a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:XXX a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "No currency"@en
-; si:symbol "XXX"
+; measure:symbol "XXX"
 ; currency:accepted_in """"""
 ; currency:code """999"""
-; currency:precision .
 .
 
-currency:YER a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:YER a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Yemeni rial"@en
-; si:symbol "YER"
+; measure:symbol "YER"
 ; currency:accepted_in """Yemen"""
 ; currency:code """886"""
 ; currency:precision 2
 .
 
-currency:ZAR a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ZAR a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "South African rand"@en
-; si:symbol "ZAR"
+; measure:symbol "ZAR"
 ; currency:accepted_in """South Africa"""
 ; currency:code """710"""
 ; currency:precision 2
 .
 
-currency:ZMK a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ZMK a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Zambian kwacha"@en
-; si:symbol "ZMK"
+; measure:symbol "ZMK"
 ; currency:accepted_in """Zambia"""
 ; currency:code """894"""
 ; currency:precision 2
 .
 
-currency:ZWL a rdfs:Datatype, measure-types:currency
-; rdfs:subClassOf measure-types:currency
+currency:ZWL a rdfs:Datatype, measure:currency
+; rdfs:subClassOf measure:currency
 ; rdfs:isDefinedBy currency:
 ; rdfs:label "Zimbabwe dollar"@en
-; si:symbol "ZWL"
+; measure:symbol "ZWL"
 ; currency:accepted_in """Zimbabwe"""
 ; currency:code """932"""
 ; currency:precision 2

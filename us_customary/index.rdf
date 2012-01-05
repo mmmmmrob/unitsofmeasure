@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:measure="http://kilosandcups.info/schema/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:us="http://kilosandcups.info/us_customary/">
+  <owl:Ontology rdf:about="http://kilosandcups.info/us_customary/">
+    <dcterms:isPartOf rdf:resource="http://kilosandcups.info/"/>
+    <rdfs:label>The US Customary Units of Measure Datatypes</rdfs:label>
+  </owl:Ontology>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/acre">
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">acre</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/area"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/acre_foot">
+    <measure:symbol xml:lang="en">acre ft</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">acre foot</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/barrel">
+    <measure:symbol xml:lang="en">bbl</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">barrel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/bushel">
+    <measure:symbol xml:lang="en">bu</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">bushel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/cable">
+    <measure:symbol xml:lang="en">cb</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">cable</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/chain">
+    <measure:symbol xml:lang="en">ch</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">chain</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/cubic_foot">
+    <measure:symbol xml:lang="en">cu ft</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">cubic foot</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/cubic_inch">
+    <measure:symbol xml:lang="en">cu in</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">cubic inch</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/cubic_yard">
+    <measure:symbol xml:lang="en">cu yd</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">cubic yard</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/cup">
+    <measure:symbol xml:lang="en">cp</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US cup</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/dessertspoon">
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">dessertspoon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/dram">
+    <measure:symbol xml:lang="en">dr</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">dram</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/dry_barrel">
+    <measure:symbol xml:lang="en">bbl</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">dry barrel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/dry_gallon">
+    <measure:symbol xml:lang="en">gal</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">dry gallon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/dry_pint">
+    <measure:symbol xml:lang="en">pt</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">dry pint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/dry_quart">
+    <measure:symbol xml:lang="en">qt</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">dry quart</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/fathom">
+    <measure:symbol xml:lang="en">ftm</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">fathom</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/fluid_dram">
+    <measure:symbol xml:lang="en">fl dr</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US fluid dram</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/fluid_ounce">
+    <measure:symbol xml:lang="en">fl oz</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US fluid ounce</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/foot">
+    <measure:symbol xml:lang="en">ft</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">foot</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/furlong">
+    <measure:symbol xml:lang="en">fur</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">furlong</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/gallon">
+    <measure:symbol xml:lang="en">gal</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US gallon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/gill">
+    <measure:symbol xml:lang="en">gi</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US gill</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/grain">
+    <measure:symbol xml:lang="en">gr</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">grain</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/hogshead">
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">hogshead</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/hundredweight">
+    <measure:symbol xml:lang="en">cwt</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US hundredweight</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/inch">
+    <measure:symbol xml:lang="en">in</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">inch</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/jigger">
+    <measure:symbol xml:lang="en">jig</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">jigger</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/league">
+    <measure:symbol xml:lang="en">lea</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">league</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/link">
+    <measure:symbol xml:lang="en">li</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">link</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/long_hundredweight">
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">long hundredweight</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/long_ton">
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">long ton</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/mile">
+    <measure:symbol xml:lang="en">mi</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">mile</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/minim">
+    <measure:symbol xml:lang="en">min</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">minim</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/nautical_mile">
+    <measure:symbol xml:lang="en">nmi</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">nautical mile</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/oil_barrel">
+    <measure:symbol xml:lang="en">bbl</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">oil barrel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/ounce">
+    <measure:symbol xml:lang="en">oz</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">ounce</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/peck">
+    <measure:symbol xml:lang="en">pk</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">peck</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/pennyweight">
+    <measure:symbol xml:lang="en">dwt</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">pennyweight</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/pica">
+    <measure:symbol xml:lang="en">P̸</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">pica</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/pint">
+    <measure:symbol xml:lang="en">pt</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US pint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/point">
+    <measure:symbol xml:lang="en">p</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">point</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/pound">
+    <measure:symbol xml:lang="en">lb</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/quart">
+    <measure:symbol xml:lang="en">qt</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">US quart</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/rod">
+    <measure:symbol xml:lang="en">rd</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">rod</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/section">
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">section</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/area"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/short_ton">
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">short ton</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/square_foot">
+    <measure:symbol xml:lang="en">sq ft</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">square foot</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/area"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/survey_township">
+    <measure:symbol xml:lang="en">twp</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">survey township</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/area"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/tablspoon">
+    <measure:symbol xml:lang="en">Tbsp</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">tablspoon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/teaspoon">
+    <measure:symbol xml:lang="en">tsp</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">teaspoon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/volume"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/troy_ounce">
+    <measure:symbol xml:lang="en">oz t</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">troy ounce</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/troy_pound">
+    <measure:symbol xml:lang="en">lb t</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">troy pound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/mass"/>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://kilosandcups.info/us_customary/yard">
+    <measure:symbol xml:lang="en">yd</measure:symbol>
+    <rdf:type rdf:resource="http://kilosandcups.info/schema/base-unit"/>
+    <rdfs:isDefinedBy rdf:resource="http://kilosandcups.info/us_customary/"/>
+    <rdfs:label xml:lang="en">yard</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://kilosandcups.info/schema/length"/>
+  </rdfs:Datatype>
+</rdf:RDF>
