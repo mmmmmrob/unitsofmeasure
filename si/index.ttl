@@ -5,7 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 si: a owl:Ontology
-; rdfs:label "The SI Units of Measure Ontology"
+; rdfs:label "The SI Units of Measure Datatypes"
 ; dcterms:isPartOf <http://kilosandcups.info/>
 .
 
