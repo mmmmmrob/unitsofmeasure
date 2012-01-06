@@ -1,0 +1,22 @@
+@prefix cc: <http://web.resource.org/cc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix measure: <http://kilosandcups.info/schema/> .
+@prefix imp: <http://kilosandcups.info/imperial/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+measure: a owl:Ontology
+; rdfs:label "Kilos & Cups — Datatypes for Units of Measure"@en
+; rdfs:comment """<p>Kilos & Cups datatypes provides a set of useful datatypes that can be expanded over time. These datatypes are intended for use when publishing and consuming Linked Data. They provide a way to say more about the types of literal values in your data.</p>
+<p>For more information on how to use these datatypes you should read the <a href="http://patterns.dataincubator.org/book/custom-datatype.html">Custom Datatype pattern</a> from the <a href="http://patterns.dataincubator.org/book/">Linked Data Patterns book</a>.</p>
+<p>If you don't see the datatypes you want here then <a href="mailto:rob.styles@dynamicorange.com">email me</a> and I'll add them.</p>"""
+; vann:preferredNamespaceUri <http://kilosandcups.info/schema/>
+; vann:preferredNamespacePrefix "measure"
+; dcterms:hasPart <http://kilosandcups.info/imperial/>
+; dcterms:hasPart <http://kilosandcups.info/si/>
+; dcterms:hasPart <http://kilosandcups.info/currencies/>
+; dcterms:hasPart <http://kilosandcups.info/us_customary/>
+; cc:license <http://creativecommons.org/licenses/by-nd/3.0/>
+.
+

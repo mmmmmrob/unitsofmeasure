@@ -1,0 +1,3023 @@
+@prefix cc: <http://web.resource.org/cc/> .
+@prefix currencies: <http://kilosandcups.info/currencies/> .
+@prefix imperial: <http://kilosandcups.info/imperial/> .
+@prefix si: <http://kilosandcups.info/si/> .
+@prefix us_customary: <http://kilosandcups.info/us_customary/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix measure: <http://kilosandcups.info/schema/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<http://kilosandcups.info/>
+    dct:hasPart <http://kilosandcups.info/currencies>, <http://kilosandcups.info/imperial>, <http://kilosandcups.info/si>, <http://kilosandcups.info/us_customary>, <http://kilosandcups.info/schema> ;
+    cc:license <http://creativecommons.org/licenses/by-nd/3.0/> ;
+    a <http://www.w3.org/2002/07/owl#Ontology> ;
+    rdfs:comment """<p>Kilos & Cups datatypes provides a set of useful datatypes that can be expanded over time. These datatypes are intended for use when publishing and consuming Linked Data. They provide a way to say more about the types of literal values in your data.</p>
+<p>For more information on how to use these datatypes you should read the <a href=\"http://patterns.dataincubator.org/book/custom-datatype.html\">Custom Datatype pattern</a> from the <a href=\"http://patterns.dataincubator.org/book/\">Linked Data Patterns book</a>.</p>
+<p>If you don't see the datatypes you want here then <a href=\"mailto:rob.styles@dynamicorange.com\">email me</a> and I'll add them.</p>""" ;
+    rdfs:label "Kilos & Cups — Datatypes for Units of Measure"@en .
+
+<http://kilosandcups.info/currencies>
+    dct:isPartOf <http://kilosandcups.info/> ;
+    a <http://www.w3.org/2002/07/owl#Ontology> ;
+    rdfs:label "The Currencies Datatypes" .
+
+currencies:AED
+    currencies:accepted_in "United Arab Emirates" ;
+    currencies:code "784" ;
+    currencies:precision 2 ;
+    measure:symbol "AED" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "United Arab Emirates dirham"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:AFN
+    currencies:accepted_in "Afghanistan" ;
+    currencies:code "971" ;
+    currencies:precision 2 ;
+    measure:symbol "AFN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Afghan afghani"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ALL
+    currencies:accepted_in "Albania" ;
+    currencies:code "008" ;
+    currencies:precision 2 ;
+    measure:symbol "ALL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Albanian lek"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:AMD
+    currencies:accepted_in "Armenia" ;
+    currencies:code "051" ;
+    currencies:precision 2 ;
+    measure:symbol "AMD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Armenian dram"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ANG
+    currencies:accepted_in "Curaçao,  Sint Maarten" ;
+    currencies:code "532" ;
+    currencies:precision 2 ;
+    measure:symbol "ANG" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Netherlands Antillean guilder"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:AOA
+    currencies:accepted_in "Angola" ;
+    currencies:code "973" ;
+    currencies:precision 2 ;
+    measure:symbol "AOA" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Angolan kwanza"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ARS
+    currencies:accepted_in "Argentina" ;
+    currencies:code "032" ;
+    currencies:precision 2 ;
+    measure:symbol "ARS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Argentine peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:AUD
+    currencies:accepted_in "Australia, Australian Antarctic Territory,  Christmas Island,  Cocos (Keeling) Islands,  Heard and McDonald Islands,  Kiribati,  Nauru,  Norfolk Island,  Tuvalu" ;
+    currencies:code "036" ;
+    currencies:precision 2 ;
+    measure:symbol "AUD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Australian dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:AWG
+    currencies:accepted_in "Aruba" ;
+    currencies:code "533" ;
+    currencies:precision 2 ;
+    measure:symbol "AWG" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Aruban florin"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:AZN
+    currencies:accepted_in "Azerbaijan" ;
+    currencies:code "944" ;
+    currencies:precision 2 ;
+    measure:symbol "AZN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Azerbaijani manat"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BAM
+    currencies:accepted_in "Bosnia and Herzegovina" ;
+    currencies:code "977" ;
+    currencies:precision 2 ;
+    measure:symbol "BAM" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bosnia and Herzegovina convertible mark"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BBD
+    currencies:accepted_in "Barbados" ;
+    currencies:code "052" ;
+    currencies:precision 2 ;
+    measure:symbol "BBD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Barbados dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BDT
+    currencies:accepted_in "Bangladesh" ;
+    currencies:code "050" ;
+    currencies:precision 2 ;
+    measure:symbol "BDT" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bangladeshi taka"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BGN
+    currencies:accepted_in "Bulgaria" ;
+    currencies:code "975" ;
+    currencies:precision 2 ;
+    measure:symbol "BGN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bulgarian lev"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BHD
+    currencies:accepted_in "Bahrain" ;
+    currencies:code "048" ;
+    currencies:precision 3 ;
+    measure:symbol "BHD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bahraini dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BIF
+    currencies:accepted_in "Burundi" ;
+    currencies:code "108" ;
+    currencies:precision 0 ;
+    measure:symbol "BIF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Burundian franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BMD
+    currencies:accepted_in "Bermuda" ;
+    currencies:code "060" ;
+    currencies:precision 2 ;
+    measure:symbol "BMD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bermudian dollar (customarily known as Bermuda dollar)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BND
+    currencies:accepted_in "Brunei,  Singapore" ;
+    currencies:code "096" ;
+    currencies:precision 2 ;
+    measure:symbol "BND" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Brunei dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BOB
+    currencies:accepted_in "Bolivia" ;
+    currencies:code "068" ;
+    currencies:precision 2 ;
+    measure:symbol "BOB" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Boliviano"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BOV
+    currencies:accepted_in "Bolivia" ;
+    currencies:code "984" ;
+    currencies:precision 2 ;
+    measure:symbol "BOV" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bolivian Mvdol (funds code)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BRL
+    currencies:accepted_in "Brazil" ;
+    currencies:code "986" ;
+    currencies:precision 2 ;
+    measure:symbol "BRL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Brazilian real"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BSD
+    currencies:accepted_in "Bahamas" ;
+    currencies:code "044" ;
+    currencies:precision 2 ;
+    measure:symbol "BSD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bahamian dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BTN
+    currencies:accepted_in "Bhutan" ;
+    currencies:code "064" ;
+    currencies:precision 2 ;
+    measure:symbol "BTN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Bhutanese ngultrum"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BWP
+    currencies:accepted_in "Botswana" ;
+    currencies:code "072" ;
+    currencies:precision 2 ;
+    measure:symbol "BWP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Botswana pula"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BYR
+    currencies:accepted_in "Belarus" ;
+    currencies:code "974" ;
+    currencies:precision 0 ;
+    measure:symbol "BYR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Belarusian ruble"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:BZD
+    currencies:accepted_in "Belize" ;
+    currencies:code "084" ;
+    currencies:precision 2 ;
+    measure:symbol "BZD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Belize dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CAD
+    currencies:accepted_in "Canada" ;
+    currencies:code "124" ;
+    currencies:precision 2 ;
+    measure:symbol "CAD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Canadian dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CDF
+    currencies:accepted_in "Democratic Republic of Congo" ;
+    currencies:code "976" ;
+    currencies:precision 2 ;
+    measure:symbol "CDF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Congolese franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CHE
+    currencies:accepted_in "Switzerland" ;
+    currencies:code "947" ;
+    currencies:precision 2 ;
+    measure:symbol "CHE" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "WIR Euro (complementary currency)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CHF
+    currencies:accepted_in "Switzerland,  Liechtenstein" ;
+    currencies:code "756" ;
+    currencies:precision 2 ;
+    measure:symbol "CHF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Swiss franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CHW
+    currencies:accepted_in "Switzerland" ;
+    currencies:code "948" ;
+    currencies:precision 2 ;
+    measure:symbol "CHW" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "WIR Franc (complementary currency)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CLF
+    currencies:accepted_in "Chile" ;
+    currencies:code "990" ;
+    currencies:precision 0 ;
+    measure:symbol "CLF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Unidad de Fomento (funds code)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CLP
+    currencies:accepted_in "Chile" ;
+    currencies:code "152" ;
+    currencies:precision 0 ;
+    measure:symbol "CLP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Chilean peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CNY
+    currencies:accepted_in "China (Mainland)" ;
+    currencies:code "156" ;
+    currencies:precision 2 ;
+    measure:symbol "CNY" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Chinese yuan"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:COP
+    currencies:accepted_in "Colombia" ;
+    currencies:code "170" ;
+    currencies:precision 2 ;
+    measure:symbol "COP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Colombian peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:COU
+    currencies:accepted_in "Colombia" ;
+    currencies:code "970" ;
+    currencies:precision 2 ;
+    measure:symbol "COU" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Unidad de Valor Real"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CRC
+    currencies:accepted_in "Costa Rica" ;
+    currencies:code "188" ;
+    currencies:precision 2 ;
+    measure:symbol "CRC" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Costa Rican colon"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CUC
+    currencies:accepted_in "Cuba" ;
+    currencies:code "931" ;
+    currencies:precision 2 ;
+    measure:symbol "CUC" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Cuban convertible peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CUP
+    currencies:accepted_in "Cuba" ;
+    currencies:code "192" ;
+    currencies:precision 2 ;
+    measure:symbol "CUP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Cuban peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CVE
+    currencies:accepted_in "Cape Verde" ;
+    currencies:code "132" ;
+    currencies:precision 0 ;
+    measure:symbol "CVE" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Cape Verde escudo"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:CZK
+    currencies:accepted_in "Czech Republic" ;
+    currencies:code "203" ;
+    currencies:precision 2 ;
+    measure:symbol "CZK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Czech koruna"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:DJF
+    currencies:accepted_in "Djibouti" ;
+    currencies:code "262" ;
+    currencies:precision 0 ;
+    measure:symbol "DJF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Djiboutian franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:DKK
+    currencies:accepted_in "Denmark,  Faroe Islands,  Greenland" ;
+    currencies:code "208" ;
+    currencies:precision 2 ;
+    measure:symbol "DKK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Danish krone"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:DOP
+    currencies:accepted_in "Dominican Republic" ;
+    currencies:code "214" ;
+    currencies:precision 2 ;
+    measure:symbol "DOP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Dominican peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:DZD
+    currencies:accepted_in "Algeria" ;
+    currencies:code "012" ;
+    currencies:precision 2 ;
+    measure:symbol "DZD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Algerian dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:EGP
+    currencies:accepted_in "Egypt" ;
+    currencies:code "818" ;
+    currencies:precision 2 ;
+    measure:symbol "EGP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Egyptian pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ERN
+    currencies:accepted_in "Eritrea" ;
+    currencies:code "232" ;
+    currencies:precision 2 ;
+    measure:symbol "ERN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Eritrean nakfa"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ETB
+    currencies:accepted_in "Ethiopia" ;
+    currencies:code "230" ;
+    currencies:precision 2 ;
+    measure:symbol "ETB" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Ethiopian birr"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:EUR
+    currencies:accepted_in "17  European Union countries,  Andorra,  Kosovo,  Monaco,  Montenegro,  San Marino,  Vatican City; see eurozone" ;
+    currencies:code "978" ;
+    currencies:precision 2 ;
+    measure:symbol "EUR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Euro"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:FJD
+    currencies:accepted_in "Fiji" ;
+    currencies:code "242" ;
+    currencies:precision 2 ;
+    measure:symbol "FJD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Fiji dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:FKP
+    currencies:accepted_in "Falkland Islands" ;
+    currencies:code "238" ;
+    currencies:precision 2 ;
+    measure:symbol "FKP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Falkland Islands pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GBP
+    currencies:accepted_in "United Kingdom, Crown Dependencies (the  Isle of Man and the Channel Islands), certain British Overseas Territories ( South Georgia and the South Sandwich Islands,  British Antarctic Territory and  British Indian Ocean Territory)" ;
+    currencies:code "826" ;
+    currencies:precision 2 ;
+    measure:symbol "GBP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Pound sterling"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GEL
+    currencies:accepted_in "Georgia (country)" ;
+    currencies:code "981" ;
+    currencies:precision 2 ;
+    measure:symbol "GEL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Georgian lari"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GHS
+    currencies:accepted_in "Ghana" ;
+    currencies:code "936" ;
+    currencies:precision 2 ;
+    measure:symbol "GHS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Ghanaian cedi"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GIP
+    currencies:accepted_in "Gibraltar" ;
+    currencies:code "292" ;
+    currencies:precision 2 ;
+    measure:symbol "GIP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Gibraltar pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GMD
+    currencies:accepted_in "Gambia" ;
+    currencies:code "270" ;
+    currencies:precision 2 ;
+    measure:symbol "GMD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Gambian dalasi"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GNF
+    currencies:accepted_in "Guinea" ;
+    currencies:code "324" ;
+    currencies:precision 0 ;
+    measure:symbol "GNF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Guinean franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GTQ
+    currencies:accepted_in "Guatemala" ;
+    currencies:code "320" ;
+    currencies:precision 2 ;
+    measure:symbol "GTQ" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Guatemalan quetzal"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:GYD
+    currencies:accepted_in "Guyana" ;
+    currencies:code "328" ;
+    currencies:precision 2 ;
+    measure:symbol "GYD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Guyanese dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:HKD
+    currencies:accepted_in "Hong Kong (Special Administrative Region),  Macau (Special Administrative Region)" ;
+    currencies:code "344" ;
+    currencies:precision 2 ;
+    measure:symbol "HKD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Hong Kong dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:HNL
+    currencies:accepted_in "Honduras" ;
+    currencies:code "340" ;
+    currencies:precision 2 ;
+    measure:symbol "HNL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Honduran lempira"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:HRK
+    currencies:accepted_in "Croatia" ;
+    currencies:code "191" ;
+    currencies:precision 2 ;
+    measure:symbol "HRK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Croatian kuna"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:HTG
+    currencies:accepted_in "Haiti" ;
+    currencies:code "332" ;
+    currencies:precision 2 ;
+    measure:symbol "HTG" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Haitian gourde"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:HUF
+    currencies:accepted_in "Hungary" ;
+    currencies:code "348" ;
+    currencies:precision 2 ;
+    measure:symbol "HUF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Hungarian forint"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:IDR
+    currencies:accepted_in "Indonesia" ;
+    currencies:code "360" ;
+    currencies:precision 0 ;
+    measure:symbol "IDR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Indonesian rupiah"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ILS
+    currencies:accepted_in "Israel,  Palestinian territories[7]" ;
+    currencies:code "376" ;
+    currencies:precision 2 ;
+    measure:symbol "ILS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Israeli new sheqel"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:INR
+    currencies:accepted_in "India" ;
+    currencies:code "356" ;
+    currencies:precision 2 ;
+    measure:symbol "INR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Indian rupee"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:IQD
+    currencies:accepted_in "Iraq" ;
+    currencies:code "368" ;
+    currencies:precision 0 ;
+    measure:symbol "IQD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Iraqi dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:IRR
+    currencies:accepted_in "Iran" ;
+    currencies:code "364" ;
+    currencies:precision 0 ;
+    measure:symbol "IRR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Iranian rial"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ISK
+    currencies:accepted_in "Iceland" ;
+    currencies:code "352" ;
+    currencies:precision 0 ;
+    measure:symbol "ISK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Icelandic króna"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:JMD
+    currencies:accepted_in "Jamaica" ;
+    currencies:code "388" ;
+    currencies:precision 2 ;
+    measure:symbol "JMD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Jamaican dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:JOD
+    currencies:accepted_in "Jordan" ;
+    currencies:code "400" ;
+    currencies:precision 3 ;
+    measure:symbol "JOD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Jordanian dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:JPY
+    currencies:accepted_in "Japan" ;
+    currencies:code "392" ;
+    currencies:precision 0 ;
+    measure:symbol "JPY" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Japanese yen"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KES
+    currencies:accepted_in "Kenya" ;
+    currencies:code "404" ;
+    currencies:precision 2 ;
+    measure:symbol "KES" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Kenyan shilling"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KGS
+    currencies:accepted_in "Kyrgyzstan" ;
+    currencies:code "417" ;
+    currencies:precision 2 ;
+    measure:symbol "KGS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Kyrgyzstani som"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KHR
+    currencies:accepted_in "Cambodia" ;
+    currencies:code "116" ;
+    currencies:precision 2 ;
+    measure:symbol "KHR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Cambodian riel"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KMF
+    currencies:accepted_in "Comoros" ;
+    currencies:code "174" ;
+    currencies:precision 0 ;
+    measure:symbol "KMF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Comoro franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KPW
+    currencies:accepted_in "North Korea" ;
+    currencies:code "408" ;
+    currencies:precision 0 ;
+    measure:symbol "KPW" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "North Korean won"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KRW
+    currencies:accepted_in "South Korea" ;
+    currencies:code "410" ;
+    currencies:precision 0 ;
+    measure:symbol "KRW" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "South Korean won"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KWD
+    currencies:accepted_in "Kuwait" ;
+    currencies:code "414" ;
+    currencies:precision 3 ;
+    measure:symbol "KWD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Kuwaiti dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KYD
+    currencies:accepted_in "Cayman Islands" ;
+    currencies:code "136" ;
+    currencies:precision 2 ;
+    measure:symbol "KYD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Cayman Islands dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:KZT
+    currencies:accepted_in "Kazakhstan" ;
+    currencies:code "398" ;
+    currencies:precision 2 ;
+    measure:symbol "KZT" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Kazakhstani tenge"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LAK
+    currencies:accepted_in "Laos" ;
+    currencies:code "418" ;
+    currencies:precision 0 ;
+    measure:symbol "LAK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Lao kip"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LBP
+    currencies:accepted_in "Lebanon" ;
+    currencies:code "422" ;
+    currencies:precision 0 ;
+    measure:symbol "LBP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Lebanese pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LKR
+    currencies:accepted_in "Sri Lanka" ;
+    currencies:code "144" ;
+    currencies:precision 2 ;
+    measure:symbol "LKR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Sri Lankan rupee"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LRD
+    currencies:accepted_in "Liberia" ;
+    currencies:code "430" ;
+    currencies:precision 2 ;
+    measure:symbol "LRD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Liberian dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LSL
+    currencies:accepted_in "Lesotho" ;
+    currencies:code "426" ;
+    currencies:precision 2 ;
+    measure:symbol "LSL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Lesotho loti"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LTL
+    currencies:accepted_in "Lithuania" ;
+    currencies:code "440" ;
+    currencies:precision 2 ;
+    measure:symbol "LTL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Lithuanian litas"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LVL
+    currencies:accepted_in "Latvia" ;
+    currencies:code "428" ;
+    currencies:precision 2 ;
+    measure:symbol "LVL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Latvian lats"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:LYD
+    currencies:accepted_in "Libya" ;
+    currencies:code "434" ;
+    currencies:precision 3 ;
+    measure:symbol "LYD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Libyan dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MAD
+    currencies:accepted_in "Morocco,  Western Sahara" ;
+    currencies:code "504" ;
+    currencies:precision 2 ;
+    measure:symbol "MAD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Moroccan dirham"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MDL
+    currencies:accepted_in "Moldova (except  Transnistria)" ;
+    currencies:code "498" ;
+    currencies:precision 2 ;
+    measure:symbol "MDL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Moldovan leu"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MGA
+    currencies:accepted_in "Madagascar" ;
+    currencies:code "969" ;
+    measure:symbol "MGA" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Malagasy ariary"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MKD
+    currencies:accepted_in "Republic of Macedonia" ;
+    currencies:code "807" ;
+    currencies:precision 2 ;
+    measure:symbol "MKD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Macedonian denar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MMK
+    currencies:accepted_in "Myanmar" ;
+    currencies:code "104" ;
+    currencies:precision 0 ;
+    measure:symbol "MMK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Myanma kyat"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MNT
+    currencies:accepted_in "Mongolia" ;
+    currencies:code "496" ;
+    currencies:precision 2 ;
+    measure:symbol "MNT" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Mongolian tugrik"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MOP
+    currencies:accepted_in "Macau (Special Administrative Region)" ;
+    currencies:code "446" ;
+    currencies:precision 1 ;
+    measure:symbol "MOP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Macanese pataca"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MRO
+    currencies:accepted_in "Mauritania" ;
+    currencies:code "478" ;
+    measure:symbol "MRO" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Mauritanian ouguiya"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MUR
+    currencies:accepted_in "Mauritius" ;
+    currencies:code "480" ;
+    currencies:precision 2 ;
+    measure:symbol "MUR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Mauritian rupee"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MVR
+    currencies:accepted_in "Maldives" ;
+    currencies:code "462" ;
+    currencies:precision 2 ;
+    measure:symbol "MVR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Maldivian rufiyaa"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MWK
+    currencies:accepted_in "Malawi" ;
+    currencies:code "454" ;
+    currencies:precision 2 ;
+    measure:symbol "MWK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Malawian kwacha"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MXN
+    currencies:accepted_in "Mexico" ;
+    currencies:code "484" ;
+    currencies:precision 2 ;
+    measure:symbol "MXN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Mexican peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MXV
+    currencies:accepted_in "Mexico" ;
+    currencies:code "979" ;
+    currencies:precision 2 ;
+    measure:symbol "MXV" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Mexican Unidad de Inversion (UDI) (funds code)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MYR
+    currencies:accepted_in "Malaysia" ;
+    currencies:code "458" ;
+    currencies:precision 2 ;
+    measure:symbol "MYR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Malaysian ringgit"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:MZN
+    currencies:accepted_in "Mozambique" ;
+    currencies:code "943" ;
+    currencies:precision 2 ;
+    measure:symbol "MZN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Mozambican metical"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:NAD
+    currencies:accepted_in "Namibia" ;
+    currencies:code "516" ;
+    currencies:precision 2 ;
+    measure:symbol "NAD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Namibian dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:NGN
+    currencies:accepted_in "Nigeria" ;
+    currencies:code "566" ;
+    currencies:precision 2 ;
+    measure:symbol "NGN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Nigerian naira"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:NIO
+    currencies:accepted_in "Nicaragua" ;
+    currencies:code "558" ;
+    currencies:precision 2 ;
+    measure:symbol "NIO" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Nicaraguan córdoba"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:NOK
+    currencies:accepted_in "Norway,  Svalbard,  Jan Mayen,  Bouvet Island, Queen Maud Land, Peter I Island" ;
+    currencies:code "578" ;
+    currencies:precision 2 ;
+    measure:symbol "NOK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Norwegian krone"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:NPR
+    currencies:accepted_in "Nepal" ;
+    currencies:code "524" ;
+    currencies:precision 2 ;
+    measure:symbol "NPR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Nepalese rupee"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:NZD
+    currencies:accepted_in "Cook Islands,  New Zealand,  Niue,  Pitcairn,  Tokelau" ;
+    currencies:code "554" ;
+    currencies:precision 2 ;
+    measure:symbol "NZD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "New Zealand dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:OMR
+    currencies:accepted_in "Oman" ;
+    currencies:code "512" ;
+    currencies:precision 3 ;
+    measure:symbol "OMR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Omani rial"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:PAB
+    currencies:accepted_in "Panama" ;
+    currencies:code "590" ;
+    currencies:precision 2 ;
+    measure:symbol "PAB" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Panamanian balboa"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:PEN
+    currencies:accepted_in "Peru" ;
+    currencies:code "604" ;
+    currencies:precision 2 ;
+    measure:symbol "PEN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Peruvian nuevo sol"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:PGK
+    currencies:accepted_in "Papua New Guinea" ;
+    currencies:code "598" ;
+    currencies:precision 2 ;
+    measure:symbol "PGK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Papua New Guinean kina"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:PHP
+    currencies:accepted_in "Philippines" ;
+    currencies:code "608" ;
+    currencies:precision 2 ;
+    measure:symbol "PHP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Philippine peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:PKR
+    currencies:accepted_in "Pakistan" ;
+    currencies:code "586" ;
+    currencies:precision 2 ;
+    measure:symbol "PKR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Pakistani rupee"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:PLN
+    currencies:accepted_in "Poland" ;
+    currencies:code "985" ;
+    currencies:precision 2 ;
+    measure:symbol "PLN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Polish złoty"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:PYG
+    currencies:accepted_in "Paraguay" ;
+    currencies:code "600" ;
+    currencies:precision 0 ;
+    measure:symbol "PYG" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Paraguayan guaraní"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:QAR
+    currencies:accepted_in "Qatar" ;
+    currencies:code "634" ;
+    currencies:precision 2 ;
+    measure:symbol "QAR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Qatari rial"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:RON
+    currencies:accepted_in "Romania" ;
+    currencies:code "946" ;
+    currencies:precision 2 ;
+    measure:symbol "RON" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Romanian new leu"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:RSD
+    currencies:accepted_in "Serbia" ;
+    currencies:code "941" ;
+    currencies:precision 2 ;
+    measure:symbol "RSD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Serbian dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:RUB
+    currencies:accepted_in "Russia,  Abkhazia,  South Ossetia" ;
+    currencies:code "643" ;
+    currencies:precision 2 ;
+    measure:symbol "RUB" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Russian rouble"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:RWF
+    currencies:accepted_in "Rwanda" ;
+    currencies:code "646" ;
+    currencies:precision 0 ;
+    measure:symbol "RWF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Rwandan franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SAR
+    currencies:accepted_in "Saudi Arabia" ;
+    currencies:code "682" ;
+    currencies:precision 2 ;
+    measure:symbol "SAR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Saudi riyal"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SBD
+    currencies:accepted_in "Solomon Islands" ;
+    currencies:code "090" ;
+    currencies:precision 2 ;
+    measure:symbol "SBD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Solomon Islands dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SCR
+    currencies:accepted_in "Seychelles" ;
+    currencies:code "690" ;
+    currencies:precision 2 ;
+    measure:symbol "SCR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Seychelles rupee"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SDG
+    currencies:accepted_in "Sudan" ;
+    currencies:code "938" ;
+    currencies:precision 2 ;
+    measure:symbol "SDG" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Sudanese pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SEK
+    currencies:accepted_in "Sweden" ;
+    currencies:code "752" ;
+    currencies:precision 2 ;
+    measure:symbol "SEK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Swedish krona/kronor"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SGD
+    currencies:accepted_in "Singapore,  Brunei" ;
+    currencies:code "702" ;
+    currencies:precision 2 ;
+    measure:symbol "SGD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Singapore dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SHP
+    currencies:accepted_in "Saint Helena" ;
+    currencies:code "654" ;
+    currencies:precision 2 ;
+    measure:symbol "SHP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Saint Helena pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SLL
+    currencies:accepted_in "Sierra Leone" ;
+    currencies:code "694" ;
+    currencies:precision 0 ;
+    measure:symbol "SLL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Sierra Leonean leone"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SOS
+    currencies:accepted_in "Somalia (except  Somaliland)" ;
+    currencies:code "706" ;
+    currencies:precision 2 ;
+    measure:symbol "SOS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Somali shilling"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SRD
+    currencies:accepted_in "Suriname" ;
+    currencies:code "968" ;
+    currencies:precision 2 ;
+    measure:symbol "SRD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Surinamese dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SSP
+    currencies:accepted_in "South Sudan" ;
+    currencies:code "728" ;
+    currencies:precision 2 ;
+    measure:symbol "SSP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "South Sudanese pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:STD
+    currencies:accepted_in "São Tomé and Príncipe" ;
+    currencies:code "678" ;
+    currencies:precision 0 ;
+    measure:symbol "STD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "São Tomé and Príncipe dobra"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SYP
+    currencies:accepted_in "Syria" ;
+    currencies:code "760" ;
+    currencies:precision 2 ;
+    measure:symbol "SYP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Syrian pound"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:SZL
+    currencies:accepted_in "Swaziland" ;
+    currencies:code "748" ;
+    currencies:precision 2 ;
+    measure:symbol "SZL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Swazi lilangeni"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:THB
+    currencies:accepted_in "Thailand" ;
+    currencies:code "764" ;
+    currencies:precision 2 ;
+    measure:symbol "THB" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Thai baht"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TJS
+    currencies:accepted_in "Tajikistan" ;
+    currencies:code "972" ;
+    currencies:precision 2 ;
+    measure:symbol "TJS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Tajikistani somoni"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TMT
+    currencies:accepted_in "Turkmenistan" ;
+    currencies:code "934" ;
+    currencies:precision 2 ;
+    measure:symbol "TMT" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Turkmenistani manat"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TND
+    currencies:accepted_in "Tunisia" ;
+    currencies:code "788" ;
+    currencies:precision 3 ;
+    measure:symbol "TND" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Tunisian dinar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TOP
+    currencies:accepted_in "Tonga" ;
+    currencies:code "776" ;
+    currencies:precision 2 ;
+    measure:symbol "TOP" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Tongan paʻanga"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TRY
+    currencies:accepted_in "Turkey,  Northern Cyprus" ;
+    currencies:code "949" ;
+    currencies:precision 2 ;
+    measure:symbol "TRY" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Turkish lira"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TTD
+    currencies:accepted_in "Trinidad and Tobago" ;
+    currencies:code "780" ;
+    currencies:precision 2 ;
+    measure:symbol "TTD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Trinidad and Tobago dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TWD
+    currencies:accepted_in "Taiwan" ;
+    currencies:code "901" ;
+    currencies:precision 2 ;
+    measure:symbol "TWD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "New Taiwan dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:TZS
+    currencies:accepted_in "Tanzania" ;
+    currencies:code "834" ;
+    currencies:precision 2 ;
+    measure:symbol "TZS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Tanzanian shilling"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:UAH
+    currencies:accepted_in "Ukraine" ;
+    currencies:code "980" ;
+    currencies:precision 2 ;
+    measure:symbol "UAH" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Ukrainian hryvnia"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:UGX
+    currencies:accepted_in "Uganda" ;
+    currencies:code "800" ;
+    currencies:precision 2 ;
+    measure:symbol "UGX" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Ugandan shilling"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:USD
+    currencies:accepted_in "American Samoa,  British Indian Ocean Territory, Caribbean Netherlands,  Ecuador,  El Salvador,  Guam,  Haiti,  Marshall Islands, Micronesia,  Northern Mariana Islands,  Palau,  Panama,  Puerto Rico,  Timor-Leste,  Turks and Caicos Islands,  United States,  U.S. Virgin Islands,  Barbados (as well as Barbados Dollar),  Bermuda (as well as Bermudian Dollar),  Zimbabwe" ;
+    currencies:code "840" ;
+    currencies:precision 2 ;
+    measure:symbol "USD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "United States dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:USN
+    currencies:accepted_in "United States" ;
+    currencies:code "997" ;
+    currencies:precision 2 ;
+    measure:symbol "USN" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "United States dollar (next day) (funds code)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:USS
+    currencies:accepted_in "United States" ;
+    currencies:code "998" ;
+    currencies:precision 2 ;
+    measure:symbol "USS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "United States dollar (same day) (funds code) (one source[who?] claims it is no longer used, but it is still on the ISO 4217-MA list)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:UYI
+    currencies:accepted_in "Uruguay" ;
+    currencies:code "940" ;
+    currencies:precision 0 ;
+    measure:symbol "UYI" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:UYU
+    currencies:accepted_in "Uruguay" ;
+    currencies:code "858" ;
+    currencies:precision 2 ;
+    measure:symbol "UYU" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Uruguayan peso"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:UZS
+    currencies:accepted_in "Uzbekistan" ;
+    currencies:code "860" ;
+    currencies:precision 2 ;
+    measure:symbol "UZS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Uzbekistan som"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:VEF
+    currencies:accepted_in "Venezuela" ;
+    currencies:code "937" ;
+    currencies:precision 2 ;
+    measure:symbol "VEF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Venezuelan bolívar fuerte"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:VND
+    currencies:accepted_in "Vietnam" ;
+    currencies:code "704" ;
+    currencies:precision 0 ;
+    measure:symbol "VND" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Vietnamese đồng"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:VUV
+    currencies:accepted_in "Vanuatu" ;
+    currencies:code "548" ;
+    currencies:precision 0 ;
+    measure:symbol "VUV" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Vanuatu vatu"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:WST
+    currencies:accepted_in "Samoa" ;
+    currencies:code "882" ;
+    currencies:precision 2 ;
+    measure:symbol "WST" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Samoan tala"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XAF
+    currencies:accepted_in "Cameroon,  Central African Republic,  Republic of the Congo,  Chad,  Equatorial Guinea,  Gabon" ;
+    currencies:code "950" ;
+    currencies:precision 0 ;
+    measure:symbol "XAF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "CFA franc BEAC"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XAG
+    currencies:accepted_in "" ;
+    currencies:code "961" ;
+    measure:symbol "XAG" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Silver (one troy ounce)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XAU
+    currencies:accepted_in "" ;
+    currencies:code "959" ;
+    measure:symbol "XAU" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Gold (one troy ounce)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XBA
+    currencies:accepted_in "" ;
+    currencies:code "955" ;
+    measure:symbol "XBA" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "European Composite Unit (EURCO) (bond market unit)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XBB
+    currencies:accepted_in "" ;
+    currencies:code "956" ;
+    measure:symbol "XBB" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "European Monetary Unit (E.M.U.-6) (bond market unit)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XBC
+    currencies:accepted_in "" ;
+    currencies:code "957" ;
+    measure:symbol "XBC" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "European Unit of Account 9 (E.U.A.-9) (bond market unit)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XBD
+    currencies:accepted_in "" ;
+    currencies:code "958" ;
+    measure:symbol "XBD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "European Unit of Account 17 (E.U.A.-17) (bond market unit)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XCD
+    currencies:accepted_in "Anguilla,  Antigua and Barbuda,  Dominica,  Grenada,  Montserrat,  Saint Kitts and Nevis,  Saint Lucia,  Saint Vincent and the Grenadines" ;
+    currencies:code "951" ;
+    currencies:precision 2 ;
+    measure:symbol "XCD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "East Caribbean dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XDR
+    currencies:accepted_in "International Monetary Fund" ;
+    currencies:code "960" ;
+    measure:symbol "XDR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Special Drawing Rights"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XFU
+    currencies:accepted_in "International Union of Railways" ;
+    currencies:code "Nil" ;
+    measure:symbol "XFU" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "UIC franc (special settlement currency)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XOF
+    currencies:accepted_in "Benin,  Burkina Faso,  Côte d'Ivoire,  Guinea-Bissau,  Mali,  Niger,  Senegal,  Togo" ;
+    currencies:code "952" ;
+    currencies:precision 0 ;
+    measure:symbol "XOF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "CFA Franc BCEAO"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XPD
+    currencies:accepted_in "" ;
+    currencies:code "964" ;
+    measure:symbol "XPD" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Palladium (one troy ounce)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XPF
+    currencies:accepted_in "French Polynesia,  New Caledonia,  Wallis and Futuna" ;
+    currencies:code "953" ;
+    currencies:precision 0 ;
+    measure:symbol "XPF" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "CFP franc"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XPT
+    currencies:accepted_in "" ;
+    currencies:code "962" ;
+    measure:symbol "XPT" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Platinum (one troy ounce)"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XTS
+    currencies:accepted_in "" ;
+    currencies:code "963" ;
+    measure:symbol "XTS" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Code reserved for testing purposes"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:XXX
+    currencies:accepted_in "" ;
+    currencies:code "999" ;
+    measure:symbol "XXX" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "No currency"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:YER
+    currencies:accepted_in "Yemen" ;
+    currencies:code "886" ;
+    currencies:precision 2 ;
+    measure:symbol "YER" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Yemeni rial"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ZAR
+    currencies:accepted_in "South Africa" ;
+    currencies:code "710" ;
+    currencies:precision 2 ;
+    measure:symbol "ZAR" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "South African rand"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ZMK
+    currencies:accepted_in "Zambia" ;
+    currencies:code "894" ;
+    currencies:precision 2 ;
+    measure:symbol "ZMK" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Zambian kwacha"@en ;
+    rdfs:subClassOf measure:currency .
+
+currencies:ZWL
+    currencies:accepted_in "Zimbabwe" ;
+    currencies:code "932" ;
+    currencies:precision 2 ;
+    measure:symbol "ZWL" ;
+    a measure:currency, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/currencies> ;
+    rdfs:label "Zimbabwe dollar"@en ;
+    rdfs:subClassOf measure:currency .
+
+<http://kilosandcups.info/imperial>
+    dct:isPartOf <http://kilosandcups.info/> ;
+    a <http://www.w3.org/2002/07/owl#Ontology> ;
+    rdfs:label "The Imperial Units of Measure Datatypes" .
+
+imperial:acre
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "acre"@en ;
+    rdfs:subClassOf measure:area .
+
+imperial:cable
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "cable"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:chain
+    measure:symbol "ch"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "chain"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:drachm
+    measure:symbol "drc"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "drachm"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:fathom
+    measure:symbol "ftm"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "fathom"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:fluid_drachm
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "fluid drachm"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:fluid_ounce
+    measure:symbol "fl oz"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "fluid ounce"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:fluid_scruple
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "fluid scruple"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:foot
+    measure:symbol "ft"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "foot"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:furlong
+    measure:symbol "fur"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "furlong"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:gallon
+    measure:symbol "gal"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "gallon"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:gill
+    measure:symbol "gi"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "gill"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:grain
+    measure:symbol "gr"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "grain"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:hundredweight
+    measure:symbol "cwt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "hundredweight"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:inch
+    measure:symbol "in"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "inch"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:league
+    measure:symbol "lea"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "league"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:link
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "link"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:mile
+    measure:symbol "mi"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "mile"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:minim
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "minim"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:nautical_mile
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "nautical mile"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:ounce
+    measure:symbol "oz"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "ounce"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:perch
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "perch"@en ;
+    rdfs:subClassOf measure:area .
+
+imperial:pint
+    measure:symbol "pt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "pint"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:pound
+    measure:symbol "lb"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "pound"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:quart
+    measure:symbol "qt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "quart"@en ;
+    rdfs:subClassOf measure:volume .
+
+imperial:quarter
+    measure:symbol "qtr"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "quarter"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:rod
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "rod"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:rood
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "rood"@en ;
+    rdfs:subClassOf measure:area .
+
+imperial:stone
+    measure:symbol "st"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "stone"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:thou
+    measure:symbol "th"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "thou"@en ;
+    rdfs:subClassOf measure:length .
+
+imperial:ton
+    measure:symbol "t"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "ton"@en ;
+    rdfs:subClassOf measure:mass .
+
+imperial:yard
+    measure:symbol "yd"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/imperial> ;
+    rdfs:label "yard"@en ;
+    rdfs:subClassOf measure:length .
+
+<http://kilosandcups.info/schema/>
+    dct:isPartOf <http://kilosandcups.info/> ;
+    vann:preferredNamespacePrefix "measure" ;
+    vann:preferredNamespaceUri <http://kilosandcups.info/schema/> ;
+    cc:license <http://creativecommons.org/licenses/by-nd/3.0/> ;
+    a <http://www.w3.org/2002/07/owl#Ontology> ;
+    rdfs:label "Kilos & Cups — Supporting Ontology"@en .
+
+<http://kilosandcups.info/si>
+    dct:isPartOf <http://kilosandcups.info/> ;
+    a <http://www.w3.org/2002/07/owl#Ontology> ;
+    rdfs:label "The SI Units of Measure Datatypes" .
+
+si:ampere
+    measure:symbol "A"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:comment """\"The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 metre apart in vacuum, would produce between these conductors a force equal to 2 × 10−7 newton per metre of length.\"
+9th CGPM (1948)
+The original \"International Ampere\" was defined electrochemically as the current required to deposit 1.118 milligrams of silver per second from a solution of silver nitrate. Compared to the SI ampere, the difference is 0.015%."""@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "ampere"@en ;
+    rdfs:subClassOf measure:electric_current .
+
+si:ampere_per_metre
+    measure:symbol "A∕m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "magnetic field strength"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "ampere per metre"@en ;
+    rdfs:subClassOf measure:magnetic_field_strength .
+
+si:ampere_per_square_metre
+    measure:symbol "A∕m²"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electric current density"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "ampere per square metre"@en ;
+    rdfs:subClassOf measure:electric_current_density .
+
+si:becquerel
+    measure:symbol "Bq"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "radioactivity (decays per unit time)"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "becquerel"@en ;
+    rdfs:subClassOf measure:radioactivity .
+
+si:candela
+    measure:symbol "cd"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:comment """\"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 × 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.\"
+16th CGPM (1979, Resolution 3; CR, 100)
+"""@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "candela"@en ;
+    rdfs:subClassOf measure:luminous_intensity .
+
+si:candela_per_square_metre
+    measure:symbol "cd∕m²"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "luminance"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "candela per square metre"@en ;
+    rdfs:subClassOf measure:luminance .
+
+si:coulomb
+    measure:symbol "C"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electric charge or quantity of electricity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "coulomb"@en ;
+    rdfs:subClassOf measure:electric_charge .
+
+si:coulomb_per_cubic_metre
+    measure:symbol "C∕m³"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electric charge density"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "coulomb per cubic metre"@en ;
+    rdfs:subClassOf measure:electric_charge_density .
+
+si:coulomb_per_kilogram
+    measure:symbol "C∕kg"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "exposure (X and gamma rays)"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "coulomb per kilogram"@en ;
+    rdfs:subClassOf measure:exposure_to_X_or_gamma_rays .
+
+si:coulomb_per_square_metre
+    measure:symbol "C∕m²"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electric displacement field, polarization vector"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "coulomb per square metre"@en ;
+    rdfs:subClassOf measure:electric_displacement_field, measure:polarization_vector .
+
+si:cubic_metre
+    measure:symbol "m³"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "volume"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "cubic metre"@en ;
+    rdfs:subClassOf measure:volume .
+
+si:cubic_metre_per_kilogram
+    measure:symbol "m³∕kg"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "specific volume"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "cubic metre per kilogram"@en ;
+    rdfs:subClassOf measure:specific_volume .
+
+si:cubic_metre_per_mole
+    measure:symbol "m³∕mol"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "molar volume"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "cubic metre per mole"@en ;
+    rdfs:subClassOf measure:molar_volume .
+
+si:cubic_metre_per_second
+    measure:symbol "m³∕s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "volumetric flow"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "cubic metre per second"@en ;
+    rdfs:subClassOf measure:volumetric_flow .
+
+si:degree_celsius
+    measure:symbol "°C"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "temperature relative to 273.15 K"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "degree Celsius"@en ;
+    rdfs:subClassOf measure:temperature .
+
+si:farad
+    measure:symbol "F"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electric capacitance"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "farad"@en ;
+    rdfs:subClassOf measure:electric_capacitance .
+
+si:farad_per_metre
+    measure:symbol "F∕m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "permittivity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "farad per metre"@en ;
+    rdfs:subClassOf measure:permittivity .
+
+si:gray
+    measure:symbol "Gy"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "absorbed dose (of ionizing radiation)"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "gray"@en ;
+    rdfs:subClassOf measure:absorbed_dose .
+
+si:gray_per_second
+    measure:symbol "Gy∕s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "absorbed dose rate"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "gray per second"@en ;
+    rdfs:subClassOf measure:absorbed_dose_rate .
+
+si:henry
+    measure:symbol "H"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "inductance"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "henry"@en ;
+    rdfs:subClassOf measure:inductance .
+
+si:henry_per_metre
+    measure:symbol "H∕m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "permeability"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "henry per metre"@en ;
+    rdfs:subClassOf measure:permeability .
+
+si:hertz
+    measure:symbol "Hz"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "frequency"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "hertz"@en ;
+    rdfs:subClassOf measure:frequency .
+
+si:joule
+    measure:symbol "J"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "energy, work, heat"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule"@en ;
+    rdfs:subClassOf measure:energy, measure:heat, measure:work .
+
+si:joule_per_cubic_metre
+    measure:symbol "J∕m³"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "energy density"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule per cubic metre"@en ;
+    rdfs:subClassOf measure:energy_density .
+
+si:joule_per_kelvin
+    measure:symbol "J∕K"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "heat capacity, entropy"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule per kelvin"@en ;
+    rdfs:subClassOf measure:entropy, measure:heat_capacity .
+
+si:joule_per_kelvin_mole
+    measure:symbol "J∕(K⋅mol)"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "molar heat capacity, molar entropy"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule per kelvin mole"@en ;
+    rdfs:subClassOf measure:molar_entropy, measure:molar_heat_capacity .
+
+si:joule_per_kilogram
+    measure:symbol "J∕kg"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "specific energy"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule per kilogram"@en ;
+    rdfs:subClassOf measure:specific_energy .
+
+si:joule_per_kilogram_kelvin
+    measure:symbol "J∕(K⋅kg)"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "specific heat capacity, specific entropy"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule per kilogram kelvin"@en ;
+    rdfs:subClassOf measure:specific_entropy, measure:specific_heat_capacity .
+
+si:joule_per_mole
+    measure:symbol "J∕mol"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "molar energy"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule per mole"@en ;
+    rdfs:subClassOf measure:molar_energy .
+
+si:joule_second
+    measure:symbol "J⋅s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "action"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "joule second"@en ;
+    rdfs:subClassOf measure:action .
+
+si:katal
+    measure:symbol "kat"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "catalytic activity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "katal"@en ;
+    rdfs:subClassOf measure:catalytic_activity .
+
+si:kelvin
+    measure:symbol "K"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:comment """\"The kelvin, unit of thermodynamic temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water.\"
+13th CGPM (1967/68, Resolution 4; CR, 104)
+\"This definition refers to water having the isotopic composition defined exactly by the following amount of substance ratios: 0.000 155 76 mole of 2H per mole of 1H, 0.000 379 9 mole of 17O per mole of 16O, and 0.002 005 2 mole of 18O per mole of 16O.\"
+(Added by CIPM in 2005)
+The Celsius scale: the Kelvin scale uses the degree Celsius for its unit increment, but is a thermodynamic scale (0 K is absolute zero)."""@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "kelvin"@en ;
+    rdfs:subClassOf measure:thermodynamic_temperature .
+
+si:kilogram
+    measure:symbol "kg"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:comment """\"The kilogram is the unit of mass; it is equal to the mass of the international prototype of the kilogram.\"
+3rd CGPM (1901, CR, 70)
+The mass of one litre of water. A litre is one thousandth of a cubic metre."""@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "kilogram"@en ;
+    rdfs:subClassOf measure:mass .
+
+si:kilogram_per_cubic_metre
+    measure:symbol "kg∕m³"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "density, mass density"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "kilogram per cubic metre"@en ;
+    rdfs:subClassOf measure:density, measure:mass_density .
+
+si:kilogram_per_square_metre
+    measure:symbol "kg∕m²"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "area density"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "kilogram per square metre"@en ;
+    rdfs:subClassOf measure:area_density .
+
+si:lumen
+    measure:symbol "lm"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "luminous flux"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "lumen"@en ;
+    rdfs:subClassOf measure:luminous_flux .
+
+si:lumen_second
+    measure:symbol "lm⋅s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "luminous energy"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "lumen second"@en ;
+    rdfs:subClassOf measure:luminous_energy .
+
+si:lux
+    measure:symbol "lx"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "illuminance"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "lux"@en ;
+    rdfs:subClassOf measure:illuminance .
+
+si:lux_second
+    measure:symbol "lx⋅s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "luminous exposure"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "lux second"@en ;
+    rdfs:subClassOf measure:luminous_exposure .
+
+si:metre
+    measure:symbol "m"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:comment """\"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299 792 458 of a second.\"
+17th CGPM (1983, Resolution 1, CR, 97)
+1⁄10,000,000 of the distance from the Earth's equator to the North Pole measured on the circumference through Paris."""@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "metre"@en ;
+    rdfs:subClassOf measure:length .
+
+si:metre_per_quartic_second
+    measure:symbol "m∕s⁴"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "snap, jounce"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "metre per quartic second"@en ;
+    rdfs:subClassOf measure:jounce, measure:snap .
+
+si:metre_per_second
+    measure:symbol "m∕s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "speed, velocity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "metre per second"@en ;
+    rdfs:subClassOf measure:speed, measure:velocity .
+
+si:metre_per_second_cubed
+    measure:symbol "m∕s³"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "jerk, jolt"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "metre per second cubed"@en ;
+    rdfs:subClassOf measure:jerk, measure:jolt .
+
+si:metre_per_second_squared
+    measure:symbol "m∕s²"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "acceleration"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "metre per second squared"@en ;
+    rdfs:subClassOf measure:acceleration .
+
+si:mole
+    measure:symbol "mol"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:comment """\"1. The mole is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12; its symbol is 'mol.'
+2. When the mole is used, the elementary entities must be specified and may be atoms, molecules, ions, electrons, other particles, or specified groups of such particles.\"
+14th CGPM (1971, Resolution 3; CR, 78)
+\"In this definition, it is understood that unbound atoms of carbon 12, at rest and in their ground state, are referred to.\"
+(Added by CIPM in 1980)
+Atomic weight or molecular weight divided by the molar mass constant, 1 g∕mol."""@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "mole"@en ;
+    rdfs:subClassOf measure:amount_of_substance .
+
+si:mole_per_cubic_metre
+    measure:symbol "mol∕m³"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "amount of substance concentration"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "mole per cubic metre"@en ;
+    rdfs:subClassOf measure:amount_of_substance_concentration .
+
+si:newton
+    measure:symbol "N"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "force, weight"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "newton"@en ;
+    rdfs:subClassOf measure:force, measure:weight .
+
+si:newton_metre
+    measure:symbol "J∕rad"@en, "N⋅m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "torque, moment of force"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "newton metre"@en ;
+    rdfs:subClassOf measure:moment_of_force, measure:torque .
+
+si:newton_metre_second
+    measure:symbol "N⋅m⋅s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "angular momentum"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "newton metre second"@en ;
+    rdfs:subClassOf measure:angular_momentum .
+
+si:newton_per_metre
+    measure:symbol "J∕m²"@en, "N∕m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "surface tension"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "newton per metre"@en ;
+    rdfs:subClassOf measure:surface_tension .
+
+si:newton_per_second
+    measure:symbol "N∕s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "yank"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "newton per second"@en ;
+    rdfs:subClassOf measure:yank .
+
+si:newton_second
+    measure:symbol "N⋅s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "momentum, impulse"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "newton second"@en ;
+    rdfs:subClassOf measure:impulse, measure:momentum .
+
+si:ohm
+    measure:symbol "Ω"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electric resistance, impedance, reactance"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "ohm"@en ;
+    rdfs:subClassOf measure:electric_resistance, measure:impedance, measure:reactance .
+
+si:ohm_metre
+    measure:symbol "Ω⋅m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "resistivity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "ohm metre"@en ;
+    rdfs:subClassOf measure:resistivity .
+
+si:pascal
+    measure:symbol "Pa"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "pressure, stress"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "pascal"@en ;
+    rdfs:subClassOf measure:pressure, measure:stress .
+
+si:pascal_second
+    measure:symbol "N⋅s∕m²"@en, "Pa⋅s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "dynamic viscosity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "pascal second"@en ;
+    rdfs:subClassOf measure:dynamic_viscosity .
+
+si:radian
+    measure:symbol "rad"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "angle"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "radian"@en ;
+    rdfs:subClassOf measure:angle .
+
+si:radian_per_second
+    measure:symbol "rad∕s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "angular velocity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "radian per second"@en ;
+    rdfs:subClassOf measure:angular_velocity .
+
+si:reciprocal_metre
+    measure:symbol "m⁻¹"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "wavenumber"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "reciprocal metre"@en ;
+    rdfs:subClassOf measure:wavenumber .
+
+si:second
+    measure:symbol "s"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:comment """\"The second is the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom.\"
+13th CGPM (1967/68, Resolution 1; CR, 103)
+\"This definition refers to a caesium atom at rest at a temperature of 0 K.\"
+(Added by CIPM in 1997)
+The day is divided in 24 hours, each hour divided in 60 minutes, each minute divided in 60 seconds.
+A second is 1⁄(24 × 60 × 60) of the day"""@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "second"@en ;
+    rdfs:subClassOf measure:time .
+
+si:siemens
+    measure:symbol "S"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electrical conductance"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "siemens"@en ;
+    rdfs:subClassOf measure:electrical_conductance .
+
+si:siemens_per_metre
+    measure:symbol "S∕m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "conductivity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "siemens per metre"@en ;
+    rdfs:subClassOf measure:conductivity .
+
+si:siemens_square_metre_per_mole
+    measure:symbol "S⋅m²∕mol"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "molar conductivity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "siemens square metre per mole"@en ;
+    rdfs:subClassOf measure:molar_conductivity .
+
+si:sievert
+    measure:symbol "Sv"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "equivalent dose (of ionizing radiation)"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "sievert"@en ;
+    rdfs:subClassOf measure:equivalent_dose .
+
+si:square_metre
+    measure:symbol "m²"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "area"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "square metre"@en ;
+    rdfs:subClassOf measure:area .
+
+si:square_metre_per_second
+    measure:symbol "m²∕s"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "kinematic viscosity, diffusion coefficient"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "square metre per second"@en ;
+    rdfs:subClassOf measure:diffusion_coefficient, measure:kinematic_viscosity .
+
+si:steradian
+    measure:symbol "sr"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "solid angle"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "steradian"@en ;
+    rdfs:subClassOf measure:solid_angle .
+
+si:tesla
+    measure:symbol "T"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "magnetic field strength, magnetic flux density"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "tesla"@en ;
+    rdfs:subClassOf measure:magnetic_field_strength, measure:magnetic_flux_density .
+
+si:volt
+    measure:symbol "V"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "voltage, electrical potential difference, electromotive force"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "volt"@en ;
+    rdfs:subClassOf measure:electrical_potential_difference, measure:electromotive_force, measure:voltage .
+
+si:volt_per_metre
+    measure:symbol "V∕m"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "electric field strength"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "volt per metre"@en ;
+    rdfs:subClassOf measure:electric_field_strength .
+
+si:watt
+    measure:symbol "W"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "power, radiant flux"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "watt"@en ;
+    rdfs:subClassOf measure:power, measure:radiant_flux .
+
+si:watt_per_metre_kelvin
+    measure:symbol "W∕(m⋅K)"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "thermal conductivity"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "watt per metre kelvin"@en ;
+    rdfs:subClassOf measure:thermal_conductivity .
+
+si:watt_per_square_metre
+    measure:symbol "W∕m²"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "heat flux density, irradiance"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "watt per square metre"@en ;
+    rdfs:subClassOf measure:heat_flux_density, measure:irradiance .
+
+si:weber
+    measure:symbol "Wb"@en ;
+    a measure:derived_unit, rdfs:Datatype ;
+    rdfs:comment "magnetic flux"@en ;
+    rdfs:isDefinedBy <http://kilosandcups.info/si> ;
+    rdfs:label "weber"@en ;
+    rdfs:subClassOf measure:magnetic_flux .
+
+<http://kilosandcups.info/us_customary>
+    dct:isPartOf <http://kilosandcups.info/> ;
+    a <http://www.w3.org/2002/07/owl#Ontology> ;
+    rdfs:label "The US Customary Units of Measure Datatypes" .
+
+us_customary:acre
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "acre"@en ;
+    rdfs:subClassOf measure:area .
+
+us_customary:acre_foot
+    measure:symbol "acre ft"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "acre foot"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:barrel
+    measure:symbol "bbl"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "barrel"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:bushel
+    measure:symbol "bu"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "bushel"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:cable
+    measure:symbol "cb"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "cable"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:chain
+    measure:symbol "ch"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "chain"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:cubic_foot
+    measure:symbol "cu ft"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "cubic foot"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:cubic_inch
+    measure:symbol "cu in"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "cubic inch"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:cubic_yard
+    measure:symbol "cu yd"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "cubic yard"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:cup
+    measure:symbol "cp"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US cup"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:dessertspoon
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "dessertspoon"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:dram
+    measure:symbol "dr"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "dram"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:dry_barrel
+    measure:symbol "bbl"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "dry barrel"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:dry_gallon
+    measure:symbol "gal"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "dry gallon"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:dry_pint
+    measure:symbol "pt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "dry pint"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:dry_quart
+    measure:symbol "qt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "dry quart"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:fathom
+    measure:symbol "ftm"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "fathom"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:fluid_dram
+    measure:symbol "fl dr"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US fluid dram"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:fluid_ounce
+    measure:symbol "fl oz"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US fluid ounce"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:foot
+    measure:symbol "ft"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "foot"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:furlong
+    measure:symbol "fur"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "furlong"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:gallon
+    measure:symbol "gal"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US gallon"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:gill
+    measure:symbol "gi"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US gill"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:grain
+    measure:symbol "gr"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "grain"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:hogshead
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "hogshead"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:hundredweight
+    measure:symbol "cwt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US hundredweight"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:inch
+    measure:symbol "in"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "inch"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:jigger
+    measure:symbol "jig"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "jigger"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:league
+    measure:symbol "lea"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "league"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:link
+    measure:symbol "li"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "link"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:long_hundredweight
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "long hundredweight"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:long_ton
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "long ton"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:mile
+    measure:symbol "mi"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "mile"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:minim
+    measure:symbol "min"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "minim"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:nautical_mile
+    measure:symbol "nmi"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "nautical mile"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:oil_barrel
+    measure:symbol "bbl"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "oil barrel"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:ounce
+    measure:symbol "oz"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "ounce"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:peck
+    measure:symbol "pk"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "peck"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:pennyweight
+    measure:symbol "dwt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "pennyweight"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:pica
+    measure:symbol "P̸"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "pica"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:pint
+    measure:symbol "pt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US pint"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:point
+    measure:symbol "p"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "point"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:pound
+    measure:symbol "lb"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "pound"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:quart
+    measure:symbol "qt"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "US quart"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:rod
+    measure:symbol "rd"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "rod"@en ;
+    rdfs:subClassOf measure:length .
+
+us_customary:section
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "section"@en ;
+    rdfs:subClassOf measure:area .
+
+us_customary:short_ton
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "short ton"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:square_foot
+    measure:symbol "sq ft"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "square foot"@en ;
+    rdfs:subClassOf measure:area .
+
+us_customary:survey_township
+    measure:symbol "twp"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "survey township"@en ;
+    rdfs:subClassOf measure:area .
+
+us_customary:tablspoon
+    measure:symbol "Tbsp"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "tablspoon"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:teaspoon
+    measure:symbol "tsp"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "teaspoon"@en ;
+    rdfs:subClassOf measure:volume .
+
+us_customary:troy_ounce
+    measure:symbol "oz t"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "troy ounce"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:troy_pound
+    measure:symbol "lb t"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "troy pound"@en ;
+    rdfs:subClassOf measure:mass .
+
+us_customary:yard
+    measure:symbol "yd"@en ;
+    a measure:base-unit, rdfs:Datatype ;
+    rdfs:isDefinedBy <http://kilosandcups.info/us_customary> ;
+    rdfs:label "yard"@en ;
+    rdfs:subClassOf measure:length .
+
