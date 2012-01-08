@@ -1,34 +1,28 @@
 <?php
-print_r($_SERVER);
-
-
 $preferred_languages = sort_accept_values($_SERVER["HTTP_ACCEPT_LANGUAGE"]);
-$preferred_languages[] = '';
-$title = $complete_graph->get_first_literal($ontology, RDFS_LABEL, null, $preferred_languages );
-$description = $complete_graph->get_first_literal($ontology, RDFS_COMMENT, null, $preferred_languages );
-$parts = $complete_graph->get_resource_triple_values($ontology, DCT_HASPART);
+$preferred_languages[] = null;
+$home_title = $complete_graph->get_first_literal('http://kilosandcups.info/', RDFS_LABEL, null, $preferred_languages );
+$title = $complete_graph->get_first_literal($requested_uri, RDFS_LABEL, null, $preferred_languages );
+$description = $complete_graph->get_first_literal($requested_uri, RDFS_COMMENT, null, $preferred_languages );
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title><?php echo $title?></title>
-		<link href="css/1.css" rel="stylesheet" type="text/css">
+		<link href="/css/site.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div class="container">
 			<div class="header">
-				&nbsp;
+				<a href="/"><?php echo $home_title; ?></a>
 			</div>
 			<div class="content">
-				<h1><?php echo $title?></h1>
-				<p><?php echo $description?></p>
-				<h2>Parts</h2>
-				<ul>
+				<h1><?php echo $title ?></h1>
+				<p><?php echo $description ?></p>
 				<?php
-				foreach ($parts as $part) {
-					echo "				<li><a href=\"${part}\">${part}</a></li>\n";
-				} ?>
-				</ul>
+				if ($is_home_request) { require_once 'home_content.php'; }
+				if ($is_ontology_request) { require_once 'ontology_content.php'; }
+				?>
 			</div>
 			<div class="footer">
 				<p>

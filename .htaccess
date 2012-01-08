@@ -1,2 +1,6 @@
 RewriteEngine On
-RewriteRule   ^.*$  index.php
+
+RewriteCond %{REQUEST_FILENAME}  -f
+RewriteRule  ^.*$  -  [L]
+
+RewriteRule   ^.*$  index.php [L]

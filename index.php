@@ -15,10 +15,11 @@ function sort_accept_values($header_list) {
 }
 
 $requested_mime_types = sort_accept_values($_SERVER['HTTP_ACCEPT']);
-$acceptable_mime_types = array('text/html', 'application/rdf+xml', 'text/turtle', 'application/json');
+$acceptable_mime_types = array('text/html', 'application/rdf+xml', 'text/turtle', 'application/json', '*/*');
 $possible_mime_types = array_intersect($requested_mime_types, $acceptable_mime_types);
 if (empty($possible_mime_types)) { require_once 'errors/406NotAcceptable.php'; exit; }
 $chosen_mime_type = array_shift($possible_mime_types);
+if ($chosen_mime_type == '*/*') { $chosen_mime_type = 'text/html'; }
 
 $turtle_path = './all.ttl';
 $turtle = file_get_contents($turtle_path);
@@ -35,25 +36,29 @@ $ontology_uri = isset($ontology_part) ? 'http://kilosandcups.info'.$ontology_par
 $datatype_uri = isset($datatype_part) ? $ontology_uri.$datatype_part : null ;
 $value_uri = isset($value_part) ? $datatype_uri.$value_part : null ;
 
+if ($is_value_request) { require_once 'errors/404NotFound.php'; exit; } //not done conversions yet
 if (!$is_home_request && !$complete_graph->has_triples_about($ontology_uri)) { require_once 'errors/404NotFound.php'; exit; }
 if (!$is_home_request && !$is_ontology_request && !$complete_graph->has_triples_about($datatype_uri)) { require_once 'errors/404NotFound.php'; exit; }
+if ($is_datatype_request && $chosen_mime_type == 'text/html') { header('Location: '.$ontology_uri.preg_replace('%/%', '#', $datatype_part)); exit; }
 
-if ($chosen_mime_type != 'text/html' && !$is_value_request) {
-	$graph_to_serve = $complete_graph->get_subject_subgraph($requested_uri);
-	$graph_to_serve->set_namespace_mapping('meaure', 'http://kilosandcups.info/schema/');
-	$graph_to_serve->set_namespace_mapping('cc', 'http://web.resource.org/cc/');
-	header("Content-type: ${chosen_mime_type}");
-	switch ($chosen_mime_type) {
-		case 'application/rdf+xml':
-			echo $graph_to_serve->to_rdfxml(); break;
-		case 'text/turtle':
-			echo $graph_to_serve->to_turtle(); break;
-		case 'application/json':
-			echo $graph_to_serve->to_json(); break;
-		default:
-	}
+$extensions = array('text/html' => '.html', 'application/rdf+xml' => '.rdf', 'text/turtle' => '.n3', 'application/json' => '.json');
+$content_location = $requested_uri;
+$content_location .= preg_match('%/$%', $requested_uri) ? 'index' : '';
+$content_location .= $extensions[$chosen_mime_type];
+
+header("Content-type: ${chosen_mime_type}");
+header("Content-location: ${content_location}");
+
+$graph_to_serve = $complete_graph->get_subject_subgraph($requested_uri);
+$graph_to_serve->set_namespace_mapping('meaure', 'http://kilosandcups.info/schema/');
+$graph_to_serve->set_namespace_mapping('cc', 'http://web.resource.org/cc/');
+switch ($chosen_mime_type) {
+	case 'application/rdf+xml':
+		echo $graph_to_serve->to_rdfxml(); break;
+	case 'text/turtle':
+		echo $graph_to_serve->to_turtle(); break;
+	case 'application/json':
+		echo $graph_to_serve->to_json(); break;
+	default:
+		require_once 'text-html.php'; break;
 }
-
-
-//TODO
-//http://open.vocab.org/terms/defines

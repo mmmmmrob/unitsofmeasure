@@ -39,6 +39,7 @@ define('RDF_XMLLITERAL', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral'
 define('RDFS_LABEL', 'http://www.w3.org/2000/01/rdf-schema#label');
 define('RDFS_COMMENT', 'http://www.w3.org/2000/01/rdf-schema#comment');
 define('RDFS_ISDEFINEDBY', 'http://www.w3.org/2000/01/rdf-schema#isDefinedBy');
+define('OV_DEFINES', 'http://open.vocab.org/terms/defines');
 define('RDFS_DOMAIN', 'http://www.w3.org/2000/01/rdf-schema#domain');
 define('RDFS_RANGE', 'http://www.w3.org/2000/01/rdf-schema#range');
 define('RDFS_SEEALSO', 'http://www.w3.org/2000/01/rdf-schema#seeAlso');
