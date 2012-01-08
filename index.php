@@ -14,6 +14,7 @@ function sort_accept_values($header_list) {
 	return array_keys($values);
 }
 
+$requested_uri = 'http://kilosandcups.info'.$_SERVER['REQUEST_URI'];
 $requested_mime_types = sort_accept_values($_SERVER['HTTP_ACCEPT']);
 $acceptable_mime_types = array('text/html', 'application/rdf+xml', 'text/turtle', 'application/json', '*/*');
 $possible_mime_types = array_intersect($requested_mime_types, $acceptable_mime_types);
@@ -21,11 +22,23 @@ if (empty($possible_mime_types)) { require_once 'errors/406NotAcceptable.php'; e
 $chosen_mime_type = array_shift($possible_mime_types);
 if ($chosen_mime_type == '*/*') { $chosen_mime_type = 'text/html'; }
 
+$extensions = array('text/html' => '.html', 'application/rdf+xml' => '.rdf', 'text/turtle' => '.n3', 'application/json' => '.json');
+foreach ($extensions as $mime_type => $extension) {
+	if (preg_match("%${extension}\$%", $requested_uri) && $mime_type == $chosen_mime_type) {
+		$requested_uri = str_replace($extension, '', $requested_uri);
+		$_SERVER['REQUEST_URI'] = str_replace($extension, '', $_SERVER['REQUEST_URI']);
+	} else if (preg_match("%${extension}\$%", $requested_uri)) {
+		$requested_uri = str_replace($extension, '', $requested_uri);
+		header("HTTP/1.1 303 See Other");
+		header('Location: '.$requested_uri.$extensions[$chosen_mime_type]);
+		exit;
+	}
+}
+
 $turtle_path = './all.ttl';
 $turtle = file_get_contents($turtle_path);
 $complete_graph = new SimpleGraph();
 $complete_graph->from_turtle($turtle);
-$requested_uri = 'http://kilosandcups.info'.$_SERVER['REQUEST_URI'];
 preg_match_all('%/[^/]+%', $_SERVER['REQUEST_URI'], $request_parts);
 list($ontology_part, $datatype_part, $value_part) = $request_parts[0];
 $is_home_request = $_SERVER['REQUEST_URI'] == '/';
@@ -41,7 +54,6 @@ if (!$is_home_request && !$complete_graph->has_triples_about($ontology_uri)) { r
 if (!$is_home_request && !$is_ontology_request && !$complete_graph->has_triples_about($datatype_uri)) { require_once 'errors/404NotFound.php'; exit; }
 if ($is_datatype_request && $chosen_mime_type == 'text/html') { header('Location: '.$ontology_uri.preg_replace('%/%', '#', $datatype_part)); exit; }
 
-$extensions = array('text/html' => '.html', 'application/rdf+xml' => '.rdf', 'text/turtle' => '.n3', 'application/json' => '.json');
 $content_location = $requested_uri;
 $content_location .= preg_match('%/$%', $requested_uri) ? 'index' : '';
 $content_location .= $extensions[$chosen_mime_type];

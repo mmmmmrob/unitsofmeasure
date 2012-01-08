@@ -69,6 +69,9 @@ a:hover, a:active, a:focus {
 .content .property_value {
 	
 }
+.content .preferred_prefix {
+	font-style: italic;
+}
 .footer {
 	padding: 10px 0;
 	background: #6F7D94;

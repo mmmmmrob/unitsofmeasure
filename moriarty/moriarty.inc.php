@@ -149,6 +149,9 @@ define('OWL_TRANSITIVEPROPERTY', 'http://www.w3.org/2002/07/owl#TransitiveProper
 define('OPEN_LASTCACHEDPAGE', 'http://open.vocab.org/terms/lastCachedPage');
 define('OPEN_JSON', 'http://open.vocab.org/terms/json');
 
+define('VANN_PREFERRED_NAMESPACE_PREFIX', 'http://purl.org/vocab/vann/preferredNamespacePrefix');
+define('VANN_PREFERRED_NAMESPACE_URI', 'http://purl.org/vocab/vann/preferredNamespaceUri');
+
 define('OUTPUT_TYPE_RDF', 'rdf');
 define('OUTPUT_TYPE_XML', 'xml');
 define('OUTPUT_TYPE_TURTLE', 'turtle');
