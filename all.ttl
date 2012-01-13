@@ -2208,205 +2208,416 @@ imperial:yard
     vann:preferredNamespaceUri <http://kilosandcups.info/schema/> ;
     cc:license <http://creativecommons.org/licenses/by-nd/3.0/> ;
     a <http://www.w3.org/2002/07/owl#Ontology> ;
-    rdfs:label "Measures, the Kilos & Cups supporting ontology"@en .
+    rdfs:label "Measures, the Kilos & Cups supporting ontology"@en ;
+    ov:defines
+	measure:of ,
+	measure:symbol ,
+	measure:measurable_concept ,
+	measure:absorbed_dose ,
+	measure:absorbed_dose_rate ,
+	measure:acceleration ,
+	measure:action ,
+	measure:amount_of_substance ,
+	measure:amount_of_substance_concentration ,
+	measure:angle ,
+	measure:angular_momentum ,
+	measure:angular_velocity ,
+	measure:area ,
+	measure:area_density ,
+	measure:base-unit ,
+	measure:catalytic_activity ,
+	measure:conductivity ,
+	measure:currency ,
+	measure:density ,
+	measure:derived_unit ,
+	measure:diffusion_coefficient ,
+	measure:dynamic_viscosity ,
+	measure:electric_capacitance ,
+	measure:electric_charge ,
+	measure:electric_charge_density ,
+	measure:electric_current ,
+	measure:electric_current_density ,
+	measure:electric_displacement_field ,
+	measure:electric_field_strength ,
+	measure:electric_resistance ,
+	measure:electrical_conductance ,
+	measure:electrical_potential_difference ,
+	measure:electromotive_force ,
+	measure:energy ,
+	measure:energy_density ,
+	measure:entropy ,
+	measure:equivalent_dose ,
+	measure:exposure_to_X_or_gamma_rays ,
+	measure:force ,
+	measure:frequency ,
+	measure:heat ,
+	measure:heat_capacity ,
+	measure:heat_flux_density ,
+	measure:illuminance ,
+	measure:impedance ,
+	measure:impulse ,
+	measure:inductance ,
+	measure:irradiance ,
+	measure:jerk ,
+	measure:jolt ,
+	measure:jounce ,
+	measure:kinematic_viscosity ,
+	measure:length ,
+	measure:luminance ,
+	measure:luminous_energy ,
+	measure:luminous_exposure ,
+	measure:luminous_flux ,
+	measure:luminous_intensity ,
+	measure:magnetic_field_strength ,
+	measure:magnetic_flux ,
+	measure:magnetic_flux_density ,
+	measure:mass ,
+	measure:mass_density ,
+	measure:measurable_concept ,
+	measure:molar_conductivity ,
+	measure:molar_energy ,
+	measure:molar_entropy ,
+	measure:molar_heat_capacity ,
+	measure:molar_volume ,
+	measure:moment_of_force ,
+	measure:momentum ,
+	measure:money ,
+	measure:permeability ,
+	measure:permittivity ,
+	measure:polarization_vector ,
+	measure:power ,
+	measure:pressure ,
+	measure:radiant_flux ,
+	measure:radioactivity ,
+	measure:reactance ,
+	measure:resistivity ,
+	measure:snap ,
+	measure:solid_angle ,
+	measure:specific_energy ,
+	measure:specific_entropy ,
+	measure:specific_heat_capacity ,
+	measure:specific_volume ,
+	measure:speed ,
+	measure:stress ,
+	measure:surface_tension ,
+	measure:temperature ,
+	measure:thermal_conductivity ,
+	measure:thermodynamic_temperature ,
+	measure:time ,
+	measure:torque ,
+	measure:velocity ,
+	measure:voltage ,
+	measure:volume ,
+	measure:volumetric_flow ,
+	measure:wavenumber ,
+	measure:weight ,
+	measure:work ,
+	measure:yank
+.
 
 measure:symbol a rdf:Property
+; rdfs:label "symbol"
 .
+measure:of a rdf:Property
+; rdfs:label "measure of"
+.
+measure:measurable_concept a rdfs:Class
+; rdfs:label "measurable concept"
+.
+measure:base-unit a rdfs:Class
+; rdfs:label "base-unit"
+.
+
 measure:absorbed_dose a measure:measurable_concept
+; rdfs:label "absorbed dose"
 .
 measure:absorbed_dose_rate a measure:measurable_concept
+; rdfs:label "absorbed dose rate"
 .
 measure:acceleration a measure:measurable_concept
+; rdfs:label "acceleration"
 .
 measure:action a measure:measurable_concept
+; rdfs:label "action"
 .
 measure:amount_of_substance a measure:measurable_concept
+; rdfs:label "amount of substance"
 .
 measure:amount_of_substance_concentration a measure:measurable_concept
+; rdfs:label "amount of substance concentration"
 .
-measure:angle a measure:measurable_concept
+measure:angle a measure:measurable concept
+; rdfs:label "angle"
 .
 measure:angular_momentum a measure:measurable_concept
+; rdfs:label "angular momentum"
 .
 measure:angular_velocity a measure:measurable_concept
+; rdfs:label "angular velocity"
 .
 measure:area a measure:measurable_concept
+; rdfs:label "area"
 .
 measure:area_density a measure:measurable_concept
-.
-measure:base-unit a measure:measurable_concept
+; rdfs:label "area density"
 .
 measure:catalytic_activity a measure:measurable_concept
+; rdfs:label "catalytic activity"
 .
 measure:conductivity a measure:measurable_concept
+; rdfs:label "conductivity"
 .
 measure:currency a measure:measurable_concept
+; rdfs:label "currency"
 .
 measure:density a measure:measurable_concept
+; rdfs:label "density"
 .
 measure:derived_unit a measure:measurable_concept
+; rdfs:label "derived unit"
 .
 measure:diffusion_coefficient a measure:measurable_concept
+; rdfs:label "diffusion coefficient"
 .
 measure:dynamic_viscosity a measure:measurable_concept
+; rdfs:label "dynamic viscosity"
 .
 measure:electric_capacitance a measure:measurable_concept
+; rdfs:label "electric capacitance"
 .
 measure:electric_charge a measure:measurable_concept
+; rdfs:label "electric charge"
 .
 measure:electric_charge_density a measure:measurable_concept
+; rdfs:label "electric charge density"
 .
 measure:electric_current a measure:measurable_concept
+; rdfs:label "electric current"
 .
 measure:electric_current_density a measure:measurable_concept
+; rdfs:label "electric current density"
 .
 measure:electric_displacement_field a measure:measurable_concept
+; rdfs:label "electric displacement field"
 .
 measure:electric_field_strength a measure:measurable_concept
+; rdfs:label "electric field strength"
 .
 measure:electric_resistance a measure:measurable_concept
+; rdfs:label "electric resistance"
 .
 measure:electrical_conductance a measure:measurable_concept
+; rdfs:label "electrical conductance"
 .
 measure:electrical_potential_difference a measure:measurable_concept
+; rdfs:label "electrical potential difference"
 .
 measure:electromotive_force a measure:measurable_concept
+; rdfs:label "electromotive force"
 .
 measure:energy a measure:measurable_concept
+; rdfs:label "energy"
 .
 measure:energy_density a measure:measurable_concept
+; rdfs:label "energy density"
 .
 measure:entropy a measure:measurable_concept
+; rdfs:label "entropy"
 .
 measure:equivalent_dose a measure:measurable_concept
+; rdfs:label "equivalent dose"
 .
 measure:exposure_to_X_or_gamma_rays a measure:measurable_concept
+; rdfs:label "exposure to X or gamma rays"
 .
 measure:force a measure:measurable_concept
+; rdfs:label "force"
 .
 measure:frequency a measure:measurable_concept
+; rdfs:label "frequency"
 .
 measure:heat a measure:measurable_concept
+; rdfs:label "heat"
 .
 measure:heat_capacity a measure:measurable_concept
+; rdfs:label "heat capacity"
 .
 measure:heat_flux_density a measure:measurable_concept
+; rdfs:label "heat flux density"
 .
 measure:illuminance a measure:measurable_concept
+; rdfs:label "illuminance"
 .
 measure:impedance a measure:measurable_concept
+; rdfs:label "impedance"
 .
 measure:impulse a measure:measurable_concept
+; rdfs:label "impulse"
 .
 measure:inductance a measure:measurable_concept
+; rdfs:label "inductance"
 .
 measure:irradiance a measure:measurable_concept
+; rdfs:label "irradiance"
 .
 measure:jerk a measure:measurable_concept
+; rdfs:label "jerk"
 .
 measure:jolt a measure:measurable_concept
+; rdfs:label "jolt"
 .
 measure:jounce a measure:measurable_concept
+; rdfs:label "jounce"
 .
 measure:kinematic_viscosity a measure:measurable_concept
+; rdfs:label "kinematic viscosity"
 .
 measure:length a measure:measurable_concept
+; rdfs:label "length"
 .
 measure:luminance a measure:measurable_concept
+; rdfs:label "luminance"
 .
 measure:luminous_energy a measure:measurable_concept
+; rdfs:label "luminous energy"
 .
 measure:luminous_exposure a measure:measurable_concept
+; rdfs:label "luminous exposure"
 .
 measure:luminous_flux a measure:measurable_concept
+; rdfs:label "luminous flux"
 .
 measure:luminous_intensity a measure:measurable_concept
+; rdfs:label "luminous intensity"
 .
 measure:magnetic_field_strength a measure:measurable_concept
+; rdfs:label "magnetic field strength"
 .
 measure:magnetic_flux a measure:measurable_concept
+; rdfs:label "magnetic flux"
 .
 measure:magnetic_flux_density a measure:measurable_concept
+; rdfs:label "magnetic flux density"
 .
 measure:mass a measure:measurable_concept
+; rdfs:label "mass"
 .
 measure:mass_density a measure:measurable_concept
+; rdfs:label "mass density"
 .
 measure:molar_conductivity a measure:measurable_concept
+; rdfs:label "molar conductivity"
 .
 measure:molar_energy a measure:measurable_concept
+; rdfs:label "molar energy"
 .
 measure:molar_entropy a measure:measurable_concept
+; rdfs:label "molar entropy"
 .
 measure:molar_heat_capacity a measure:measurable_concept
+; rdfs:label "molar heat capacity"
 .
 measure:molar_volume a measure:measurable_concept
+; rdfs:label "molar volume"
 .
 measure:moment_of_force a measure:measurable_concept
+; rdfs:label "moment of force"
 .
 measure:momentum a measure:measurable_concept
+; rdfs:label "momentum"
 .
 measure:permeability a measure:measurable_concept
+; rdfs:label "permeability"
 .
 measure:permittivity a measure:measurable_concept
+; rdfs:label "permittivity"
 .
 measure:polarization_vector a measure:measurable_concept
+; rdfs:label "polarization vector"
 .
 measure:power a measure:measurable_concept
+; rdfs:label "power"
 .
 measure:pressure a measure:measurable_concept
+; rdfs:label "pressure"
 .
 measure:radiant_flux a measure:measurable_concept
+; rdfs:label "radiant flux"
 .
 measure:radioactivity a measure:measurable_concept
+; rdfs:label "radioactivity"
 .
 measure:reactance a measure:measurable_concept
+; rdfs:label "reactance"
 .
 measure:resistivity a measure:measurable_concept
+; rdfs:label "resistivity"
 .
 measure:snap a measure:measurable_concept
+; rdfs:label "snap"
 .
 measure:solid_angle a measure:measurable_concept
+; rdfs:label "solid angle"
 .
 measure:specific_energy a measure:measurable_concept
+; rdfs:label "specific energy"
 .
 measure:specific_entropy a measure:measurable_concept
+; rdfs:label "specific entropy"
 .
 measure:specific_heat_capacity a measure:measurable_concept
+; rdfs:label "specific heat capacity"
 .
 measure:specific_volume a measure:measurable_concept
+; rdfs:label "specific volume"
 .
 measure:speed a measure:measurable_concept
+; rdfs:label "speed"
 .
 measure:stress a measure:measurable_concept
+; rdfs:label "stress"
 .
 measure:surface_tension a measure:measurable_concept
+; rdfs:label "surface tension"
 .
 measure:temperature a measure:measurable_concept
+; rdfs:label "temperature"
 .
 measure:thermal_conductivity a measure:measurable_concept
+; rdfs:label "thermal conductivity"
 .
 measure:thermodynamic_temperature a measure:measurable_concept
+; rdfs:label "thermodynamic temperature"
 .
 measure:time a measure:measurable_concept
+; rdfs:label "time"
 .
 measure:torque a measure:measurable_concept
+; rdfs:label "torque"
 .
 measure:velocity a measure:measurable_concept
+; rdfs:label "velocity"
 .
 measure:voltage a measure:measurable_concept
+; rdfs:label "voltage"
 .
 measure:volume a measure:measurable_concept
+; rdfs:label "volume"
 .
 measure:volumetric_flow a measure:measurable_concept
+; rdfs:label "volumetric flow"
 .
 measure:wavenumber a measure:measurable_concept
+; rdfs:label "wavenumber"
 .
 measure:weight a measure:measurable_concept
+; rdfs:label "weight"
 .
 measure:work a measure:measurable_concept
+; rdfs:label "work"
 .
 measure:yank a measure:measurable_concept
+; rdfs:label "yank"
 .
 
 <http://kilosandcups.info/si>
