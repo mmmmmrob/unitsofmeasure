@@ -2532,6 +2532,9 @@ measure:moment_of_force a measure:measurable_concept
 measure:momentum a measure:measurable_concept
 ; rdfs:label "momentum"
 .
+measure:money a measure:measurable_concept
+; rdfs:label "money"
+.
 measure:permeability a measure:measurable_concept
 ; rdfs:label "permeability"
 .
