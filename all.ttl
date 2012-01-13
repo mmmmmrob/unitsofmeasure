@@ -2346,7 +2346,7 @@ measure:amount_of_substance a measure:measurable_concept
 measure:amount_of_substance_concentration a measure:measurable_concept
 ; rdfs:label "amount of substance concentration"
 .
-measure:angle a measure:measurable concept
+measure:angle a measure:measurable_concept
 ; rdfs:label "angle"
 .
 measure:angular_momentum a measure:measurable_concept
