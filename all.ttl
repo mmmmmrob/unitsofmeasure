@@ -2334,298 +2334,298 @@ measure:base-unit a rdfs:Class
 ; rdfs:label "base-unit"
 .
 
-measure:absorbed_dose a measure:measurable_concept
+measure:absorbed_dose a measure:measurable_concept, rdf:Property
 ; rdfs:label "absorbed dose"
 .
-measure:absorbed_dose_rate a measure:measurable_concept
+measure:absorbed_dose_rate a measure:measurable_concept, rdf:Property
 ; rdfs:label "absorbed dose rate"
 .
-measure:acceleration a measure:measurable_concept
+measure:acceleration a measure:measurable_concept, rdf:Property
 ; rdfs:label "acceleration"
 .
-measure:action a measure:measurable_concept
+measure:action a measure:measurable_concept, rdf:Property
 ; rdfs:label "action"
 .
-measure:amount_of_substance a measure:measurable_concept
+measure:amount_of_substance a measure:measurable_concept, rdf:Property
 ; rdfs:label "amount of substance"
 .
-measure:amount_of_substance_concentration a measure:measurable_concept
+measure:amount_of_substance_concentration a measure:measurable_concept, rdf:Property
 ; rdfs:label "amount of substance concentration"
 .
-measure:angle a measure:measurable_concept
+measure:angle a measure:measurable_concept, rdf:Property
 ; rdfs:label "angle"
 .
-measure:angular_momentum a measure:measurable_concept
+measure:angular_momentum a measure:measurable_concept, rdf:Property
 ; rdfs:label "angular momentum"
 .
-measure:angular_velocity a measure:measurable_concept
+measure:angular_velocity a measure:measurable_concept, rdf:Property
 ; rdfs:label "angular velocity"
 .
-measure:area a measure:measurable_concept
+measure:area a measure:measurable_concept, rdf:Property
 ; rdfs:label "area"
 .
-measure:area_density a measure:measurable_concept
+measure:area_density a measure:measurable_concept, rdf:Property
 ; rdfs:label "area density"
 .
-measure:catalytic_activity a measure:measurable_concept
+measure:catalytic_activity a measure:measurable_concept, rdf:Property
 ; rdfs:label "catalytic activity"
 .
-measure:conductivity a measure:measurable_concept
+measure:conductivity a measure:measurable_concept, rdf:Property
 ; rdfs:label "conductivity"
 .
-measure:currency a measure:measurable_concept
+measure:currency a measure:measurable_concept, rdf:Property
 ; rdfs:label "currency"
 .
-measure:density a measure:measurable_concept
+measure:density a measure:measurable_concept, rdf:Property
 ; rdfs:label "density"
 .
-measure:derived_unit a measure:measurable_concept
+measure:derived_unit a measure:measurable_concept, rdf:Property
 ; rdfs:label "derived unit"
 .
-measure:diffusion_coefficient a measure:measurable_concept
+measure:diffusion_coefficient a measure:measurable_concept, rdf:Property
 ; rdfs:label "diffusion coefficient"
 .
-measure:dynamic_viscosity a measure:measurable_concept
+measure:dynamic_viscosity a measure:measurable_concept, rdf:Property
 ; rdfs:label "dynamic viscosity"
 .
-measure:electric_capacitance a measure:measurable_concept
+measure:electric_capacitance a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric capacitance"
 .
-measure:electric_charge a measure:measurable_concept
+measure:electric_charge a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric charge"
 .
-measure:electric_charge_density a measure:measurable_concept
+measure:electric_charge_density a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric charge density"
 .
-measure:electric_current a measure:measurable_concept
+measure:electric_current a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric current"
 .
-measure:electric_current_density a measure:measurable_concept
+measure:electric_current_density a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric current density"
 .
-measure:electric_displacement_field a measure:measurable_concept
+measure:electric_displacement_field a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric displacement field"
 .
-measure:electric_field_strength a measure:measurable_concept
+measure:electric_field_strength a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric field strength"
 .
-measure:electric_resistance a measure:measurable_concept
+measure:electric_resistance a measure:measurable_concept, rdf:Property
 ; rdfs:label "electric resistance"
 .
-measure:electrical_conductance a measure:measurable_concept
+measure:electrical_conductance a measure:measurable_concept, rdf:Property
 ; rdfs:label "electrical conductance"
 .
-measure:electrical_potential_difference a measure:measurable_concept
+measure:electrical_potential_difference a measure:measurable_concept, rdf:Property
 ; rdfs:label "electrical potential difference"
 .
-measure:electromotive_force a measure:measurable_concept
+measure:electromotive_force a measure:measurable_concept, rdf:Property
 ; rdfs:label "electromotive force"
 .
-measure:energy a measure:measurable_concept
+measure:energy a measure:measurable_concept, rdf:Property
 ; rdfs:label "energy"
 .
-measure:energy_density a measure:measurable_concept
+measure:energy_density a measure:measurable_concept, rdf:Property
 ; rdfs:label "energy density"
 .
-measure:entropy a measure:measurable_concept
+measure:entropy a measure:measurable_concept, rdf:Property
 ; rdfs:label "entropy"
 .
-measure:equivalent_dose a measure:measurable_concept
+measure:equivalent_dose a measure:measurable_concept, rdf:Property
 ; rdfs:label "equivalent dose"
 .
-measure:exposure_to_X_or_gamma_rays a measure:measurable_concept
+measure:exposure_to_X_or_gamma_rays a measure:measurable_concept, rdf:Property
 ; rdfs:label "exposure to X or gamma rays"
 .
-measure:force a measure:measurable_concept
+measure:force a measure:measurable_concept, rdf:Property
 ; rdfs:label "force"
 .
-measure:frequency a measure:measurable_concept
+measure:frequency a measure:measurable_concept, rdf:Property
 ; rdfs:label "frequency"
 .
-measure:heat a measure:measurable_concept
+measure:heat a measure:measurable_concept, rdf:Property
 ; rdfs:label "heat"
 .
-measure:heat_capacity a measure:measurable_concept
+measure:heat_capacity a measure:measurable_concept, rdf:Property
 ; rdfs:label "heat capacity"
 .
-measure:heat_flux_density a measure:measurable_concept
+measure:heat_flux_density a measure:measurable_concept, rdf:Property
 ; rdfs:label "heat flux density"
 .
-measure:illuminance a measure:measurable_concept
+measure:illuminance a measure:measurable_concept, rdf:Property
 ; rdfs:label "illuminance"
 .
-measure:impedance a measure:measurable_concept
+measure:impedance a measure:measurable_concept, rdf:Property
 ; rdfs:label "impedance"
 .
-measure:impulse a measure:measurable_concept
+measure:impulse a measure:measurable_concept, rdf:Property
 ; rdfs:label "impulse"
 .
-measure:inductance a measure:measurable_concept
+measure:inductance a measure:measurable_concept, rdf:Property
 ; rdfs:label "inductance"
 .
-measure:irradiance a measure:measurable_concept
+measure:irradiance a measure:measurable_concept, rdf:Property
 ; rdfs:label "irradiance"
 .
-measure:jerk a measure:measurable_concept
+measure:jerk a measure:measurable_concept, rdf:Property
 ; rdfs:label "jerk"
 .
-measure:jolt a measure:measurable_concept
+measure:jolt a measure:measurable_concept, rdf:Property
 ; rdfs:label "jolt"
 .
-measure:jounce a measure:measurable_concept
+measure:jounce a measure:measurable_concept, rdf:Property
 ; rdfs:label "jounce"
 .
-measure:kinematic_viscosity a measure:measurable_concept
+measure:kinematic_viscosity a measure:measurable_concept, rdf:Property
 ; rdfs:label "kinematic viscosity"
 .
-measure:length a measure:measurable_concept
+measure:length a measure:measurable_concept, rdf:Property
 ; rdfs:label "length"
 .
-measure:luminance a measure:measurable_concept
+measure:luminance a measure:measurable_concept, rdf:Property
 ; rdfs:label "luminance"
 .
-measure:luminous_energy a measure:measurable_concept
+measure:luminous_energy a measure:measurable_concept, rdf:Property
 ; rdfs:label "luminous energy"
 .
-measure:luminous_exposure a measure:measurable_concept
+measure:luminous_exposure a measure:measurable_concept, rdf:Property
 ; rdfs:label "luminous exposure"
 .
-measure:luminous_flux a measure:measurable_concept
+measure:luminous_flux a measure:measurable_concept, rdf:Property
 ; rdfs:label "luminous flux"
 .
-measure:luminous_intensity a measure:measurable_concept
+measure:luminous_intensity a measure:measurable_concept, rdf:Property
 ; rdfs:label "luminous intensity"
 .
-measure:magnetic_field_strength a measure:measurable_concept
+measure:magnetic_field_strength a measure:measurable_concept, rdf:Property
 ; rdfs:label "magnetic field strength"
 .
-measure:magnetic_flux a measure:measurable_concept
+measure:magnetic_flux a measure:measurable_concept, rdf:Property
 ; rdfs:label "magnetic flux"
 .
-measure:magnetic_flux_density a measure:measurable_concept
+measure:magnetic_flux_density a measure:measurable_concept, rdf:Property
 ; rdfs:label "magnetic flux density"
 .
-measure:mass a measure:measurable_concept
+measure:mass a measure:measurable_concept, rdf:Property
 ; rdfs:label "mass"
 .
-measure:mass_density a measure:measurable_concept
+measure:mass_density a measure:measurable_concept, rdf:Property
 ; rdfs:label "mass density"
 .
-measure:molar_conductivity a measure:measurable_concept
+measure:molar_conductivity a measure:measurable_concept, rdf:Property
 ; rdfs:label "molar conductivity"
 .
-measure:molar_energy a measure:measurable_concept
+measure:molar_energy a measure:measurable_concept, rdf:Property
 ; rdfs:label "molar energy"
 .
-measure:molar_entropy a measure:measurable_concept
+measure:molar_entropy a measure:measurable_concept, rdf:Property
 ; rdfs:label "molar entropy"
 .
-measure:molar_heat_capacity a measure:measurable_concept
+measure:molar_heat_capacity a measure:measurable_concept, rdf:Property
 ; rdfs:label "molar heat capacity"
 .
-measure:molar_volume a measure:measurable_concept
+measure:molar_volume a measure:measurable_concept, rdf:Property
 ; rdfs:label "molar volume"
 .
-measure:moment_of_force a measure:measurable_concept
+measure:moment_of_force a measure:measurable_concept, rdf:Property
 ; rdfs:label "moment of force"
 .
-measure:momentum a measure:measurable_concept
+measure:momentum a measure:measurable_concept, rdf:Property
 ; rdfs:label "momentum"
 .
-measure:money a measure:measurable_concept
+measure:money a measure:measurable_concept, rdf:Property
 ; rdfs:label "money"
 .
-measure:permeability a measure:measurable_concept
+measure:permeability a measure:measurable_concept, rdf:Property
 ; rdfs:label "permeability"
 .
-measure:permittivity a measure:measurable_concept
+measure:permittivity a measure:measurable_concept, rdf:Property
 ; rdfs:label "permittivity"
 .
-measure:polarization_vector a measure:measurable_concept
+measure:polarization_vector a measure:measurable_concept, rdf:Property
 ; rdfs:label "polarization vector"
 .
-measure:power a measure:measurable_concept
+measure:power a measure:measurable_concept, rdf:Property
 ; rdfs:label "power"
 .
-measure:pressure a measure:measurable_concept
+measure:pressure a measure:measurable_concept, rdf:Property
 ; rdfs:label "pressure"
 .
-measure:radiant_flux a measure:measurable_concept
+measure:radiant_flux a measure:measurable_concept, rdf:Property
 ; rdfs:label "radiant flux"
 .
-measure:radioactivity a measure:measurable_concept
+measure:radioactivity a measure:measurable_concept, rdf:Property
 ; rdfs:label "radioactivity"
 .
-measure:reactance a measure:measurable_concept
+measure:reactance a measure:measurable_concept, rdf:Property
 ; rdfs:label "reactance"
 .
-measure:resistivity a measure:measurable_concept
+measure:resistivity a measure:measurable_concept, rdf:Property
 ; rdfs:label "resistivity"
 .
-measure:snap a measure:measurable_concept
+measure:snap a measure:measurable_concept, rdf:Property
 ; rdfs:label "snap"
 .
-measure:solid_angle a measure:measurable_concept
+measure:solid_angle a measure:measurable_concept, rdf:Property
 ; rdfs:label "solid angle"
 .
-measure:specific_energy a measure:measurable_concept
+measure:specific_energy a measure:measurable_concept, rdf:Property
 ; rdfs:label "specific energy"
 .
-measure:specific_entropy a measure:measurable_concept
+measure:specific_entropy a measure:measurable_concept, rdf:Property
 ; rdfs:label "specific entropy"
 .
-measure:specific_heat_capacity a measure:measurable_concept
+measure:specific_heat_capacity a measure:measurable_concept, rdf:Property
 ; rdfs:label "specific heat capacity"
 .
-measure:specific_volume a measure:measurable_concept
+measure:specific_volume a measure:measurable_concept, rdf:Property
 ; rdfs:label "specific volume"
 .
-measure:speed a measure:measurable_concept
+measure:speed a measure:measurable_concept, rdf:Property
 ; rdfs:label "speed"
 .
-measure:stress a measure:measurable_concept
+measure:stress a measure:measurable_concept, rdf:Property
 ; rdfs:label "stress"
 .
-measure:surface_tension a measure:measurable_concept
+measure:surface_tension a measure:measurable_concept, rdf:Property
 ; rdfs:label "surface tension"
 .
-measure:temperature a measure:measurable_concept
+measure:temperature a measure:measurable_concept, rdf:Property
 ; rdfs:label "temperature"
 .
-measure:thermal_conductivity a measure:measurable_concept
+measure:thermal_conductivity a measure:measurable_concept, rdf:Property
 ; rdfs:label "thermal conductivity"
 .
-measure:thermodynamic_temperature a measure:measurable_concept
+measure:thermodynamic_temperature a measure:measurable_concept, rdf:Property
 ; rdfs:label "thermodynamic temperature"
 .
-measure:time a measure:measurable_concept
+measure:time a measure:measurable_concept, rdf:Property
 ; rdfs:label "time"
 .
-measure:torque a measure:measurable_concept
+measure:torque a measure:measurable_concept, rdf:Property
 ; rdfs:label "torque"
 .
-measure:velocity a measure:measurable_concept
+measure:velocity a measure:measurable_concept, rdf:Property
 ; rdfs:label "velocity"
 .
-measure:voltage a measure:measurable_concept
+measure:voltage a measure:measurable_concept, rdf:Property
 ; rdfs:label "voltage"
 .
-measure:volume a measure:measurable_concept
+measure:volume a measure:measurable_concept, rdf:Property
 ; rdfs:label "volume"
 .
-measure:volumetric_flow a measure:measurable_concept
+measure:volumetric_flow a measure:measurable_concept, rdf:Property
 ; rdfs:label "volumetric flow"
 .
-measure:wavenumber a measure:measurable_concept
+measure:wavenumber a measure:measurable_concept, rdf:Property
 ; rdfs:label "wavenumber"
 .
-measure:weight a measure:measurable_concept
+measure:weight a measure:measurable_concept, rdf:Property
 ; rdfs:label "weight"
 .
-measure:work a measure:measurable_concept
+measure:work a measure:measurable_concept, rdf:Property
 ; rdfs:label "work"
 .
-measure:yank a measure:measurable_concept
+measure:yank a measure:measurable_concept, rdf:Property
 ; rdfs:label "yank"
 .
 
