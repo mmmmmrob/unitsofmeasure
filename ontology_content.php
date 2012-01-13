@@ -11,7 +11,7 @@ $preferred_namespace_uri = $complete_graph->get_first_resource($requested_uri, V
 echo "<p class=\"preferred_namespace\">This ontology has a preferred prefix of <span class=\"preferred_prefix\">${preferred_namespace_prefix}</span> and is based at the URI <a href=\"${preferred_namespace_uri}\">${preferred_namespace_uri}</a></p>";
 
 $defines = $complete_graph->get_resource_triple_values($requested_uri, OV_DEFINES);
-$properties = array(RDF_TYPE, MEASURE.'symbol', MEASURE.'of', CURRENCIES.'code', CURRENCIES.'precision', CURRENCIES.'accepted_in');
+$properties = array(RDF_TYPE, MEASURE.'symbol', MEASURE.'of', MEASURE.'in', CURRENCIES.'code', CURRENCIES.'precision', CURRENCIES.'accepted_in');
 
 echo "<ol>\n";
 foreach ($defines as $defined) {
