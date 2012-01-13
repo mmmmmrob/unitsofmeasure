@@ -3,8 +3,14 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
   define('PHPUnit_MAIN_METHOD', 'Moriarty_AllTests::main');
 }
 
+// use environment variable to specify location of ARC2
+$moriarty_arc_dir = getenv("MORIARTY_ARC_DIR");
+if(!empty($moriarty_arc_dir)) {
+	define("MORIARTY_ARC_DIR", $moriarty_arc_dir);
+}
+
+require 'PHPUnit/Autoload.php';
 require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'constants.inc.php';
-require_once 'PHPUnit/Framework.php';
 require_once 'PHPUnit/TextUI/TestRunner.php';
 
 require_once MORIARTY_TEST_DIR . 'fakehttprequest.class.php';

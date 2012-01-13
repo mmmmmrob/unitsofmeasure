@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 29
-/svn/!svn/ver/326/trunk/tests
+/svn/!svn/ver/333/trunk/tests
 END
 fakecache.class.php
 K 25
@@ -133,7 +133,7 @@ runtests.php
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/323/trunk/tests/runtests.php
+/svn/!svn/ver/333/trunk/tests/runtests.php
 END
 fakecredentials.class.php
 K 25
@@ -145,7 +145,7 @@ simplegraph.test.php
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/326/trunk/tests/simplegraph.test.php
+/svn/!svn/ver/334/trunk/tests/simplegraph.test.php
 END
 fakehttpresponse.class.php
 K 25
@@ -247,5 +247,5 @@ config.test.php
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/!svn/ver/256/trunk/tests/config.test.php
+/svn/!svn/ver/330/trunk/tests/config.test.php
 END
